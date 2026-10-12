@@ -1,1 +1,6 @@
 reference.html
+node_modules/
+dist/
+public/
+.sites-runtime/
+.npm-cache/
