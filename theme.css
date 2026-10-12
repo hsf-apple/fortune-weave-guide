@@ -150,7 +150,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 .library-heading h2 { margin: 5px 0 0; font-family: inherit; font-size: 24px; font-weight: 660; letter-spacing: -.035em; }
 .heading-count { color: #858585; font-size: 10px; font-weight: 750; letter-spacing: .08em; }
 .character-card { border: 1px solid #3b3b3b; border-radius: 14px; background: #242424; }
-.featured-card { display: grid; grid-template-columns: 220px minmax(0, 1fr) 56px; min-height: 230px; color: inherit; text-decoration: none; overflow: hidden; transition: border-color .2s, background .2s, transform .2s; }
+.featured-card { display: grid; grid-template-columns: 220px minmax(0, 1fr) 56px; height: 230px; color: inherit; text-decoration: none; overflow: hidden; transition: border-color .2s, background .2s, transform .2s; }
 .featured-card:hover { border-color: #5ba78c; background: #292929; transform: translateY(-2px); }
 .featured-portrait { position: relative; overflow: hidden; background: #303833; }
 .featured-portrait:after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, transparent 80%, rgba(36,36,36,.6)); pointer-events: none; }
@@ -211,7 +211,7 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   .home-intro > p { font-size: 14px; }
   .library-meta { justify-content: flex-start; }
   .library-heading h2 { font-size: 21px; }
-  .featured-card { grid-template-columns: 120px minmax(0, 1fr); min-height: 174px; }
+  .featured-card { grid-template-columns: 120px minmax(0, 1fr); height: 174px; }
   .featured-copy { padding: 14px; }
   .featured-copy h3 { font-size: 28px; }
   .featured-copy p { font-size: 11px; margin-bottom: 11px; }
