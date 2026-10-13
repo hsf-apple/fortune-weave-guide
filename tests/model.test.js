@@ -6,9 +6,9 @@ test('legacy Cai mastery and recruited roster survive migration into independent
  const migrated=migrateLegacy({path:'cai',revealed:{anatolia:true},paths:{cai:{roster:['guzran'],members:{cai:{progress:{'class:light-cavalry:bolster-health':'Mastered'}}}}}},null);
  assert.ok(migrated.paths.cai.roster.includes('guzran'));assert.equal(migrated.paths.cai.members.cai.certified['light-cavalry'],true);assert.equal(migrated.paths.cai.members.cai.mastered['light-cavalry'],true);assert.ok(!migrated.paths.dietrich.roster.includes('guzran'));assert.equal(migrated.revealed.anatolia,true);
 });
-test('mandatory roster members are restored and invalid saved values rejected',()=>{
+test('invalid roster entries and saved values are rejected',()=>{
  const s=normalize({activePath:'bad',paths:{cai:{roster:['missing'],members:{cai:{startingDefaults:true,level:-2,ranks:{spear:'Z'},mastered:{bardinger:true}}}}}});
- assert.equal(s.activePath,'cai');assert.equal(s.paths.cai.roster.length,4);assert.equal(s.paths.cai.members.cai.level,'');assert.deepEqual(s.paths.cai.members.cai.ranks,{});assert.equal(s.paths.cai.members.cai.certified.bardinger,true);
+ assert.equal(s.activePath,'cai');assert.equal(s.paths.cai.roster.length,0);assert.equal(s.paths.cai.members.cai.level,'');assert.deepEqual(s.paths.cai.members.cai.ranks,{});assert.equal(s.paths.cai.members.cai.certified.bardinger,true);
 });
 test('path edits do not affect another version of the same character',()=>{
  const s=emptyState();s.paths.dietrich.members.cai=emptyMember();const next=updateMember(s,'cai','cai',{ranks:{spear:'A'}});
@@ -32,3 +32,20 @@ test('master class phase and recorded Renown affect coaching independently of sk
 test('full, partial and advice-only references retain sourced class records',()=>{
  for(const builds of Object.values(BUILDS))for(const b of builds){assert.ok(b.stages.length||b.adviceOnly);for(const id of b.stages){assert.ok(CLASSES[id],id);assert.match(CLASSES[id].url,/^https:\/\//);}}
 });
+
+ test('removing any roster member persists and keeps character progress for re-adding',async()=>{
+ const {removeRosterMember,loadState,STORAGE_KEY}=await import('../src/model.js');
+ const state=emptyState();state.paths.cai.members.cai.level='22';
+ const removed=removeRosterMember(state,'cai','cai');
+ assert.ok(!removed.paths.cai.roster.includes('cai'));
+ assert.ok(state.paths.cai.roster.includes('cai'));
+ assert.deepEqual(removed.paths.leda,state.paths.leda);
+ const loaded=loadState({getItem:key=>key===STORAGE_KEY?JSON.stringify(removed):null});
+ assert.ok(!loaded.paths.cai.roster.includes('cai'));
+ assert.equal(loaded.paths.cai.members.cai.level,'22');
+ loaded.paths.cai.roster.push('cai');
+ assert.equal(normalize(loaded).paths.cai.members.cai.level,'22');
+ const empty=normalize({...state,paths:{...state.paths,cai:{...state.paths.cai,roster:[]}}});
+ assert.deepEqual(empty.paths.cai.roster,[]);
+ assert.equal(normalize({paths:{cai:{}}}).paths.cai.roster.length,4);
+ });

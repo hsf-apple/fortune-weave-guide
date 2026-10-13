@@ -9,6 +9,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Find and Deliver the Girl's Hair Clip.",
     "requester": "Crying Girl",
+    "requirements": null,
+    "location": "Crying Girl, Niraga Mine",
+    "deadlines": {
+      "cai": "2/28",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "550 Gold 100 Renown",
     "chapters": {
       "cai": 3,
       "dietrich": null,
@@ -24,6 +33,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Zaron Thieves.",
     "requester": "Traveler with Medicine",
+    "requirements": null,
+    "location": "Traveler with Medicine, Granada Fort Ruins",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": "5/7"
+    },
+    "rewards": "・ Baal Pike 600 Gold 30 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": 5,
@@ -39,6 +57,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Eight Fangs.",
     "requester": "Capital Soldier",
+    "requirements": null,
+    "location": "Capital Soldier, Valeri Gorge",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": "5/7"
+    },
+    "rewards": "・ Yarc Meat 600 Gold 30 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": 5,
@@ -54,6 +81,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the man the woman cares about.",
     "requester": "Troubled Woman",
+    "requirements": null,
+    "location": "Troubled Woman, Dagsion",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": "5/7"
+    },
+    "rewards": "・ Mane Ornament 600 Gold 30 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": 5,
@@ -69,6 +105,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Obtain and Deliver 3 Smithing Stones.",
     "requester": "Mercenary Who Needs Smithing Stones",
+    "requirements": null,
+    "location": "Mercenary Who Needs Smithing Stones, Niraga Mine",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": null
+    },
+    "rewards": "600 Gold 30 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": 4,
@@ -84,6 +129,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the item shopkeeper.",
     "requester": "Bulletin Board",
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・Vulnerary",
     "chapters": {
       "cai": 2,
       "dietrich": 4,
@@ -99,6 +153,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the armorer.",
     "requester": "Bulletin Board",
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Wooden Sword",
     "chapters": {
       "cai": 2,
       "dietrich": 4,
@@ -114,6 +177,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the innkeeper.",
     "requester": "Bulletin Board",
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Sand-Boar Meat 10 Renown",
     "chapters": {
       "cai": 3,
       "dietrich": 4,
@@ -129,6 +201,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the temple reception.",
     "requester": "Bulletin Board",
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Ginji 10 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": 4,
@@ -144,6 +225,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the market vendor.",
     "requester": "Bulletin Board",
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Southern Ghosh 10 Renown",
     "chapters": {
       "cai": 3,
       "dietrich": 4,
@@ -159,6 +249,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Yaaman Villager",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -174,6 +265,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Aguirre.",
     "requester": "Headhunter",
+    "requirements": "Requires Renown Lv. 3",
+    "location": "Headhunter, Rubess Forest",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Birdbane 6000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 5,
@@ -189,6 +289,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the pack of animals.",
     "requester": "Old Sunset Watcher",
+    "requirements": null,
+    "location": "Old Sunset Watcher, Magnus Plateau",
+    "deadlines": {
+      "cai": "2/28",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "550 Gold 130 Renown",
     "chapters": {
       "cai": 3,
       "dietrich": null,
@@ -204,6 +313,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the thieves.",
     "requester": "Angry Boy",
+    "requirements": null,
+    "location": "Angry Boy, Rolling Breeze Hill",
+    "deadlines": {
+      "cai": "2/28",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "550 Gold 130 Renown",
     "chapters": {
       "cai": 3,
       "dietrich": null,
@@ -219,6 +337,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the granddaughter.",
     "requester": "Worried Grandmother",
+    "requirements": null,
+    "location": "Worried Grandmother, Dagsion",
+    "deadlines": {
+      "cai": "3/7",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "1500 Gold 100 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": null,
@@ -234,6 +361,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the wild beasts in the ruins.",
     "requester": "Abandoned-Real-Estate Enthusiast",
+    "requirements": null,
+    "location": "Abandoned-Real-Estate Enthusiast, Forsaken Lakehouse",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "1500 Gold 130 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": null,
@@ -249,6 +385,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Phantom.",
     "requester": "Shopkeeper",
+    "requirements": null,
+    "location": "Shopkeeper, Dagsion",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": "5/7"
+    },
+    "rewards": "1500 Gold 100 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": 5,
@@ -264,6 +409,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Capture and Deliver 2 Wild Orniuses",
     "requester": "Lovesick Man",
+    "requirements": null,
+    "location": "Lovesick Man, Dagsion",
+    "deadlines": {
+      "cai": "9/1",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2000 Gold 200 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": null,
@@ -279,6 +433,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Find and Deliver the Jurah Carving",
     "requester": "Old Former Soldier",
+    "requirements": null,
+    "location": "Old Former Soldier, Collapsed Fort",
+    "deadlines": {
+      "cai": "7/9",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2000 Gold 100 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": null,
@@ -294,6 +457,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the two women with brooms.",
     "requester": "Woman with Broom",
+    "requirements": null,
+    "location": "Woman with Broom, Dagsion",
+    "deadlines": {
+      "cai": "5/20",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2000 Gold 180 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": null,
@@ -309,6 +481,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Behelda Axes.",
     "requester": "Angry Vandahl Merchant",
+    "requirements": null,
+    "location": "Angry Vandahl Merchant, Napier Woods",
+    "deadlines": {
+      "cai": "5/20",
+      "dietrich": "05/28",
+      "theodora": "4/20",
+      "leda": "5/28"
+    },
+    "rewards": "・ Shem Yam ・ Desert Millet 1000 Gold 50 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": 5,
@@ -324,6 +505,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Obtain and Deliver a Yaamanthemum",
     "requester": "Cheering Spectator",
+    "requirements": null,
+    "location": "Cheering Spectator, Yaaman",
+    "deadlines": {
+      "cai": "7/9",
+      "dietrich": "06/15",
+      "theodora": "5/28",
+      "leda": "6/28"
+    },
+    "rewards": "・Linking Rock 800 Gold 50 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": 5,
@@ -339,6 +529,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Sithya's Secret Seal.",
     "requester": "Concerned Priest",
+    "requirements": null,
+    "location": "Concerned Priest, Sunset Fortress",
+    "deadlines": {
+      "cai": "7/9",
+      "dietrich": "06/15",
+      "theodora": "5/28",
+      "leda": "6/28"
+    },
+    "rewards": "・Black-Magic Manual 1000 Gold 50 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": 5,
@@ -354,6 +553,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Obtain and Deliver a total of 30 Coffee Berries, Zangs, and Pongos.",
     "requester": "Vegetable Merchant",
+    "requirements": null,
+    "location": "Vegetable Merchant, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2,500 Gold 200 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": null,
@@ -369,6 +577,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the blacksmith.",
     "requester": "Blacksmith",
+    "requirements": null,
+    "location": "Blacksmith, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・ Smithing Stone 10 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": null,
@@ -384,6 +601,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Caltrop Flower x5",
     "requester": "Kumos",
+    "requirements": null,
+    "location": "Kumos, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 100 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -399,6 +625,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver White Trout x20",
     "requester": "Stockpile Clerk",
+    "requirements": null,
+    "location": "Stockpile Clerk, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 300 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -414,6 +649,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Begin the paralogue at the destination.",
     "requester": "Anatolia",
+    "requirements": null,
+    "location": "Anatolia, Pale Raven's Perch",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/17",
+      "theodora": null,
+      "leda": "10/17"
+    },
+    "rewards": "・Electron Agitator 20000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 11,
@@ -429,6 +673,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Begin the paralogue at the destination.",
     "requester": "Fabio",
+    "requirements": null,
+    "location": "Fabio, Shadowy Cave",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/1"
+    },
+    "rewards": "・ Salamander 20000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -444,6 +697,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak to Cai to begin the paralogue.",
     "requester": "Cai",
+    "requirements": null,
+    "location": "Cai, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "10/22"
+    },
+    "rewards": "・Gem Box 20000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 11,
@@ -459,6 +721,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Begin the paralogue at the destination.",
     "requester": "Orchel",
+    "requirements": null,
+    "location": "Orchel, Fort Galcar",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Healing Staff 20000 Gold 150 Renown",
     "chapters": {
       "cai": 11,
       "dietrich": 11,
@@ -474,6 +745,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Enrietto x1",
     "requester": "Wealthy Man's Servant",
+    "requirements": null,
+    "location": "Wealthy Man's Servant, Sunlit Garden",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Fodlan Tea 2000 Gold 50 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": 6,
@@ -489,6 +769,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Sandbael Tails x1",
     "requester": "Bug-Hating Soldier",
+    "requirements": null,
+    "location": "Bug-Hating Soldier, Klytius Plains",
+    "deadlines": {
+      "cai": "9/1",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 100 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": null,
@@ -504,6 +793,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Linaria x20",
     "requester": "Old Husband",
+    "requirements": null,
+    "location": "Old Husband, Dagsion",
+    "deadlines": {
+      "cai": "9/1",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 130 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": null,
@@ -519,6 +817,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Find the lost cat.",
     "requester": "Priest Caring for Cats",
+    "requirements": null,
+    "location": "Priest Caring for Cats, Dagsion",
+    "deadlines": {
+      "cai": "5/20",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 130 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": null,
@@ -534,6 +841,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Megrez Soil x1",
     "requester": "Soil Surveyor",
+    "requirements": null,
+    "location": "Soil Surveyor, Ruins of Megrez",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "2000 Gold 50 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": 6,
@@ -549,6 +865,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the temple soldiers.",
     "requester": "Aurora",
+    "requirements": "Requires Renown Lv. 8",
+    "location": "Aurora, Fortuna's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・Dragoon 8000 Gold",
     "chapters": {
       "cai": 7,
       "dietrich": null,
@@ -564,6 +889,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Angelica x2",
     "requester": "Castor",
+    "requirements": "Requires Renown Lv. 7",
+    "location": "Castor, Starbirth Garden",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・ Advanced License ・Caladrius",
     "chapters": {
       "cai": 7,
       "dietrich": null,
@@ -579,6 +913,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the thieves.",
     "requester": "Bertrand",
+    "requirements": "Requires Renown Lv. 10",
+    "location": "Bertrand, Galen Fort Ruins",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・ Advanced License ・Troubadour",
     "chapters": {
       "cai": 7,
       "dietrich": null,
@@ -594,6 +937,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak to the tavern owner.",
     "requester": "Tavern Owner",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -609,6 +953,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Daimon Elder",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -624,6 +969,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Regia Townsperson",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -639,6 +985,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Sweet Leaves x1.",
     "requester": "Tavern Owner",
+    "requirements": "Requires Renown Lv. 3",
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・Song of Madness 3000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -654,6 +1009,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Borges",
     "requester": "Headhunter",
+    "requirements": "Requires Renown Lv. 2",
+    "location": "Headhunter, Niraga Mine",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Soulrend 5000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 5,
@@ -669,6 +1033,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Sepente.",
     "requester": "Headhunter",
+    "requirements": "Requires Renown Lv. 4",
+    "location": "Headhunter, Corroios Fort Ruins",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Flowform 7500 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 6,
@@ -684,6 +1057,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Begin the paralogue at the destination.",
     "requester": "Bonaventure",
+    "requirements": null,
+    "location": "Bonaventure, Purification Shrine",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/15",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Pilum 20000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 9,
@@ -699,6 +1081,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak to Leda to begin the paralogue.",
     "requester": "Leda",
+    "requirements": null,
+    "location": "Leda, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/8",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Silver Shield 20000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 9,
@@ -714,6 +1105,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Begin the paralogue at the destination.",
     "requester": "Talimun",
+    "requirements": null,
+    "location": "Talimun, Dragdon Pass",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/12",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Cleansing Blade 20000 Gold 150 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": 9,
@@ -729,6 +1129,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak to Gabriel to begin the paralogue.",
     "requester": "Gabriel",
+    "requirements": null,
+    "location": "Gabriel, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/17",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "20000 Gold 150 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": 9,
@@ -744,6 +1153,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak to Anna to begin the paralogue.",
     "requester": "Anna",
+    "requirements": null,
+    "location": "Anna, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/5",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Orichalcum 20000 Gold 150 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": 10,
@@ -759,6 +1177,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Black-Sand Steel x20",
     "requester": "Border Patrolman",
+    "requirements": null,
+    "location": "Border Patrolman, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -774,6 +1201,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Melara x10",
     "requester": "Weapon Researcher",
+    "requirements": null,
+    "location": "Weapon Researcher, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -789,6 +1225,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Callianeira Merchant",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -804,6 +1241,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Aguino Priest",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -819,6 +1257,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Pepper Leaves x1",
     "requester": "Tavern Owner",
+    "requirements": "Requires Renown Lv. 6",
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "11/27",
+      "leda": null
+    },
+    "rewards": "・Song of Icewater+ 180 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -834,6 +1281,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Il-Lara.",
     "requester": "Il-Lara, the Piercer",
+    "requirements": "Requires Renown Lv. 6",
+    "location": "Il-Lara, the Piercer, Dione Fort",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Windpierce ・Guardian 10,000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 8,
@@ -849,6 +1305,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Killing Edge x1",
     "requester": "Waiting Gladiator",
+    "requirements": null,
+    "location": "Waiting Gladiator, Regia",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Iron Axe 4000 Gold 50 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": 7,
@@ -864,6 +1329,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Unerring Blades.",
     "requester": "Unerring Blades",
+    "requirements": null,
+    "location": "Unerring Blades, Sonai Pass",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": null
+    },
+    "rewards": "1000 Gold 50 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": 7,
@@ -879,6 +1353,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Mature Blush x1",
     "requester": "Esmeralda",
+    "requirements": null,
+    "location": "Esmeralda, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "6/15",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Sea-Spirit Charm 10 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 7,
@@ -894,6 +1377,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the mysterious monster.",
     "requester": "Frightened Priest",
+    "requirements": null,
+    "location": "Frightened Priest, Fallen General's Barrows",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Black-Sand Steel 1000 Gold 80 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": 7,
@@ -909,6 +1401,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Jyoppa x1",
     "requester": "Homesick Citizen",
+    "requirements": null,
+    "location": "Homesick Citizen, Aguino",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Pickled Bulbs 2000 Gold 50 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": 7,
@@ -924,6 +1425,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Camilo.",
     "requester": "Headhunter",
+    "requirements": "Requires Renown Lv. 5",
+    "location": "Headhunter, Fort Hayn",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Giantsbane 9000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 7,
@@ -939,6 +1449,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Thry Fruit x30",
     "requester": "Rations Development Officer",
+    "requirements": null,
+    "location": "Rations Development Officer, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -954,6 +1473,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Carna Bonito x30",
     "requester": "Kumos",
+    "requirements": null,
+    "location": "Kumos, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -969,6 +1497,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the ravenous beasts.",
     "requester": "Attacked Merchant",
+    "requirements": null,
+    "location": "Attacked Merchant, Moonwatch Pass",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Dates ・ Cadam 1500 Gold 80 Renown",
     "chapters": {
       "cai": 8,
       "dietrich": 8,
@@ -984,6 +1521,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat swarming pests.",
     "requester": "Pest Extermination Organizer",
+    "requirements": null,
+    "location": "Pest Extermination Organizer, Bugs' Burrow",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "2500 Gold 50 Renown",
     "chapters": {
       "cai": 8,
       "dietrich": 8,
@@ -999,6 +1545,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Spellcaster's Relics x1",
     "requester": "Spellcaster-Tool Merchant",
+    "requirements": null,
+    "location": "Spellcaster-Tool Merchant, Secret Altar",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": "10/4",
+      "theodora": "9/16",
+      "leda": "10/15"
+    },
+    "rewards": "・White-Magic Manual 1500 Gold 80 Renown",
     "chapters": {
       "cai": 8,
       "dietrich": 8,
@@ -1014,6 +1569,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Raivo Gossip",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1029,6 +1585,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Zoste Salt Merchant",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1044,6 +1601,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Steelfish x10",
     "requester": "Betenasch Woman",
+    "requirements": null,
+    "location": "Betenasch Woman, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1059,6 +1625,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Ladon Loach x35",
     "requester": "Megaira Merchant",
+    "requirements": null,
+    "location": "Megaira Merchant, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1074,6 +1649,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Violet Brooch x1",
     "requester": "Creek",
+    "requirements": null,
+    "location": "Creek, Axion Gorge",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/4",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 100 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 9,
@@ -1089,6 +1673,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the veiled spellcasters.",
     "requester": "Concerned Hunter",
+    "requirements": null,
+    "location": "Concerned Hunter, Faun's Forest",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": "10/4",
+      "theodora": "9/16",
+      "leda": "10/15"
+    },
+    "rewards": "・ Melara 4000 Gold 50 Renown",
     "chapters": {
       "cai": 9,
       "dietrich": 9,
@@ -1104,6 +1697,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Rahlan x1",
     "requester": "Devout Follower",
+    "requirements": null,
+    "location": "Devout Follower, Port of Pandora",
+    "deadlines": {
+      "cai": "10/23",
+      "dietrich": "11/3",
+      "theodora": "10/15",
+      "leda": "11/16"
+    },
+    "rewards": "・ Eastern Black Silk 6000 Gold 50 Renown",
     "chapters": {
       "cai": 9,
       "dietrich": 9,
@@ -1119,6 +1721,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Cabaye.",
     "requester": "Headhunter",
+    "requirements": "Requires Renown Lv. 7",
+    "location": "Headhunter, Stoppered Shrine",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Twinblade 10000 Gold 50 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 9,
@@ -1134,6 +1745,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Ainja Scoundrels.",
     "requester": "Traveler from Castalia",
+    "requirements": null,
+    "location": "Traveler from Castalia, Hugo Stronghold",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 100 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": null,
@@ -1149,6 +1769,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Custom Axle x1",
     "requester": "Carriage Driver",
+    "requirements": null,
+    "location": "Carriage Driver, Megaira",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 130 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": null,
@@ -1164,6 +1793,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with Alexandra.",
     "requester": "Lovestruck Fellow",
+    "requirements": null,
+    "location": "Lovestruck Fellow, Dagsion",
+    "deadlines": {
+      "cai": "7/9",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 130 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": null,
@@ -1179,6 +1817,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Grady Goby x1",
     "requester": "Child Who Wants a Fish",
+    "requirements": null,
+    "location": "Child Who Wants a Fish, Fina Reef",
+    "deadlines": {
+      "cai": "10/23",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 180 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": null,
@@ -1194,6 +1841,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Roca x35",
     "requester": "Concerned Sibling",
+    "requirements": null,
+    "location": "Concerned Sibling, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1209,6 +1865,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Kothar Gar x10",
     "requester": "Megaira Restaurateur",
+    "requirements": null,
+    "location": "Megaira Restaurateur, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1224,6 +1889,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Unerring Blades.",
     "requester": "Unerring Blades",
+    "requirements": null,
+    "location": "Unerring Blades, Cape Damasen",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": null,
+      "theodora": "9/16",
+      "leda": "10/15"
+    },
+    "rewards": "2000 Gold 50 Renown",
     "chapters": {
       "cai": 9,
       "dietrich": null,
@@ -1239,6 +1913,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Hingosh x1",
     "requester": "Vallejo, Pride of Midea",
+    "requirements": null,
+    "location": "Vallejo, Pride of Midea, Baina Oasis",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "10/15"
+    },
+    "rewards": "・Dancer's Necklace ・Dancer",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1254,6 +1937,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Gather intel on Mahdel.",
     "requester": "Sirocco",
+    "requirements": null,
+    "location": "Sirocco, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "6/28"
+    },
+    "rewards": "30 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1269,6 +1961,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Mons Soldier",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1284,6 +1977,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Alecto Townsperson",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1299,6 +1993,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Barsk Inn",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1314,6 +2009,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Bitter Leaves x1",
     "requester": "Tavern Owner",
+    "requirements": "Requires Renown Lv. 8",
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・Song of Passion+ 200 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1329,6 +2033,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Wonder Leaves x1",
     "requester": "Tavern Owner",
+    "requirements": "Requires Renown Lv. 10",
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・Song of Angels ・Ranger ・Troubadour 200 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1344,6 +2057,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Desert Millet x35",
     "requester": "Parent and Child from Saramis",
+    "requirements": null,
+    "location": "Parent and Child from Saramis, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1359,6 +2081,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Venomstone x35",
     "requester": "Forest Chieftain",
+    "requirements": null,
+    "location": "Forest Chieftain, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1374,6 +2105,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the great-winged beasts.",
     "requester": "Villager from Lake Brontes",
+    "requirements": null,
+    "location": "Villager from Lake Brontes, Lake Brontes",
+    "deadlines": {
+      "cai": "10/23",
+      "dietrich": "11/3",
+      "theodora": "10/15",
+      "leda": "11/6"
+    },
+    "rewards": "・ Shem Yam ・ Redflicker 3000 Gold 80 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": 10,
@@ -1389,6 +2129,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the dead in Krove Ditch.",
     "requester": "Mysterious Noble",
+    "requirements": null,
+    "location": "Mysterious Noble, Krove Ditch",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・Elixir 2000 Gold 50 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": 10,
@@ -1404,6 +2153,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Unerring Blades.",
     "requester": "Unerring Blades",
+    "requirements": null,
+    "location": "Unerring Blades, Mount Ouranos",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Cullet 3000 Gold 80 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": 11,
@@ -1419,6 +2177,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver the Statue of Jurah, Statue of Kalla, Statue of Yu Phas, and Statue of Fortuna",
     "requester": "General Senghor's Subordinate",
+    "requirements": null,
+    "location": "General Senghor's Subordinate, Dagda",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Heavy-Armor Manual ・Riding Manual ・Flying Manual 5000 Gold 100 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": 7,
@@ -1434,6 +2201,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Damien.",
     "requester": "Headhunter",
+    "requirements": "Requires Renown Lv. 8",
+    "location": "Headhunter, Aditi's Cave",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Truesnipe 10000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 10,
@@ -1449,6 +2225,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Berenguela.",
     "requester": "Headhunter",
+    "requirements": "Requires Renown Lv. 9",
+    "location": "Headhunter, Nemea Cavern",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Evilbreak 11000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 11,
@@ -1464,6 +2249,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver the Sealed Letter",
     "requester": "Suspicious Knight",
+    "requirements": null,
+    "location": "Suspicious Knight, Unmanned Storehouse",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/19",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "1000 Gold 30 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 8,
@@ -1479,6 +2273,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver the Sealed Letter",
     "requester": "Captain Daniel",
+    "requirements": null,
+    "location": "Captain Daniel, Unmanned Storehouse",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/19",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Specialty License 200 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 8,
@@ -1494,6 +2297,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Orens Townsperson",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1509,6 +2313,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Pandora Trader",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1524,6 +2329,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Mahon Unifier",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1539,6 +2345,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Twalinn Elder",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1554,6 +2361,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Brezarant Soldier",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1569,6 +2377,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Whill Villager",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1584,6 +2393,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Lir Fish x35",
     "requester": "Kumos",
+    "requirements": null,
+    "location": "Kumos, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1599,6 +2417,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Sea-Star Stone x35",
     "requester": "Artisan Blacksmith",
+    "requirements": null,
+    "location": "Artisan Blacksmith, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1614,6 +2441,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Aegina Crystal x1",
     "requester": "Loving Husband",
+    "requirements": null,
+    "location": "Loving Husband, Pyroxene Cave",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・Dew of Protection 3000 Gold 80 Renown",
     "chapters": {
       "cai": 11,
       "dietrich": 11,
@@ -1629,6 +2465,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the golems of the ruins.",
     "requester": "Golem-Hating Soldier",
+    "requirements": null,
+    "location": "Golem-Hating Soldier, Kurdelind Ruins",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・ Sea-Star Stone 2000 Gold 90 Renown",
     "chapters": {
       "cai": 11,
       "dietrich": 11,
@@ -1644,6 +2489,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Unmoving Wings.",
     "requester": "Idyian Merchant",
+    "requirements": null,
+    "location": "Idyian Merchant, Libertas Stronghold",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "4000 Gold 100 Renown",
     "chapters": {
       "cai": 8,
       "dietrich": null,
@@ -1659,6 +2513,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Underworld Raiders.",
     "requester": "Praying Priest",
+    "requirements": null,
+    "location": "Praying Priest, Mulciber Marshlands",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "7000 Gold 130 Renown",
     "chapters": {
       "cai": 8,
       "dietrich": null,
@@ -1674,6 +2537,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Obtain and Deliver a total of 30 Melara, Shaktoh, and Usamos",
     "requester": "High-Quality-Food Merchant",
+    "requirements": null,
+    "location": "High-Quality-Food Merchant, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 200 Renown",
     "chapters": {
       "cai": 8,
       "dietrich": null,
@@ -1689,6 +2561,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Dusk-Damned Piccolos.",
     "requester": "Seteth",
+    "requirements": null,
+    "location": "Seteth, Mount Ouranos",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1704,6 +2585,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the frenzied sea beasts.",
     "requester": "Esmeralda",
+    "requirements": null,
+    "location": "Esmeralda, Cape Damasen",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1719,6 +2609,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Osiris Villager",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1734,6 +2625,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Niiza Trader",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1749,6 +2641,7 @@ export const QUESTS=[
     "part": "1",
     "objective": "Perform at the destination.",
     "requester": "Benetnasch Villager",
+    "review": "No standard quest information table",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1764,6 +2657,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Mother's Gift x1",
     "requester": "Ultand",
+    "requirements": null,
+    "location": "Ultand, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1779,6 +2681,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the wealthy old man.",
     "requester": "Female Servant",
+    "requirements": null,
+    "location": "Female Servant, Dagsion",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "4000 Gold 130 Renown",
     "chapters": {
       "cai": 9,
       "dietrich": null,
@@ -1794,6 +2705,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Djilu Coin x1",
     "requester": "Coin Collector",
+    "requirements": null,
+    "location": "Coin Collector, Giant's-Print Fort",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Luxury Weapon Crate 2000 Gold 80 Renown",
     "chapters": {
       "cai": 12,
       "dietrich": 12,
@@ -1809,6 +2729,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Star-Spurning Bows.",
     "requester": "Astronomer Priest",
+    "requirements": null,
+    "location": "Astronomer Priest, Bau-Caller's Cape",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・White-Magic Manual 3000 Gold 50 Renown",
     "chapters": {
       "cai": 12,
       "dietrich": 12,
@@ -1824,6 +2753,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Obtain and Deliver a total of 30 Cocominj, Oda Monja, and Jin Ba Jiao",
     "requester": "Fresh-Vegetable Merchant",
+    "requirements": null,
+    "location": "Fresh-Vegetable Merchant, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 200 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": null,
@@ -1839,6 +2777,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the prisoner.",
     "requester": "Town Gossip",
+    "requirements": null,
+    "location": "Town Gossip, Dagsion",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 100 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": null,
@@ -1854,6 +2801,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the snobbish crooks.",
     "requester": "Vigilant Soldier",
+    "requirements": null,
+    "location": "Vigilant Soldier, Bran Plains",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 130 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": null,
@@ -1869,6 +2825,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Wild Pegasus x1",
     "requester": "Pegasus-Seeking Mercenary",
+    "requirements": null,
+    "location": "Pegasus-Seeking Mercenary, Pegasi's Peak",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "4000 Gold 130 Renown",
     "chapters": {
       "cai": 11,
       "dietrich": null,
@@ -1884,6 +2849,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Scarlet Firedrops x1",
     "requester": "Olympia",
+    "requirements": null,
+    "location": "Olympia, Daybreak Plains",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1899,6 +2873,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Aurum Rose x1",
     "requester": "Olympia",
+    "requirements": null,
+    "location": "Olympia, Baina Oasis",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1914,6 +2897,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Azure Heart x1",
     "requester": "Olympia",
+    "requirements": null,
+    "location": "Olympia, Green-Crystal Caves",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1929,6 +2921,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with Dietrich.",
     "requester": "Passionate Woman",
+    "requirements": null,
+    "location": "Passionate Woman, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "7000 Gold 130 Renown",
     "chapters": {
       "cai": 12,
       "dietrich": null,
@@ -1944,6 +2945,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the necrodragon.",
     "requester": "Temple Soldier",
+    "requirements": null,
+    "location": "Temple Soldier, Headsman's Rock",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "7000 Gold 130 Renown",
     "chapters": {
       "cai": 12,
       "dietrich": null,
@@ -1959,6 +2969,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Oko.",
     "requester": "Headhunter",
+    "requirements": "Requires Renown Lv. 10",
+    "location": "Headhunter, Iapetus Cavern",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Bladerule ・Ranger 12000 Gold 150 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 12,
@@ -1974,6 +2993,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Building Materials x3",
     "requester": "Arena Builder",
+    "requirements": null,
+    "location": "Arena Builder, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -1989,6 +3017,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Building Materials x2",
     "requester": "Inn Worker",
+    "requirements": null,
+    "location": "Inn Worker, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2004,6 +3041,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Building Materials x7",
     "requester": "Hopeful Priest",
+    "requirements": null,
+    "location": "Hopeful Priest, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "10000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2019,6 +3065,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Dagda's Godshield",
     "requester": "Jurah",
+    "requirements": null,
+    "location": "Jurah, Jurah's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Valkyrium 10000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2034,6 +3089,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Put out the flames at Iapetus Cavern",
     "requester": "Smyrnos",
+    "requirements": null,
+    "location": "Smyrnos, Smyrnos's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・High Savant 10000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2049,6 +3113,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver a Desert Sunstone",
     "requester": "Credna",
+    "requirements": null,
+    "location": "Credna, Credna's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Great Knight 10000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2064,6 +3137,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Golden Helm x1",
     "requester": "Mars",
+    "requirements": null,
+    "location": "Mars, Mars's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Swordmaster 10000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2079,6 +3161,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Sandalwood x1",
     "requester": "Kalla",
+    "requirements": null,
+    "location": "Kalla, Kalla's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Bow Knight 10000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2094,6 +3185,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Defeat the underworld giants.",
     "requester": "Centurio",
+    "requirements": null,
+    "location": "Centurio, Elissa Pass",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2109,6 +3209,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Hakuren x2",
     "requester": "Injured Elephant Rider",
+    "requirements": null,
+    "location": "Injured Elephant Rider, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Saramis War Elephant 10000 Gold 50 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2124,6 +3233,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Building Materials x5",
     "requester": "Inn Worker",
+    "requirements": null,
+    "location": "Inn Worker, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2139,6 +3257,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Building Materials x20",
     "requester": "Arena Builder",
+    "requirements": null,
+    "location": "Arena Builder, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "30000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2154,6 +3281,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Deliver Angelica x5",
     "requester": "Aurora",
+    "requirements": null,
+    "location": "Aurora, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・War Monk 10000 Gold 100 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2169,6 +3305,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Perform at Port of Pandora, Regia, Zoste, and Baina Oasis",
     "requester": "Tavern Owner",
+    "requirements": null,
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Luxury Weapon Crate ・ Bitter Leaves ・ Wonder Leaves ・Craft Smithy Box ・Gem Box ・Song of Icewater++ 20000 Gold 50 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2184,6 +3329,15 @@ export const QUESTS=[
     "part": "3",
     "objective": "Perform at Mahon Castle Town, Grand Aragon, Breston, and Mons",
     "requester": "Tavern Owner",
+    "requirements": null,
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Bitter Leaves ・ Wonder Leaves ・Iron Smithy Box ・Ring Crate ・Craft Smithy Box ・Da Mina Smithy Box ・Song of Passion++ 20000 Gold 50 Relief Points",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2199,6 +3353,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the theater reception.",
     "requester": "Theater Reception",
+    "requirements": "Requires Renown Lv. 7",
+    "location": "Theater Reception, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Simple Pastries 10 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": 9,
@@ -2214,6 +3377,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Speak with the thermae reception.",
     "requester": "Thermae Reception",
+    "requirements": "Requires Renown Lv. 8",
+    "location": "Thermae Reception, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Young Ghosh 10 Renown",
     "chapters": {
       "cai": 8,
       "dietrich": 10,
@@ -2229,6 +3401,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Talk to Gaston.",
     "requester": "Worried Tavern Employee",
+    "requirements": null,
+    "location": "Worried Tavern Employee, Fina",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/3",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Crimson Ghosh 50 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 9,
@@ -2244,6 +3425,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat Inno.",
     "requester": "Suspicious Knight",
+    "requirements": null,
+    "location": "Suspicious Knight, Muzura Death Cave",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/4",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 30 Renown",
     "chapters": {
       "cai": null,
       "dietrich": 10,
@@ -2259,6 +3449,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Winged-Lion Key x1",
     "requester": "Boy Freed From Painting",
+    "requirements": null,
+    "location": "Boy Freed From Painting, Benetnasch",
+    "deadlines": {
+      "cai": "10/23",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Dew of Peace 100 Renown",
     "chapters": {
       "cai": 11,
       "dietrich": null,
@@ -2274,6 +3473,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Treasured Sword x1",
     "requester": "Suspicious Knight",
+    "requirements": null,
+    "location": "Suspicious Knight, Iapetus Cavern",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Haze Badge",
     "chapters": {
       "cai": null,
       "dietrich": 11,
@@ -2289,6 +3497,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Flamma x1",
     "requester": "Captain Daniel",
+    "requirements": null,
+    "location": "Captain Daniel, Merak Pass",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "11/6",
+      "leda": null
+    },
+    "rewards": "・ Wootz Steel 3000 Gold 30 Renown",
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2304,6 +3521,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the rogues.",
     "requester": "Robbed Spectator",
+    "requirements": null,
+    "location": "Robbed Spectator, Showdown Square",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "3/21",
+      "leda": null
+    },
+    "rewards": "・Vulnerary 1000 Gold 30 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": 4,
@@ -2319,6 +3545,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Ancient Tablet x1",
     "requester": "Kinkara",
+    "requirements": null,
+    "location": "Kinkara, Wodan Pass",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "4/30",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Vulnerary 500 Gold 30 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": 4,
@@ -2334,6 +3569,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Gather information on the cave expedition.",
     "requester": "Concerned Merchant",
+    "requirements": null,
+    "location": "Concerned Merchant, Heretics' Cave",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "4/20",
+      "leda": null
+    },
+    "rewards": "・Lucky Coin 30 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": 5,
@@ -2349,6 +3593,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Insect Pearl x3",
     "requester": "Trader of Insect Pearls",
+    "requirements": null,
+    "location": "Trader of Insect Pearls, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "3/7",
+      "leda": null
+    },
+    "rewards": "5000 Gold 30 Renown",
     "chapters": {
       "cai": 4,
       "dietrich": 4,
@@ -2364,6 +3617,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Large Insect Pearl x2",
     "requester": "Trader of Insect Pearls",
+    "requirements": null,
+    "location": "Trader of Insect Pearls, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "4/20",
+      "leda": null
+    },
+    "rewards": "・ Pongo ・ Wun Fruit 8000 Gold 30 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": 5,
@@ -2379,6 +3641,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver a total of 8 Insect Pearl, Large Insect Pearl",
     "requester": "Trader of Insect Pearls",
+    "requirements": null,
+    "location": "Trader of Insect Pearls, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "9/16",
+      "leda": null
+    },
+    "rewards": "・ Thunderstone 10000 Gold 50 Renown",
     "chapters": {
       "cai": 9,
       "dietrich": 9,
@@ -2394,6 +3665,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Soul Crystal x1",
     "requester": "Flamma-Studying Mage",
+    "requirements": null,
+    "location": "Flamma-Studying Mage, Fallen General's Barrows",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "5/28",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "TBD 30 Renown",
     "chapters": {
       "cai": 5,
       "dietrich": 5,
@@ -2409,6 +3689,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the thieves.",
     "requester": "Aguino Villager",
+    "requirements": null,
+    "location": "Aguino Villager, Lyoshan Fort",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "5/28",
+      "leda": null
+    },
+    "rewards": "・ Jyoppa 2000 Gold 30 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": 6,
@@ -2424,6 +3713,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Sandworm Meat x5",
     "requester": "Man Craving a Familiar Dish",
+    "requirements": null,
+    "location": "Man Craving a Familiar Dish, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "6/15",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Sunstone 3000 Gold 80 Renown",
     "chapters": {
       "cai": 6,
       "dietrich": 6,
@@ -2439,6 +3737,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Ouranotite x3",
     "requester": "Royu the Stone Researcher",
+    "requirements": null,
+    "location": "Royu the Stone Researcher, Cougar Woodlands",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Tempest Bow 80 Renown",
     "chapters": {
       "cai": 7,
       "dietrich": 7,
@@ -2454,6 +3761,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver a total of 5 Garum, Smooth Garum, Concentrated Garum, Alecto Garum, Niiza Garum, Rancid Garum",
     "requester": "Wealthy Garum Lover",
+    "requirements": null,
+    "location": "Wealthy Garum Lover, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "7/31",
+      "leda": null
+    },
+    "rewards": "・Concoction 8000 Gold 100 Renown",
     "chapters": {
       "cai": 8,
       "dietrich": 8,
@@ -2469,6 +3785,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver a total of 2  Da Mina Sword, Da Mina Axe, Da Mina Spear, Da Mina Bow, Da Mina Gauntlets, Da Mina Shield",
     "requester": "Weapons Dealer",
+    "requirements": null,
+    "location": "Weapons Dealer, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・ Torment Grass 20000 Gold 100 Renown",
     "chapters": {
       "cai": 10,
       "dietrich": 10,
@@ -2484,6 +3809,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Find a buyer for the house.",
     "requester": "Boy Freed From Painting",
+    "requirements": null,
+    "location": "Boy Freed From Painting, Ribeira",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Candy Crystals 1000 Gold 50 Renown",
     "chapters": {
       "cai": 12,
       "dietrich": 12,
@@ -2499,6 +3833,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Gisco's Treasure x1",
     "requester": "Mystery Chaser",
+    "requirements": null,
+    "location": "Mystery Chaser, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・ Morfis Almanac 5000 Gold 80 Renown",
     "chapters": {
       "cai": 12,
       "dietrich": 12,
@@ -2514,6 +3857,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Gather information about the Divine Sovereign.",
     "requester": "Solel Temple Priest",
+    "requirements": null,
+    "location": "Solel Temple Priest, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Saraminian Sweets ・ Flower Painting 120 Renown",
     "chapters": {
       "cai": 12,
       "dietrich": 12,
@@ -2529,6 +3881,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Monument Verse x1",
     "requester": "Sirocco",
+    "requirements": null,
+    "location": "Sirocco, Atla Peak",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2544,6 +3905,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Bale Lacerators.",
     "requester": "Jester",
+    "requirements": null,
+    "location": "Jester, Dada Plains",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2559,6 +3929,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Corpse-Gaol Dunanzo.",
     "requester": "Jester",
+    "requirements": null,
+    "location": "Jester, Fort Theed",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2574,6 +3953,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Defeat the Underworld Wanderers.",
     "requester": "Jester",
+    "requirements": null,
+    "location": "Jester, Whispering Rock",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2589,6 +3977,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Gather information from the people of the port.",
     "requester": "Ludia",
+    "requirements": null,
+    "location": "Ludia, Callianeira Port",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,
@@ -2604,6 +4001,15 @@ export const QUESTS=[
     "part": "1",
     "objective": "Deliver Rare Ginji x1",
     "requester": "Peter",
+    "requirements": null,
+    "location": "Peter, Mount Aegina",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null,
     "chapters": {
       "cai": null,
       "dietrich": null,

@@ -1,23 +1,17 @@
 # Quest checklist player audit — 13 October 2026
 
+The approved first version is a separate website page reached from Sidebar → Adventure → Quest checklist. It uses hash navigation and does not place quests inside character workspaces.
+
+Implemented: independent per-path browser saves, check/uncheck completion, completed/remaining counts, search by names/requesters/objectives/locations/rewards, filters for type/completion/part/exact unlock chapter, deadline-only view, clear filters, empty feedback, expandable location/rewards/requirements, and individual Game8 guide links.
+
 Source: https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/618792
 
-Game8's public collection 868 contains 174 entries across Kindness, Subquest, Perform, Send Supplies, Paralogue, Challenge Letter and Recruitment. The local snapshot is game8-quest-collection.json; scripts/import-quests.mjs converts it into src/questData.js without network access at build time.
+The public collection has 174 entries in seven types. Its snapshot is game8-quest-collection.json. Individual public guides were fetched for all entries. Shared Perform guide pages do not have the same information table, so their details remain unknown rather than inferred. The extracted structured snapshot is quest-details.json. Coverage: 154 locations, 142 reward records, 18 reported Renown prerequisites. The checklist displays recorded deadline dates per path as in-game dates.
 
-Player requirements implemented:
+Collection chapter values remain the reported unlock chapter. They do not establish current availability or prove that other requirements are met. Missing or dash values remain unknown, including 27 entries without any route chapter. No Part II entries are present in the source collection; game coverage is not claimed complete. Unknown deadlines never imply unlimited time. Additional requirements are partial; links provide the full guide. The source has not been independently verified in-game.
 
-- A dedicated Adventure sidebar section with a Quest checklist destination.
-- Check and uncheck quests; browser persistence and independent progress for Cai, Dietrich, Theodora and Leda.
-- Search names, requesters and objectives; filter by type and completion.
-- Completion count, accessible native checkboxes, empty results feedback.
-- Part and selected-path chapter, ordered by part/chapter/name; individual Game8 guide links.
+scripts/import-quests.mjs combines the structured snapshots into src/questData.js offline. scripts/extract-quest-details.mjs extracts facts from the ignored research/quest-pages cache; manually review source format changes before regenerating. Build and runtime never fetch Game8.
 
-Evidence limits:
+Completion starts filtered to incomplete; the Completed or All quests views let the player undo a check. Names can contain spoilers. Multiple statuses, personal notes, spoiler gating, export/import and cloud sync are outside this first version.
 
-- 27 entries have no chapter listed on any path. A blank or dash is unknown, not confirmed unavailability. All entries remain visible so a player can still record completion.
-- The collection lists Parts 1 and 3 only. It is not sufficient evidence of complete game coverage or an absence of Part 2 quests.
-- Collection data has no deadlines, rewards or detailed unlock prerequisites. Do not infer these or claim the checklist determines whether a quest is currently available.
-- Quest names and objectives are visible and can contain spoilers. No spoiler protection is included in this simple checklist.
-- Saves remain in this browser and origin, without cloud sync.
-
-Follow-up priorities if expanding scope: verify deadlines and unlock prerequisites from individual quest pages; reconcile missing chapters and Part 2 coverage; optionally hide completed entries by default or add spoiler controls. The current scope stays a checklist.
+Validation: production build; model/data regression tests including reload/path independence, stable quest IDs, route-specific deadline dates and known prerequisite extraction; browser checks of sidebar navigation, search, completion persistence and expanded details. The temporary completion used during browser verification was restored.
