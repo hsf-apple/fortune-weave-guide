@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-12",
+  "purpose": "Future stats implementation research. These files are not imported into the live app.",
+  "fieldRules": {
+    "baseStats": "Combat values with level, class, route and chapter context. Never treat an observed recruited unit as normalized level 1.",
+    "growthRatesPercent": "Personal growth percentages, separate from base combat values.",
+    "growthModifiersPercentagePoints": "Class or mount growth adjustments, not immediate combat-stat gains.",
+    "preferredSkills": "Faster-training strengths; never infer a starting rank from these.",
+    "startingRanks": "Exact observed initial proficiency. Unknown is null, never an assumed E rank.",
+    "currentRanks": "User-entered progress, separate from external reference data.",
+    "targetRanks": "Chosen plan requirements, separate from starting and current ranks. Preserve required versus alternative skill logic.",
+    "unknowns": "Null means not established. Keep source claims separate instead of silently resolving disagreement.",
+    "verification": "Page checked means the publisher states it; not independently verified in-game. Agreement between aggregators is not necessarily independent evidence."
+  },
+  "sources": [
+    {
+      "id": "eoddb",
+      "name": "EODdb",
+      "url": "https://eoddb.com/fefw/characters",
+      "access": "Methodology readable; dynamic character rows not available in the retrieved text.",
+      "baseStatMethod": "Records values exactly as displayed at the listed level and class; not normalized to level 1. Temporarily boosted values left blank.",
+      "candidateFields": ["observedBaseStats", "level", "class", "growthRates", "proficiencies"],
+      "rowsCaptured": 0,
+      "startingRanksVerified": false,
+      "nextAction": "Inspect individual rows with their level/class context before importing any numeric records."
+    },
+    {
+      "id": "compilation",
+      "name": "Fortune's Weave Guide",
+      "url": "https://fortunesweave.co.uk/characters/cai",
+      "access": "Cai base stats, growth rates and skill strengths checked on page.",
+      "startingRanksVerified": false,
+      "caveat": "Secondary compilation. Supplied profiles are stored separately as transcriptions, with incomplete join context and known disputes."
+    },
+    {
+      "id": "game8jp",
+      "name": "Game8 Japan",
+      "url": "https://game8.jp/fe-banshisenko/816414",
+      "access": "Cai personal growth values and preferred/non-ideal skills checked on page.",
+      "startingRanksVerified": false,
+      "caveat": "Class recommendation exam ranks are target ranks, not starting character ranks. Japanese skills mapped to English planner aliases."
+    },
+    {
+      "id": "encyclopedia",
+      "name": "Fortune's Weave Encyclopedia",
+      "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/cai/",
+      "access": "Cai growth values, initial class and skill strengths checked on page.",
+      "startingRanksVerified": false,
+      "caveat": "Fan aggregation with linked source provenance. Its training recommendations are explicitly AI-generated; they are not gameplay verification."
+    },
+    {
+      "id": "serenes",
+      "name": "Serenes Forest",
+      "url": "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+      "classGrowthUrl": "https://serenesforest.net/fortunes-weave/classes/growth-rates/",
+      "access": "Previous comparison retained in supplied-data-audit.json.",
+      "caveat": "Reference comparison, not in-game verification. Keep conflicting transcriptions rather than overwriting them."
+    }
+  ],
+  "snapshots": [
+    {
+      "character": "Cai",
+      "sourceId": "compilation",
+      "url": "https://fortunesweave.co.uk/characters/cai",
+      "status": "page-checked; not verified in-game",
+      "context": {"level": 1, "class": "Commoner", "classModifiersIncluded": false, "route": null, "chapter": null},
+      "baseStats": {"hp": 27, "str": 10, "mag": 7, "spd": 8, "dex": 8, "def": 6, "res": 5, "lck": 6, "cha": 5},
+      "growthRatesPercent": {"hp": 45, "str": 45, "mag": 40, "spd": 45, "dex": 45, "def": 35, "res": 35, "lck": 40, "cha": 40},
+      "preferredSkills": ["White Magic", "Rider", "Spear", "Sword"],
+      "nonIdealSkills": ["Bow", "Flier"],
+      "startingRanks": null
+    },
+    {
+      "character": "Cai",
+      "sourceId": "game8jp",
+      "url": "https://game8.jp/fe-banshisenko/816414",
+      "status": "page-checked; translated skill aliases; not verified in-game",
+      "baseStats": null,
+      "growthRatesPercent": {"hp": 45, "str": 45, "mag": 40, "spd": 45, "dex": 45, "def": 35, "res": 35, "lck": 40, "cha": 40},
+      "preferredSkills": ["Sword", "Spear", "White Magic", "Rider"],
+      "nonIdealSkills": ["Bow", "Flier"],
+      "startingRanks": null
+    },
+    {
+      "character": "Cai",
+      "sourceId": "encyclopedia",
+      "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/cai/",
+      "status": "page-checked secondary aggregation; not independent in-game evidence",
+      "context": {"level": null, "class": "Commoner", "route": null, "chapter": null},
+      "baseStats": null,
+      "growthRatesPercent": {"hp": 45, "str": 45, "mag": 40, "spd": 45, "dex": 45, "def": 35, "res": 35, "lck": 40, "cha": 40},
+      "preferredSkills": ["White Magic", "Rider", "Spear", "Sword"],
+      "nonIdealSkills": ["Bow", "Flier"],
+      "startingRanks": null
+    }
+  ],
+  "futureEvidenceFields": ["character", "route", "chapter", "joinLevel", "joinClass", "gameVersion", "equipment", "mount", "temporaryModifiers", "baseStats", "startingRanks", "screenshotReference", "sourceUrl", "observedOn"],
+  "relatedFiles": ["supplied-stat-candidates.json", "supplied-data-audit.json"],
+  "implementationPolicy": "Research-only. Do not use these records to overwrite saved player stats or initialize ranks until context and evidence are reviewed."
+}

@@ -1,0 +1,16 @@
+{
+  "checkedOn": "2026-10-12",
+  "scope": "All 63 character IDs checked against reviewed publisher tables and individual pages. References are class directions, selected alternatives, partial training targets or explicit keep-native advice. This is not complete equipment/ability coverage or an in-game validation.",
+  "publisherChecks": [
+    {"source":"game8","url":"https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119","status":"Public HTML character table read; guide marked work in progress","charactersWithImportedReferences":63},
+    {"source":"game8jp","url":"https://game8.jp/fe-banshisenko/816464","status":"Recommendation index and linked character articles read; English name aliases are editorial","charactersWithImportedReferences":63},
+    {"source":"keengamer","url":"https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/","status":"Web retrieval checked all-character targets; native collector encountered a certificate error. Existing detailed routes retained, remaining entries are targets or keep-native advice","charactersWithImportedReferences":63},
+    {"source":"allthingshow","url":"https://allthings.how/fire-emblem-fortune-s-weave-best-build-for-esmeralda/","status":"Five individual/team build articles reviewed, plus targeted site searches. Partial team-role recommendations remain partial; search results are not proof that no other article exists","charactersWithImportedReferences":22},
+    {"source":"mobalytics","url":"https://mobalytics.gg/gamebase/guides/fire-emblem-fortunes-weave-cai-tier-list","status":"Four path guides reviewed through web retrieval; native collector received HTTP 403. Imported explicit class targets and detours, not invented routes for every mentioned unit","charactersWithImportedReferences":19},
+    {"source":"compilation","url":"https://fortunesweave.co.uk/characters","status":"All 63 character pages checked; 61 explicit class routes captured. Editorial and secondary recommendations remain labeled","charactersWithImportedReferences":61},
+    {"source":"encyclopedia","url":"https://fire-emblem-fortunes-weave.turam.dev/en/","status":"All 63 character training sections checked. AI-generated ideas distinguished from translated Japanese Game8 recommendations; neither is independent in-game validation","charactersWithImportedReferences":63},
+    {"source":"eoddb","url":"https://eoddb.com/fefw/characters","status":"Stats methodology reference, not imported as a build publisher"},
+    {"source":"gamewith","url":"https://gamewith.jp/fefw/573025","status":"Class-condition reference, not assumed to supply a full character build"}
+  ],
+  "limitations": ["Equipment and ability goals are only included where separately collected; an empty suggestion list does not mean nothing is usable.","Class unlock and weapon-choice disputes remain in class notes.","Reported fixed-class restriction for Klapka is documented in guide notes; the custom editor still permits hypothetical plans.","Selecting a reference does not overwrite an existing custom plan or saved stats. Explicit overrides preserve earned progress and actual loadouts.","Research records have no recruitment-rule filters or planned/recruited state."]
+}

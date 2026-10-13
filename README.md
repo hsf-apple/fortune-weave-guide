@@ -58,3 +58,37 @@ There are no recruitment costs, conditions, or recruitment filters. Adding means
 `.github/workflows/pages.yml` installs locked dependencies, runs tests, builds `dist/`, and deploys with GitHub Pages Actions. Set the repository's Pages source to **GitHub Actions** when publication is approved. Relative build paths and hash navigation support the repository subdirectory without server rewrites.
 
 No remote push or deployment has been performed for this rebuild; publication waits for the owner's explicit approval.
+
+## Planner redesign (review branch)
+
+`codex/gamer-planner-layout` uses the dark palette with an open party page and hidden navigation drawer. Path tabs sit above the roster. The shared character workspace separates Next steps, Edit plan, Class details, Loadout & abilities, Character stats, and Guide notes.
+
+Each member may store `customPlan` with an ordered class route, role, notes, and personal checklist. Reference replacement asks for confirmation before clearing these custom fields. It does not clear current class, level, ranks, certifications, masteries, or equipment progress. Source guide data remains separate from the user's plan. This iteration is awaiting visual review; tests are deferred at the user's request.
+
+### Reference-first custom planning
+
+New members start with an empty custom plan. Selecting a reference opens a route preview; applying copies it into the custom plan rather than making the user track the guide itself. The preview can expand into a side-by-side editor with per-class copy controls. Full override clears plan classes, role, notes and personal tasks while preserving character records and earned progress. Guide notes belong to the reference panel. Shared `ClassTabs.jsx` drives class selection in both Next steps and Class details. The class drag grip supports mouse/touch pointer dragging and arrow keys.
+
+`startingData.js` holds path-specific sourced starting records. Current source coverage is partial: Cai and Tialla have reported Level 1 Commoner defaults on Cai's path; Dietrich has a reported Noble class. Starting ranks and other missing records remain unknown. All reported defaults are flagged as not independently verified. Existing user-entered values are retained.
+
+### Independent loadout and ability planner
+
+`LoadoutWorkspace.jsx` renders all characters through a shared component. Each path/member owns a `loadout` record independent of `customPlan`. Equipment and ability goals, recorded ownership/learning, current equipped choices, and manual catalog entries persist separately. Class-plan changes and reset do not clear these fields. Equipment-plan and ability-goal resets clear only their goal lists; current choices and recorded ownership/learning remain.
+
+Class-profile checks are reported data, not an exact legality engine. The catalog supports weapons, a documented spell milestone, manual spells/equipment/mounts, all existing class mastery rewards, character-specific upgrades/diadems, and reported skill-rank/mount-bond abilities. Profile data from the supplied TypeScript files is retained as plain JavaScript in `loadoutCatalog.js`; uncertain acquisition/effects stay labeled. Slot limits, mount species rules, and complete item/spell coverage are not enforced. Gear previously marked Prepared is migrated to owned entries.
+
+Guide suggestions are explicit per-item copies. A guide override defaults to classes only and offers an explicit checkbox to replace planned equipment/mastery goals as well. Actual equipped selections, owned gear, learned abilities and character stats stay saved. The PR preparation checks pass all 15 data/model regression tests and the production build; visual browser testing remains a separate review.
+
+### Source coverage (12 October 2026)
+
+The local library contains 411 references across all 63 characters. Game8 English, Game8 Japan, KeenGamer and the source-linked fan encyclopedia each cover the full roster. FortunesWeave.co.uk provides 61 explicit routes; AllThingsHow covers 22 characters and Mobalytics 19 through the reviewed build/team articles. References distinguish full class directions, chosen alternatives, partial training targets and keep-native advice. KeenGamer entries outside the original detailed import are endgame targets, not invented full routes.
+
+Data lives in plain JavaScript, using the same character workspace and planner components for every publisher. Publisher filtering derives from actual guide data. Japanese class names map to stable shared IDs. `research/build-source-coverage.json` records coverage and unresolved aliases; `research/source-review-status.json` describes checks and limitations. `scripts/import-guide-coverage.mjs` regenerates the expanded data from short structured research records. The collector is a manual research tool and is never run by the site or build.
+
+Fan encyclopedia references distinguish AI-generated ideas from translated Game8 Japan material. Source agreement is not independent in-game verification. New The Godhand details, fixed-class claims, Divine assignments and class-exam disputes remain explicitly reported. Applying a reference requires an explicit action; empty keep-native advice cannot erase a custom route. Character stats, earned progress and actual loadout stay saved.
+
+Equipment and ability coverage remains partial. Unrecorded source suggestions are not interpreted as empty legal loadouts. Starting ranks remain unknown where not documented. No recruitment rules were added. PR preparation passed 15 data/model regression tests and the production build. Source/class-ID consistency and local Vite transforms were also checked. Publishing to GitHub Pages happens after the PR is merged to main.
+
+### Build decision notes (13 October 2026)
+
+All 411 references receive companion-written role/endpoint labels and decision notes through `guideEditorial.js`. Notes explain team needs, reported training strengths/weaknesses, investment, role changes, useful stopping points, per-class purpose and mastery rewards. Alternative previews retain each publisher’s route and stable IDs. Character skill preferences live in `characterTraining.js`, separate from future combat-stat research. The choice explanations are interpretations of recorded class profiles, not quotations or performance guarantees. Existing saved plans and reference IDs remain intact.

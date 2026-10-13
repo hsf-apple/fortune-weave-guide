@@ -1,0 +1,4221 @@
+{
+  "checkedOn": "2026-10-12",
+  "purpose": "Short recommendation records only; not article mirrors. Review aliases before importing.",
+  "characters": [
+    {
+      "character": "cai",
+      "entries": [
+        {
+          "character": "cai",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/cai",
+          "route": [
+            "Ornius Rider",
+            "Light Cavalry",
+            "Bardinger",
+            "Orichaldia"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "cai",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816414",
+          "routeJapanese": [
+            "飛駝兵",
+            "騎甲駝兵",
+            "カラドリオス",
+            "ハイエピタフ",
+            "ザ・キャバリアー"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "cai",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Ornius Rider"
+            ],
+            [
+              "Light Cavalry"
+            ],
+            [
+              "Bardinger",
+              "Caladrius"
+            ],
+            [
+              "Orichaldia",
+              "High Savant"
+            ],
+            [
+              "The Cavalier"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "cai",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/cai/",
+          "route": [
+            "Armored Ornius Rider",
+            "Bardinger"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "カイ"
+    },
+    {
+      "character": "dietrich",
+      "entries": [
+        {
+          "character": "dietrich",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/dietrich",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido",
+            "Sword Master"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dietrich",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816415",
+          "routeJapanese": [
+            "猟兵",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ザ・ブレイド"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dietrich",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Myrmidon"
+            ],
+            [
+              "Shido"
+            ],
+            [
+              "Swordmaster"
+            ],
+            [
+              "The Blade"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dietrich",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/dietrich/",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ディートリヒ"
+    },
+    {
+      "character": "theodora",
+      "entries": [
+        {
+          "character": "theodora",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/theodora",
+          "route": [
+            "Gladiator",
+            "Armored Ornius Rider",
+            "Guardian",
+            "Sentinel"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "theodora",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816416",
+          "routeJapanese": [
+            "兵士",
+            "重装歩兵",
+            "ガーディアン",
+            "ホーリーランサー",
+            "ザ・トライデント"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "theodora",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Armored Ornius Rider"
+            ],
+            [
+              "Guardian"
+            ],
+            [
+              "Sentinel"
+            ],
+            [
+              "The Trident"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "theodora",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/theodora/",
+          "route": [
+            "Soldier",
+            "Armored Knight",
+            "Guardian"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "セオドラ"
+    },
+    {
+      "character": "leda",
+      "entries": [
+        {
+          "character": "leda",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/leda",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Dancer",
+            "Shadow Seeker"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "leda",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816417",
+          "routeJapanese": [
+            "猟兵",
+            "アーチャー",
+            "踊り子",
+            "シャドーシーカー",
+            "ジ・アプサラス"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "leda",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Archer"
+            ],
+            [
+              "Dancer",
+              "Ranger"
+            ],
+            [
+              "Shadow Seeker"
+            ],
+            [
+              "The Apsara"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "leda",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/leda/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Dancer"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "レイリダーナ"
+    },
+    {
+      "character": "peter",
+      "entries": [
+        {
+          "character": "peter",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/peter",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper",
+            "Bow Adept"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "peter",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816419",
+          "routeJapanese": [
+            "猟兵",
+            "アーチャー",
+            "フォレストナイト",
+            "ボウナイト",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "peter",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Archer"
+            ],
+            [
+              "Sniper",
+              "Forest Knight"
+            ],
+            [
+              "Bow Adept",
+              "Bow Knight"
+            ],
+            [
+              "The Calamity"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "peter",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/peter/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ピーテル"
+    },
+    {
+      "character": "tialla",
+      "entries": [
+        {
+          "character": "tialla",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/tialla",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Troubadour",
+            "Valkyrium"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "tialla",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816418",
+          "routeJapanese": [
+            "呪い師",
+            "プリースト",
+            "ウァテス",
+            "ヴァルキュリウム",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "tialla",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Priest"
+            ],
+            [
+              "Troubadour"
+            ],
+            [
+              "Valkyrium"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "tialla",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/tialla/",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Ovate"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ティアラ"
+    },
+    {
+      "character": "ultand",
+      "entries": [
+        {
+          "character": "ultand",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/ultand",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Guardian",
+            "Sentinel"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ultand",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816420",
+          "routeJapanese": [
+            "呪い師",
+            "シャーマン",
+            "ウァテス",
+            "ホーリーランサー",
+            "ザ・トライデント"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ultand",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Priest"
+            ],
+            [
+              "Guardian"
+            ],
+            [
+              "Sentinel"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ultand",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/ultand/",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ウルタンド"
+    },
+    {
+      "character": "esmeralda",
+      "entries": [
+        {
+          "character": "esmeralda",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/esmeralda",
+          "route": [
+            "Wing Soldier",
+            "Dragoon"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "esmeralda",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816422",
+          "routeJapanese": [
+            "飛駝兵",
+            "騎甲駝兵",
+            "バーディンガー",
+            "聖天翼兵",
+            "ザ・トライデント"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "esmeralda",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Armored Ornius Rider"
+            ],
+            [
+              "Bardinger",
+              "Cataphract"
+            ],
+            [
+              "Bau Lord"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "esmeralda",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/esmeralda/",
+          "route": [
+            "Soldier",
+            "Armored Knight",
+            "Dreadnought"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "エスメラルダ"
+    },
+    {
+      "character": "fabio",
+      "entries": [
+        {
+          "character": "fabio",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/fabio",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Ovate",
+            "Druid"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "fabio",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816421",
+          "routeJapanese": [
+            "呪い師",
+            "シャーマン",
+            "ウァテス",
+            "ドルイド",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "fabio",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Shaman"
+            ],
+            [
+              "Ovate"
+            ],
+            [
+              "Druid"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "fabio",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/fabio/",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Ovate"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ファビオ;"
+    },
+    {
+      "character": "mikaela",
+      "entries": [
+        {
+          "character": "mikaela",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/mikaela",
+          "route": [
+            "Gladiator",
+            "Armored Ornius Rider",
+            "Warrior",
+            "Bau Lord"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "mikaela",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816423",
+          "routeJapanese": [
+            "猟兵",
+            "アーチャー",
+            "フォレストナイト",
+            "ボウナイト",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "mikaela",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Armored Ornius Rider"
+            ],
+            [
+              "Warrior",
+              "Dragoon"
+            ],
+            [
+              "Bau Lord"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "mikaela",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/mikaela/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ミカエラ"
+    },
+    {
+      "character": "bonaventure",
+      "entries": [
+        {
+          "character": "bonaventure",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/bonaventure",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Ovate",
+            "Druid"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "bonaventure",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816424",
+          "routeJapanese": [
+            "呪い師",
+            "シャーマン",
+            "ウァテス",
+            "ドルイド",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "bonaventure",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Shaman"
+            ],
+            [
+              "Ovate",
+              "Troubadour"
+            ],
+            [
+              "Druid",
+              "Valkyrium"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "bonaventure",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/bonaventure/",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Ovate"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "Bonaparte"
+    },
+    {
+      "character": "lilian",
+      "entries": [
+        {
+          "character": "lilian",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/lilian",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper",
+            "Bow Adept"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "lilian",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Archer"
+            ],
+            [
+              "Sniper"
+            ],
+            [
+              "Bow Adept"
+            ],
+            [
+              "The Calamity"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "lilian",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816426",
+          "routeJapanese": [
+            "猟兵",
+            "アーチャー",
+            "フォレストナイト",
+            "ボウナイト",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "lilian",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/lilian/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "リリア"
+    },
+    {
+      "character": "lysander",
+      "entries": [
+        {
+          "character": "lysander",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/lysander",
+          "route": [
+            "Gladiator",
+            "Armored Ornius Rider",
+            "Dragoon",
+            "Bau Lord"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "lysander",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816427",
+          "routeJapanese": [
+            "飛駝兵",
+            "騎甲駝兵",
+            "バーディンガー",
+            "ドラゴンマスター",
+            "ザ・キャバリアー"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "lysander",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Armored Ornius Rider"
+            ],
+            [
+              "Dragoon",
+              "Bardinger"
+            ],
+            [
+              "Bau Lord",
+              "Orichaldia"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "lysander",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/lysander/",
+          "route": [
+            "Ornius Rider",
+            "Armored Ornius Rider",
+            "Bardinger"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ライサンダー"
+    },
+    {
+      "character": "tobias",
+      "entries": [
+        {
+          "character": "tobias",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/tobias",
+          "route": [
+            "Gladiator",
+            "Armored Ornius Rider",
+            "Cataphract",
+            "Great Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "tobias",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816425",
+          "routeJapanese": [
+            "闘士",
+            "ブリガンド",
+            "ウォーリアー",
+            "バトルマスター",
+            "ザ・キャバリアー"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "tobias",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Armored Ornius Rider"
+            ],
+            [
+              "Cataphract"
+            ],
+            [
+              "Great Knight"
+            ],
+            [
+              "The Cavalier"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "tobias",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/tobias/",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "トビヤス"
+    },
+    {
+      "character": "buccar",
+      "entries": [
+        {
+          "character": "buccar",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/buccar",
+          "route": [
+            "Gladiator",
+            "Light Cavalry",
+            "Bardinger",
+            "Bau Lord"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "buccar",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816428",
+          "routeJapanese": [
+            "飛駝兵",
+            "ブリガンド",
+            "ウォーリアー",
+            "ドラゴンマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "buccar",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Light Cavalry"
+            ],
+            [
+              "Bardinger"
+            ],
+            [
+              "Bau Lord"
+            ],
+            [
+              "The Cavalier"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "buccar",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/buccar/",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "Buccaneer"
+    },
+    {
+      "character": "mu",
+      "entries": [
+        {
+          "character": "mu",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/mu",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior",
+            "Battlemaster"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "mu",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816431",
+          "routeJapanese": [
+            "闘士",
+            "セスタス",
+            "ウォーリアー",
+            "バトルマスター"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "mu",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Brigand"
+            ],
+            [
+              "Warrior"
+            ],
+            [
+              "Battlemaster",
+              "War Monk"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "mu",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/mu/",
+          "route": [
+            "Gladiator",
+            "Pugilist",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ムウ"
+    },
+    {
+      "character": "olympia",
+      "entries": [
+        {
+          "character": "olympia",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/olympia",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Ovate",
+            "Wiseman"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "olympia",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816430",
+          "routeJapanese": [
+            "呪い師",
+            "プリースト",
+            "ビショップ",
+            "ワイズマン",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "olympia",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Shaman"
+            ],
+            [
+              "Ovate"
+            ],
+            [
+              "Wiseman"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "olympia",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/olympia/",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "オリンピア"
+    },
+    {
+      "character": "sirocco",
+      "entries": [
+        {
+          "character": "sirocco",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/sirocco",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Troubadour",
+            "High Savant"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sirocco",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816429",
+          "routeJapanese": [
+            "呪い師",
+            "シャーマン",
+            "ウァテス",
+            "ドルイド",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sirocco",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Shaman"
+            ],
+            [
+              "Troubadour",
+              "Caladrius"
+            ],
+            [
+              "High Savant",
+              "Valkyrium"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sirocco",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/sirocco/",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Ovate"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "シロッコ"
+    },
+    {
+      "character": "dadao",
+      "entries": [
+        {
+          "character": "dadao",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/dadao",
+          "route": [
+            "Gladiator",
+            "Armored Knight",
+            "Dreadnought",
+            "Battlemaster"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dadao",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816455",
+          "routeJapanese": [
+            "闘士",
+            "ブリガンド",
+            "ウォーリアー",
+            "バトルマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dadao",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Armored Knight"
+            ],
+            [
+              "Dreadnought"
+            ],
+            [
+              "Battlemaster"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dadao",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/dadao/",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ダイトウ,"
+    },
+    {
+      "character": "halvin",
+      "entries": [
+        {
+          "character": "halvin",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/halvin",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Forest Knight",
+            "Bow Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "halvin",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816457",
+          "routeJapanese": [
+            "猟兵",
+            "アーチャー",
+            "フォレストナイト",
+            "ボウナイト",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "halvin",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Archer"
+            ],
+            [
+              "Forest Knight"
+            ],
+            [
+              "Bow Knight"
+            ],
+            [
+              "The Calamity"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "halvin",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/halvin/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Forest Knight"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ハルヴィン"
+    },
+    {
+      "character": "nezha",
+      "entries": [
+        {
+          "character": "nezha",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/nezha",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido",
+            "Sword Master"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nezha",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Brigand"
+            ],
+            [
+              "Warrior"
+            ],
+            [
+              "Battlemaster"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nezha",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816439",
+          "routeJapanese": [
+            "闘士",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nezha",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/nezha/",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "Nadja"
+    },
+    {
+      "character": "sha-lan",
+      "entries": [
+        {
+          "character": "sha-lan",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/sha-lan",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop",
+            "Sentinel"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sha-lan",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816438",
+          "routeJapanese": [
+            "呪い師",
+            "プリースト",
+            "ウァテス",
+            "ホーリーランサー",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sha-lan",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Priest"
+            ],
+            [
+              "Bishop"
+            ],
+            [
+              "Sentinel"
+            ],
+            [
+              "The Godhand"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sha-lan",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/sha-lan/",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "サラン"
+    },
+    {
+      "character": "dante",
+      "entries": [
+        {
+          "character": "dante",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/dante",
+          "route": [
+            "Diviner",
+            "Shaman",
+            "Ovate",
+            "Druid"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dante",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816433",
+          "routeJapanese": [
+            "呪い師",
+            "プリースト",
+            "ビショップ",
+            "ワイズマン",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dante",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Shaman"
+            ],
+            [
+              "Ovate"
+            ],
+            [
+              "Druid"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "dante",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/dante/",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ダンテ"
+    },
+    {
+      "character": "gaitz",
+      "entries": [
+        {
+          "character": "gaitz",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/gaitz",
+          "route": [
+            "Bardinger",
+            "Orichaldia"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "gaitz",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816432",
+          "routeJapanese": [
+            "飛駝兵",
+            "騎甲駝兵",
+            "ガーディアン",
+            "ホーリーランサー",
+            "ザ・キャバリアー"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "gaitz",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Bardinger"
+            ],
+            [
+              "Orichaldia"
+            ],
+            [
+              "The Cavalier"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "gaitz",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/gaitz/",
+          "route": [
+            "Ornius Rider",
+            "Armored Ornius Rider",
+            "Bardinger"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ゲイツ"
+    },
+    {
+      "character": "goliath",
+      "entries": [
+        {
+          "character": "goliath",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/goliath",
+          "route": [
+            "Gladiator",
+            "Armored Knight",
+            "Dreadnought",
+            "Battlemaster"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "goliath",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816453",
+          "routeJapanese": [
+            "兵士",
+            "ブリガンド",
+            "ウォーリアー",
+            "バトルマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "goliath",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Armored Knight"
+            ],
+            [
+              "Dreadnought"
+            ],
+            [
+              "Battlemaster"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "goliath",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/goliath/",
+          "route": [
+            "Soldier",
+            "Brigand",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ゴライアス"
+    },
+    {
+      "character": "jester",
+      "entries": [
+        {
+          "character": "jester",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/jester",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Ranger",
+            "Shadow Seeker"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "jester",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Brigand"
+            ],
+            [
+              "Ranger"
+            ],
+            [
+              "Shadow Seeker"
+            ],
+            [
+              "The Apsara"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "jester",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816452",
+          "routeJapanese": [
+            "闘士",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "jester",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/jester/",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": null
+    },
+    {
+      "character": "diego",
+      "entries": [
+        {
+          "character": "diego",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/diego",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido",
+            "Sword Master"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "diego",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816436",
+          "routeJapanese": [
+            "猟兵",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "diego",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Myrmidon"
+            ],
+            [
+              "Shido"
+            ],
+            [
+              "Swordmaster"
+            ],
+            [
+              "The Blade"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "diego",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/diego/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ディエゴ"
+    },
+    {
+      "character": "loretta",
+      "entries": [
+        {
+          "character": "loretta",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/loretta",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido",
+            "Sword Master"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "loretta",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816451",
+          "routeJapanese": [
+            "闘士",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ザ・ブレイド"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "loretta",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Ornius Rider"
+            ],
+            [
+              "Wing Soldier"
+            ],
+            [
+              "Bardinger"
+            ],
+            [
+              "Celestial Trooper",
+              "Swordmaster"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "loretta",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/loretta/",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ロレッタ"
+    },
+    {
+      "character": "ninae",
+      "entries": [
+        {
+          "character": "ninae",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/ninae",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop",
+            "Sentinel"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ninae",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816437",
+          "routeJapanese": [
+            "呪い師",
+            "プリースト",
+            "ウァテス",
+            "ホーリーランサー",
+            "ザ・トライデント"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ninae",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Priest"
+            ],
+            [
+              "Bishop"
+            ],
+            [
+              "Sentinel"
+            ],
+            [
+              "The Trident"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ninae",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/ninae/",
+          "route": [
+            "Soldier",
+            "Light Cavalry",
+            "Bardinger"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ニネ"
+    },
+    {
+      "character": "seteth",
+      "entries": [
+        {
+          "character": "seteth",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/seteth",
+          "route": [
+            "Ornius Rider",
+            "Armored Ornius Rider",
+            "Dragoon",
+            "Bau Lord"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "seteth",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Ornius Rider"
+            ],
+            [
+              "Armored Ornius Rider"
+            ],
+            [
+              "Dragoon"
+            ],
+            [
+              "Bau Lord"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "seteth",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816450",
+          "routeJapanese": [
+            "兵士",
+            "重装歩兵",
+            "ヘヴィアーマー",
+            "ホーリーランサー",
+            "ザ・トライデント"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "seteth",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/seteth/",
+          "route": [
+            "Soldier",
+            "Armored Knight",
+            "Dreadnought"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": null
+    },
+    {
+      "character": "catania",
+      "entries": [
+        {
+          "character": "catania",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/catania",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido",
+            "Sword Master"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "catania",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816442",
+          "routeJapanese": [
+            "猟兵",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ザ・ブレイド"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "catania",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Ornius Rider"
+            ],
+            [
+              "Armored Ornius Rider"
+            ],
+            [
+              "Caladrius"
+            ],
+            [
+              "Celestial Trooper"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "catania",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/catania/",
+          "route": [
+            "Soldier",
+            "Wing Soldier"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "カターニャ"
+    },
+    {
+      "character": "guzran",
+      "entries": [
+        {
+          "character": "guzran",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/guzran",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido",
+            "Sword Master"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "guzran",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816440",
+          "routeJapanese": [
+            "闘士",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ザ・ブレイド"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "guzran",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Myrmidon"
+            ],
+            [
+              "Shido",
+              "Warrior"
+            ],
+            [
+              "Swordmaster",
+              "Battlemaster"
+            ],
+            [
+              "The Blade"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "guzran",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/guzran/",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "グザラン"
+    },
+    {
+      "character": "io",
+      "entries": [
+        {
+          "character": "io",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/io",
+          "route": [
+            "Gladiator",
+            "Light Cavalry",
+            "Bardinger",
+            "Orichaldia"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "io",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816441",
+          "routeJapanese": [
+            "軽騎兵",
+            "バーディンガー",
+            "オリハルディア",
+            "ザ・キャバリアー"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "io",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Light Cavalry"
+            ],
+            [
+              "Bardinger"
+            ],
+            [
+              "Orichaldia"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "io",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/io/",
+          "route": [
+            "Light Cavalry",
+            "Bardinger"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "イオ"
+    },
+    {
+      "character": "majide",
+      "entries": [
+        {
+          "character": "majide",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/majide",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior",
+            "Battlemaster"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "majide",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Brigand"
+            ],
+            [
+              "Warrior"
+            ],
+            [
+              "Battlemaster"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "majide",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816459",
+          "routeJapanese": [
+            "闘士",
+            "ブリガンド",
+            "ウォーリアー",
+            "バトルマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "majide",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/majide/",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": null
+    },
+    {
+      "character": "noctula",
+      "entries": [
+        {
+          "character": "noctula",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/noctula",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior",
+            "Battlemaster"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "noctula",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816447",
+          "routeJapanese": [
+            "闘士",
+            "ブリガンド",
+            "ウォーリアー",
+            "バトルマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "noctula",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Brigand"
+            ],
+            [
+              "Warrior"
+            ],
+            [
+              "Battlemaster"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "noctula",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/noctula/",
+          "route": [
+            "Gladiator",
+            "Pugilist",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ノクチュラ"
+    },
+    {
+      "character": "nuzzuo",
+      "entries": [
+        {
+          "character": "nuzzuo",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/nuzzuo",
+          "route": [
+            "Hunter",
+            "Rogue",
+            "Forest Knight",
+            "Bow Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nuzzuo",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816462",
+          "routeJapanese": [
+            "猟兵",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nuzzuo",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Rogue"
+            ],
+            [
+              "Forest Knight",
+              "Ranger"
+            ],
+            [
+              "Bow Knight",
+              "Bow Adept"
+            ],
+            [
+              "The Calamity"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nuzzuo",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/nuzzuo/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ヌッツォ"
+    },
+    {
+      "character": "nydine",
+      "entries": [
+        {
+          "character": "nydine",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/nydine",
+          "route": [
+            "Gladiator",
+            "Wing Soldier",
+            "Dragoon",
+            "Celestial Trooper"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nydine",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816443",
+          "routeJapanese": [
+            "飛駝兵",
+            "騎甲駝兵",
+            "バーディンガー",
+            "グレートナイト",
+            "ザ・キャバリアー"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nydine",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Wing Soldier"
+            ],
+            [
+              "Dragoon"
+            ],
+            [
+              "Celestial Trooper"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nydine",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/nydine/",
+          "route": [
+            "Ornius Rider",
+            "Armored Ornius Rider",
+            "Bardinger"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ヌディーヌ"
+    },
+    {
+      "character": "yang-jie",
+      "entries": [
+        {
+          "character": "yang-jie",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/yang-jie",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop",
+            "Wiseman"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "yang-jie",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816446",
+          "routeJapanese": [
+            "呪い師",
+            "プリースト",
+            "ビショップ",
+            "ワイズマン",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "yang-jie",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Priest"
+            ],
+            [
+              "Bishop"
+            ],
+            [
+              "Wiseman"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "yang-jie",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/yang-jie/",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ヨーカイ"
+    },
+    {
+      "character": "alexandra",
+      "entries": [
+        {
+          "character": "alexandra",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/alexandra",
+          "route": [
+            "Gladiator",
+            "Wing Soldier",
+            "Dragoon",
+            "Celestial Trooper"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "alexandra",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816445",
+          "routeJapanese": [
+            "天翼兵",
+            "シドー",
+            "ソードマスター",
+            "ザ・ブレイド"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "alexandra",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Wing Soldier"
+            ],
+            [
+              "Dragoon"
+            ],
+            [
+              "Celestial Trooper"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "alexandra",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/alexandra/",
+          "route": [
+            "Wing Soldier"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "アレキサンドラ"
+    },
+    {
+      "character": "benditz",
+      "entries": [
+        {
+          "character": "benditz",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/benditz",
+          "route": [
+            "Charioteer"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "benditz",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816444",
+          "routeJapanese": [
+            "戦車兵",
+            "フォレストナイト",
+            "ボウナイト",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "benditz",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Charioteer"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "benditz",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/benditz/",
+          "route": [
+            "Charioteer"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ベンディッツ"
+    },
+    {
+      "character": "inyoni",
+      "entries": [
+        {
+          "character": "inyoni",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/inyoni",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper",
+            "Bow Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "inyoni",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816463",
+          "routeJapanese": [
+            "アーチャー",
+            "フォレストナイト",
+            "ボウナイト",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "inyoni",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Archer"
+            ],
+            [
+              "Sniper"
+            ],
+            [
+              "Bow Knight"
+            ],
+            [
+              "The Calamity"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "inyoni",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/inyoni/",
+          "route": [
+            "Archer",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "イニオニ"
+    },
+    {
+      "character": "jasmine",
+      "entries": [
+        {
+          "character": "jasmine",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/jasmine",
+          "route": [
+            "Ornius Rider",
+            "Wing Soldier",
+            "Dragoon",
+            "Castle Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "jasmine",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816461",
+          "routeJapanese": [
+            "兵士",
+            "重装歩兵",
+            "ヘヴィアーマー",
+            "フォートレス",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "jasmine",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Ornius Rider"
+            ],
+            [
+              "Wing Soldier"
+            ],
+            [
+              "Dragoon"
+            ],
+            [
+              "Castle Knight"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "jasmine",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/jasmine/",
+          "route": [
+            "Soldier",
+            "Armored Knight",
+            "Dreadnought"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ジャスミン"
+    },
+    {
+      "character": "kiroc",
+      "entries": [
+        {
+          "character": "kiroc",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/kiroc",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper",
+            "Bow Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "kiroc",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816460",
+          "routeJapanese": [
+            "猟兵",
+            "アーチャー",
+            "フォレストナイト",
+            "ボウナイト",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "kiroc",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Archer"
+            ],
+            [
+              "Sniper"
+            ],
+            [
+              "Bow Knight"
+            ],
+            [
+              "The Calamity"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "kiroc",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/kiroc/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "キロイカ"
+    },
+    {
+      "character": "peppe",
+      "entries": [
+        {
+          "character": "peppe",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/peppe",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper",
+            "Sword Master"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "peppe",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Archer"
+            ],
+            [
+              "Sniper"
+            ],
+            [
+              "Swordmaster"
+            ],
+            [
+              "The Apsara"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "peppe",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816449",
+          "routeJapanese": [
+            "猟兵",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "peppe",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/peppe/",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": null
+    },
+    {
+      "character": "zarcone",
+      "entries": [
+        {
+          "character": "zarcone",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/zarcone",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior",
+            "Battlemaster"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "zarcone",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816458",
+          "routeJapanese": [
+            "闘士",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "zarcone",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Brigand"
+            ],
+            [
+              "Warrior"
+            ],
+            [
+              "Battlemaster"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "zarcone",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/zarcone/",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ザーコネ"
+    },
+    {
+      "character": "fianna",
+      "entries": [
+        {
+          "character": "fianna",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/fianna",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop",
+            "Wiseman"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "fianna",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816456",
+          "routeJapanese": [
+            "呪い師",
+            "プリースト",
+            "ビショップ",
+            "ワイズマン",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "fianna",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Priest"
+            ],
+            [
+              "Bishop",
+              "Troubadour"
+            ],
+            [
+              "Wiseman",
+              "Valkyrium"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "fianna",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/fianna/",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "フィアナ"
+    },
+    {
+      "character": "ludia",
+      "entries": [
+        {
+          "character": "ludia",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/ludia",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido",
+            "Sword Master"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ludia",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Myrmidon"
+            ],
+            [
+              "Shido"
+            ],
+            [
+              "Swordmaster"
+            ],
+            [
+              "The Blade"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ludia",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/ludia/",
+          "route": [
+            "Gladiator",
+            "Myrmidon",
+            "Shido"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "Luludia"
+    },
+    {
+      "character": "simon",
+      "entries": [
+        {
+          "character": "simon",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/simon",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior",
+            "Battlemaster"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "simon",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816435",
+          "routeJapanese": [
+            "闘士",
+            "剣士",
+            "シドー",
+            "ソードマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "simon",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Gladiator"
+            ],
+            [
+              "Brigand"
+            ],
+            [
+              "Warrior"
+            ],
+            [
+              "Battlemaster"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "simon",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/simon/",
+          "route": [
+            "Gladiator",
+            "Brigand",
+            "Warrior"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "シモン"
+    },
+    {
+      "character": "ursula",
+      "entries": [
+        {
+          "character": "ursula",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/ursula",
+          "route": [
+            "Hunter",
+            "Archer",
+            "Sniper",
+            "Shadow Seeker"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ursula",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Hunter"
+            ],
+            [
+              "Archer"
+            ],
+            [
+              "Sniper"
+            ],
+            [
+              "Shadow Seeker"
+            ],
+            [
+              "The Apsara"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ursula",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816434",
+          "routeJapanese": [
+            "猟兵",
+            "ローグ",
+            "フォレストナイト",
+            "シャドーシーカー",
+            "ジ・アプサラス"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "ursula",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/ursula/",
+          "route": [
+            "Hunter",
+            "Rogue",
+            "Sniper"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "Usula"
+    },
+    {
+      "character": "sofia",
+      "entries": [
+        {
+          "character": "sofia",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/sofia",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop",
+            "Wiseman"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sofia",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816448",
+          "routeJapanese": [
+            "呪い師",
+            "プリースト",
+            "ビショップ",
+            "ワイズマン",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sofia",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Diviner"
+            ],
+            [
+              "Priest"
+            ],
+            [
+              "Bishop"
+            ],
+            [
+              "Wiseman"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "sofia",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/sofia/",
+          "route": [
+            "Diviner",
+            "Priest",
+            "Bishop"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": true,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ソフィア"
+    },
+    {
+      "character": "anatolia",
+      "entries": [
+        {
+          "character": "anatolia",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/anatolia",
+          "route": [
+            "Ovate",
+            "Wiseman"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "anatolia",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816885",
+          "routeJapanese": [
+            "ウァテス",
+            "ドルイド",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "anatolia",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Ovate"
+            ],
+            [
+              "Druid"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "anatolia",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/anatolia/",
+          "route": [
+            "Ovate",
+            "Druid"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "アナトリア"
+    },
+    {
+      "character": "aswan",
+      "entries": [
+        {
+          "character": "aswan",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/aswan",
+          "route": [
+            "Sniper",
+            "Bow Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "aswan",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816902",
+          "routeJapanese": [
+            "スナイパー",
+            "ボウナイト",
+            "ザ・カラミティ"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "aswan",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Sniper"
+            ],
+            [
+              "Bow Knight"
+            ],
+            [
+              "The Calamity"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "aswan",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/aswan/",
+          "route": [
+            "Sniper",
+            "Bow Knight"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "アスワン"
+    },
+    {
+      "character": "bertrand",
+      "entries": [
+        {
+          "character": "bertrand",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/bertrand",
+          "route": [
+            "Warrior",
+            "Battlemaster"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "bertrand",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816882",
+          "routeJapanese": [
+            "ウォーリアー",
+            "バトルマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "bertrand",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Warrior"
+            ],
+            [
+              "Battlemaster"
+            ],
+            [
+              "The Eternal"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "bertrand",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/bertrand/",
+          "route": [
+            "Warrior",
+            "Battlemaster",
+            "The Eternal"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ベルトラン"
+    },
+    {
+      "character": "centurio",
+      "entries": [
+        {
+          "character": "centurio",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/centurio",
+          "route": [
+            "Dreadnought",
+            "Castle Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "centurio",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Dreadnought"
+            ],
+            [
+              "Castle Knight"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "centurio",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816877",
+          "routeJapanese": [
+            "フォートレス",
+            "ザ・トライデント"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "centurio",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/centurio/",
+          "route": [
+            "Castle Knight"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "Centurion"
+    },
+    {
+      "character": "klapka",
+      "entries": [
+        {
+          "character": "klapka",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Guardian"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "klapka",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/klapka/",
+          "route": [
+            "Guardian"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": null
+    },
+    {
+      "character": "orchel",
+      "entries": [
+        {
+          "character": "orchel",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/orchel",
+          "route": [
+            "Bishop",
+            "Wiseman"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "orchel",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816884",
+          "routeJapanese": [
+            "ビショップ",
+            "ワイズマン",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "orchel",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Bishop"
+            ],
+            [
+              "Wiseman"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "orchel",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/orchel/",
+          "route": [
+            "Bishop",
+            "Wiseman",
+            "The Avatar"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "オルヘル"
+    },
+    {
+      "character": "tahonia",
+      "entries": [
+        {
+          "character": "tahonia",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816903",
+          "routeJapanese": [
+            "バトルマスター",
+            "ジ・エターナル"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "tahonia",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Battlemaster"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "tahonia",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/tahonia/",
+          "route": [
+            "Battlemaster"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "タホウニア"
+    },
+    {
+      "character": "talimun",
+      "entries": [
+        {
+          "character": "talimun",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/talimun",
+          "route": [
+            "Ovate",
+            "Druid"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "talimun",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816883",
+          "routeJapanese": [
+            "ウァテス",
+            "ドルイド",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "talimun",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Ovate"
+            ],
+            [
+              "Druid"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "talimun",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/talimun/",
+          "route": [
+            "Ovate",
+            "Druid"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "タリムーン"
+    },
+    {
+      "character": "creek",
+      "entries": [
+        {
+          "character": "creek",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/creek",
+          "route": [
+            "Bardinger",
+            "Orichaldia"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "creek",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816910",
+          "routeJapanese": [
+            "バーディンガー",
+            "オリハルディア",
+            "ザ・キャバリアー"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "creek",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Bardinger"
+            ],
+            [
+              "Orichaldia"
+            ],
+            [
+              "The Cavalier"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "creek",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/creek/",
+          "route": [
+            "Bardinger",
+            "Orichalda",
+            "The Cavalier"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "キリーク"
+    },
+    {
+      "character": "nathan",
+      "entries": [
+        {
+          "character": "nathan",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/nathan",
+          "route": [
+            "Bardinger",
+            "Great Knight"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nathan",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816909",
+          "routeJapanese": [
+            "カタフラクト",
+            "グレートナイト",
+            "ザ・キャバリアー"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nathan",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Bardinger"
+            ],
+            [
+              "Great Knight"
+            ],
+            [
+              "The Cavalier"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "nathan",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/nathan/",
+          "route": [
+            "Cataphract",
+            "Great Knight"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "ネイサン"
+    },
+    {
+      "character": "eshmel",
+      "entries": [
+        {
+          "character": "eshmel",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/eshmel",
+          "route": [
+            "Guardian",
+            "Sentinel"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "eshmel",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Guardian"
+            ],
+            [
+              "Sentinel"
+            ],
+            [
+              "The Trident"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "eshmel",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/eshmel/",
+          "route": [
+            "Guardian",
+            "Sentinel"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "Ishmal"
+    },
+    {
+      "character": "hong-hua",
+      "entries": [
+        {
+          "character": "hong-hua",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/hong-hua",
+          "route": [
+            "Ovate",
+            "Druid"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "hong-hua",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816477",
+          "routeJapanese": [
+            "ウァテス",
+            "ドルイド",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "hong-hua",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "Ovate"
+            ],
+            [
+              "Druid"
+            ],
+            [
+              "The Avatar"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "hong-hua",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/hong-hua/",
+          "route": [
+            "Ovate",
+            "Druid"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "コウカ"
+    },
+    {
+      "character": "troy",
+      "entries": [
+        {
+          "character": "troy",
+          "source": "compilation",
+          "url": "https://fortunesweave.co.uk/characters/troy",
+          "route": [
+            "War Monk"
+          ],
+          "scope": "Published character route",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "troy",
+          "source": "game8jp",
+          "url": "https://game8.jp/fe-banshisenko/816478",
+          "routeJapanese": [
+            "バトルモンク",
+            "ジ・アヴァタール"
+          ],
+          "scope": "Individual Japanese recommendation",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "troy",
+          "source": "game8",
+          "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+          "routeGroups": [
+            [
+              "War Monk"
+            ],
+            [
+              "The Godhand"
+            ]
+          ],
+          "scope": "Published class direction; alternatives retained",
+          "checked": "2026-10-12"
+        },
+        {
+          "character": "troy",
+          "source": "encyclopedia",
+          "url": "https://fire-emblem-fortunes-weave.turam.dev/en/entry/troy/",
+          "route": [
+            "War Monk"
+          ],
+          "checked": "2026-10-12",
+          "aiGenerated": false,
+          "scope": "Selected training direction · source aggregation"
+        }
+      ],
+      "access": "checked",
+      "japaneseName": "トロイア"
+    }
+  ],
+  "publisherChecks": [
+    {
+      "source": "keengamer",
+      "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+      "status": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "source": "game8",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+      "status": "page checked",
+      "relatedBuildLinks": []
+    },
+    {
+      "source": "allthingshow",
+      "url": "https://allthings.how/fire-emblem-fortune-s-weave-best-build-for-esmeralda/",
+      "status": "page checked",
+      "relatedBuildLinks": [
+        "https://allthings.how/the-best-cai-build-in-fire-emblem-fortune-s-weave/"
+      ]
+    },
+    {
+      "source": "mobalytics",
+      "url": "https://mobalytics.gg/gamebase/guides/fire-emblem-fortunes-weave-cai-tier-list",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}
