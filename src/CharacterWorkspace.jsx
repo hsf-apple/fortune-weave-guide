@@ -14,7 +14,8 @@ import {Button,IconButton,Panel,Select,NumberField,Badge,SourceLink,Portrait,Che
 // This single workspace renders every character and publisher's build from JS data.
 export default function CharacterWorkspace({character,path,member,context,recruited,mandatory,revealed,onReveal,onPatch,onAdd,onRemove,onClose}){
  const builds=buildsFor(character.id),build=selectedBuild(character.id,member),goal=getGoal(build,member,context,CLASSES);
- const [tab,setTab]=useState(()=>build?.stages.length?'overview':'planner'),[selectedStage,setSelectedStage]=useState(goal?.cid||build?.stages[0]),currentRef=useRef();
+ const [tab,setTab]=useState(()=>build?.stages.length?'overview':'planner'),[selectedStage,setSelectedStage]=useState(goal?.cid||build?.stages[0]),currentRef=useRef(),contentRef=useRef();
+ useEffect(()=>{contentRef.current?.scrollTo({top:0});},[tab]);
  useEffect(()=>{if(build&&!build.stages.includes(selectedStage))setSelectedStage(goal?.cid||build.stages[0]);},[build?.id,JSON.stringify(build?.stages)]);
  const start=startingRecord(character.id,path.id);
  const stage=CLASSES[selectedStage],counts=memberCounts(build,member),skills=[...new Set((build?.stages||[]).flatMap(id=>Object.keys(CLASSES[id].requirements)))];
@@ -22,12 +23,12 @@ export default function CharacterWorkspace({character,path,member,context,recrui
  function achievement(cid,kind,value){const m=setAchievement(member,cid,kind,value);onPatch({certified:m.certified,mastered:m.mastered,currentClass:m.currentClass});}
  const innate=INNATE[character.id],spells=SPELL_MILESTONES[character.id]||[];
  return <div className="workspace" style={{'--path':path.color}}>
-  <header className="workspace-top"><Button className="!border-0 !bg-transparent !px-0" onClick={onClose}><ArrowLeft size={16}/> Back to roster</Button><span>{path.name}'s path <ChevronRight size={12}/> {character.name}</span><IconButton label={member.favorite?'Unpin from main team':'Pin to main team'} disabled={!recruited} onClick={()=>onPatch({favorite:!member.favorite})}><Star size={17} fill={member.favorite?'currentColor':'none'}/></IconButton></header>
+  <aside className="character-sidebar" aria-label="Character information"><header className="workspace-top"><Button className="!border-0 !bg-transparent !px-0" onClick={onClose}><ArrowLeft size={16}/> Back to roster</Button><span>{path.name}'s path <ChevronRight size={12}/> {character.name}</span><IconButton label={member.favorite?'Unpin from main team':'Pin to main team'} disabled={!recruited} onClick={()=>onPatch({favorite:!member.favorite})}><Star size={17} fill={member.favorite?'currentColor':'none'}/></IconButton></header>
   <div className="workspace-heading"><Portrait character={character} revealed={revealed} onReveal={onReveal}/><div className="min-w-0 flex-1"><div className="flex flex-wrap gap-2 mb-3"><Badge tone="path">{mandatory?'Mandatory member':recruited?'Recruited':'Guide preview'}</Badge><Badge>{build?.role||ROLES[character.id]||'Choose your role'}</Badge></div><h1>{character.name}</h1><p className="mt-2 text-sm text-muted">{build?build.name:'Your character workspace'}</p></div>{!recruited&&<Button variant="primary" onClick={onAdd}>Add to roster <ArrowRight size={15}/></Button>}</div>
   {!recruited&&<p className="notice mb-5"><Info size={15}/> Add this character to the roster to record their build progress.</p>}
-  <div className="workspace-grid"><div className="min-w-0">
+  </aside><div className="workspace-main">
    <div className="workspace-tabs" role="tablist" aria-label="Character guide sections">{[['overview','Next steps'],['planner','Edit plan'],['progress','Class details'],['loadout','Loadout & abilities'],['stats','Character stats']].map(([id,label])=><button type="button" role="tab" key={id} aria-selected={tab===id} id={'tab-'+id} aria-controls={'panel-'+id} onClick={()=>setTab(id)} className={tab===id?'active':''}>{label}</button>)}</div>
-   <div role="tabpanel" id={'panel-'+tab} aria-labelledby={'tab-'+tab}>{tab==='stats'&&<div className="stats-page">   <div ref={currentRef}><Panel className="p-5"><div className="section-title"><Target size={17}/><h2>Current character</h2></div>{start?<div className="starting-record-note"><Badge>{start.status}</Badge><p>{start.note}</p><SourceLink href={start.url}>Starting record source</SourceLink></div>:<p className="starting-record-note">Starting stats for this character on this path are not yet sourced. Record the values shown in your game.</p>}<fieldset disabled={!recruited} className="space-y-4 mt-5">
+   <div className="workspace-content" ref={contentRef} tabIndex={0} role="tabpanel" id={'panel-'+tab} aria-labelledby={'tab-'+tab}>{tab==='stats'&&<div className="stats-page">   <div ref={currentRef}><Panel className="p-5"><div className="section-title"><Target size={17}/><h2>Current character</h2></div>{start?<div className="starting-record-note"><Badge>{start.status}</Badge><p>{start.note}</p><SourceLink href={start.url}>Starting record source</SourceLink></div>:<p className="starting-record-note">Starting stats for this character on this path are not yet sourced. Record the values shown in your game.</p>}<fieldset disabled={!recruited} className="space-y-4 mt-5">
     <Select label="Current class" value={member.currentClass} onChange={cid=>onPatch({currentClass:cid,certified:cid in CLASSES?{...member.certified,[cid]:true}:member.certified})}><option value="">Not recorded</option><option value="Commoner">Commoner</option><option value="Noble">Noble</option>{Object.values(CLASSES).map(c=><option value={c.id} key={c.id}>{c.name}</option>)}</Select>
     <NumberField label="Character level (optional)" value={member.level} onChange={level=>onPatch({level})}/>
     <div><h3 className="text-xs text-muted font-medium mb-3">Relevant skill ranks</h3><div className="grid grid-cols-2 gap-3">{Object.keys(SKILLS).map(skill=><Select key={skill} label={SKILLS[skill]} value={member.ranks[skill]} onChange={rank=>onPatch({ranks:{...member.ranks,[skill]:rank}})}><option value="">Unknown</option>{RANKS.slice(1).map(r=><option key={r}>{r}</option>)}</Select>)}</div></div>
@@ -41,6 +42,6 @@ export default function CharacterWorkspace({character,path,member,context,recrui
    {tab==='loadout'&&<LoadoutWorkspace character={character} member={member} build={build} recruited={recruited} onPatch={onPatch} onStats={()=>setTab('stats')}/>}
 
    </div>
-  </div></div>
+  </div>
  </div>;
 }
