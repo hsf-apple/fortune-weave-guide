@@ -7,6 +7,6 @@ test('all mandatory members have guides and each source and class reference reso
  for(const path of PATHS)for(const id of path.mandatory){assert.ok(byId(id));assert.ok(BUILDS[id]?.length);}
  const ids=new Set();for(const guides of Object.values(BUILDS))for(const b of guides){assert.ok(!ids.has(b.id),'duplicate guide ID');ids.add(b.id);assert.ok(SOURCES[b.source]);assert.ok(b.url.startsWith('https://'));for(const id of b.stages){assert.ok(CLASSES[id]);assert.ok(SOURCES[CLASSES[id].source]);}}
 });
-test('Dancer special unlock never masquerades as a standard exam',()=>{
- assert.equal(CLASSES.dancer.noExam,true);assert.deepEqual(CLASSES.dancer.requirements,{});assert.match(CLASSES.dancer.unlockNote,/Necklace/);
+test('disputed Dancer exam targets expose alternative-rank and unlock uncertainty',()=>{
+ assert.match(CLASSES.dancer.uncertainty,/Bow B or Sword B/);assert.match(CLASSES.dancer.uncertainty,/not both mandatory/);assert.match(CLASSES.dancer.unlockNote,/Confirm exam/);
 });

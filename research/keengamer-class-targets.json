@@ -1,0 +1,569 @@
+[
+  {
+    "character": "eshmel",
+    "source": "keengamer",
+    "target": "Sentinel",
+    "alternative": "Orichaldia",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "cai",
+    "source": "keengamer",
+    "target": "Orichaldia",
+    "alternative": "Celestial Trooper",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "tialla",
+    "source": "keengamer",
+    "target": "Wiseman",
+    "alternative": "Valkyrium",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "peter",
+    "source": "keengamer",
+    "target": "Bow Adept",
+    "alternative": "Bow Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "ultand",
+    "source": "keengamer",
+    "target": "Sentinel",
+    "alternative": "Wiseman",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "gaitz",
+    "source": "keengamer",
+    "target": "Swordmaster",
+    "alternative": "Shadow Seeker",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "jester",
+    "source": "keengamer",
+    "target": "Swordmaster",
+    "alternative": "Dancer",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "goliath",
+    "source": "keengamer",
+    "target": "Castle Knight",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "dante",
+    "source": "keengamer",
+    "target": "Druid",
+    "alternative": "High Savant",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "dietrich",
+    "source": "keengamer",
+    "target": "The Blade",
+    "alternative": "Shadow Seeker / Swordmaster",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "fabio",
+    "source": "keengamer",
+    "target": "Druid",
+    "alternative": "High Savant",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "esmeralda",
+    "source": "keengamer",
+    "target": "Castle Knight",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "mikaela",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "orchel",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "War Monk",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "diego",
+    "source": "keengamer",
+    "target": "Shadow Seeker",
+    "alternative": "Bow Adept",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "loretta",
+    "source": "keengamer",
+    "target": "Swordmaster",
+    "alternative": "Shadow Seeker",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "seteth",
+    "source": "keengamer",
+    "target": "Bau Lord",
+    "alternative": "Celestial Trooper",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "ninae",
+    "source": "keengamer",
+    "target": "Wiseman",
+    "alternative": "Sentinel",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "theodora",
+    "source": "keengamer",
+    "target": "Sentinel",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "bonaventure",
+    "source": "keengamer",
+    "target": "High Savant",
+    "alternative": "Druid",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "tobias",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "Castle Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "lilian",
+    "source": "keengamer",
+    "target": "Bow Adept",
+    "alternative": "Bow Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "lysander",
+    "source": "keengamer",
+    "target": "Orichaldia",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "talimun",
+    "source": "keengamer",
+    "target": "Swordmaster",
+    "alternative": "Shadow Seeker",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "ursula",
+    "source": "keengamer",
+    "target": "Bow Adept",
+    "alternative": "Shadow Seeker",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "ludia",
+    "source": "keengamer",
+    "target": "Swordmaster",
+    "alternative": "Shadow Seeker",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "simon",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "Castle Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "fianna",
+    "source": "keengamer",
+    "target": "Wiseman",
+    "alternative": "Valkyrium",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "leda",
+    "source": "keengamer",
+    "target": "The Apsara / Dancer",
+    "alternative": "Shadow Seeker",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "buccar",
+    "source": "keengamer",
+    "target": "Castle Knight",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "sirocco",
+    "source": "keengamer",
+    "target": "High Savant",
+    "alternative": "Druid",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "olympia",
+    "source": "keengamer",
+    "target": "Wiseman",
+    "alternative": "Valkyrium",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "mu",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "War Monk",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "anatolia",
+    "source": "keengamer",
+    "target": "War Monk",
+    "alternative": "Battle Master",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "nezha",
+    "source": "keengamer",
+    "target": "Swordmaster",
+    "alternative": "Dancer / Shadow Seeker",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "sha-lan",
+    "source": "keengamer",
+    "target": "Wiseman",
+    "alternative": "Valkyrium",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "dadao",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "Castle Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "halvin",
+    "source": "keengamer",
+    "target": "Bow Adept",
+    "alternative": "Bow Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "guzran",
+    "source": "keengamer",
+    "target": "Shadow Seeker",
+    "alternative": "Swordmaster",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "yang-jie",
+    "source": "keengamer",
+    "target": "War Monk",
+    "alternative": "Battle Master",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "io",
+    "source": "keengamer",
+    "target": "Great Knight",
+    "alternative": "Orichaldia",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "peppe",
+    "source": "keengamer",
+    "target": "Bow Knight",
+    "alternative": "Bow Adept",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "noctula",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "War Monk",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "sofia",
+    "source": "keengamer",
+    "target": "Wiseman",
+    "alternative": "Valkyrium",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "catania",
+    "source": "keengamer",
+    "target": "Swordmaster",
+    "alternative": "Shadow Seeker",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "nydine",
+    "source": "keengamer",
+    "target": "Celestial Trooper",
+    "alternative": "Bau Lord",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "zarcone",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "Castle Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "majide",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "benditz",
+    "source": "keengamer",
+    "target": "Bow Knight",
+    "alternative": "Bow Adept",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "inyoni",
+    "source": "keengamer",
+    "target": "Bow Adept",
+    "alternative": "Bow Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "jasmine",
+    "source": "keengamer",
+    "target": "Castle Knight",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "alexandra",
+    "source": "keengamer",
+    "target": "Celestial Trooper",
+    "alternative": "Bau Lord",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "nuzzuo",
+    "source": "keengamer",
+    "target": "Shadow Seeker",
+    "alternative": "Swordmaster",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "kiroc",
+    "source": "keengamer",
+    "target": "Shadow Seeker",
+    "alternative": "Bow Adept",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "bertrand",
+    "source": "keengamer",
+    "target": "Battle Master",
+    "alternative": "Castle Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "creek",
+    "source": "keengamer",
+    "target": "Great Knight",
+    "alternative": "Castle Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "nathan",
+    "source": "keengamer",
+    "target": "Great Knight",
+    "alternative": "Battle Master",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "centurio",
+    "source": "keengamer",
+    "target": "Castle Knight",
+    "alternative": "Great Knight",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "hong-hua",
+    "source": "keengamer",
+    "target": "Druid",
+    "alternative": "High Savant",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "troy",
+    "source": "keengamer",
+    "target": "War Monk",
+    "alternative": "Battle Master",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "aswan",
+    "source": "keengamer",
+    "target": "Keep Native Part III Class",
+    "alternative": "Reclass only if requirements are already met",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "tahonia",
+    "source": "keengamer",
+    "target": "Keep Native Part III Class",
+    "alternative": "Reclass only if requirements are already met",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  },
+  {
+    "character": "klapka",
+    "source": "keengamer",
+    "target": "Keep Native Part III Class",
+    "alternative": "Reclass only if requirements are already met",
+    "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+    "checked": "2026-10-12",
+    "scope": "Published endgame target; intermediate route not reproduced"
+  }
+]

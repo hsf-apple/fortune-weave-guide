@@ -1,9 +1,16 @@
+import {SUPPLEMENTAL_CLASSES} from './supplementalClasses.js';
 import facts from './classData.js';
 import {routeDefinitions,coaching,ROLES,slug} from './catalog.js';
 import {ADDITIONAL_GUIDES} from './additionalGuides.js';
+import {COMPREHENSIVE_GUIDES} from './comprehensiveGuides.js';
+import {enrichGuides} from './guideEditorial.js';
 import {GUIDE_EQUIPMENT} from './equipmentData.js';
 export const SKILLS={sword:'Sword',spear:'Spear',axe:'Axe',bow:'Bow',gauntlet:'Gauntlet','white-magic':'White Magic','black-magic':'Black Magic',riding:'Riding',flying:'Flying','heavy-armor':'Heavy Armor',infantry:'Infantry',authority:'Authority'};
 export const CLASSES=Object.fromEntries(facts.classes.map(c=>[c.id,{...c,source:'game8',noExam:c.id==='dancer'}]));
+for(const c of SUPPLEMENTAL_CLASSES)CLASSES[c.id]=c;
+// New source comparison exposes a conflict with the older special-unlock record.
+Object.assign(CLASSES.dancer,{requirements:{bow:'B',sword:'B'},idealLevel:35,renown:8,noExam:false,source:'gamewith',url:'https://gamewith.jp/fefw/573025',unlockNote:'Reported unlock: Leda Part I Chapter 9 quest, with wider availability in Part III. Confirm exam, license and assignment in-game.',uncertainty:'GameWith lists Bow B or Sword B as selectable targets, not both mandatory. Older sources describe a special unlock; check the actual exam before training.'});
+
 export const BUILDS=Object.fromEntries(Object.entries(routeDefinitions).map(([id,definitions])=>[id,definitions.map(([name,route])=>({
  id:'game8:'+id+':'+slug(name),source:'game8',name,role:ROLES[id],stages:route.map(slug),
  url:facts.routeSource,checked:'12 October 2026',scope:'Beginner through Master',
@@ -18,11 +25,13 @@ function genericLoadout(id,route){const skills=new Set(route.flatMap(n=>Object.k
  [magic?'Support or physical backup':'Situational backup',magic?'Keep a support option or a usable weapon for situations where your main spell is unsuitable.':'Keep a ranged or effective weapon for matchups your everyday weapon cannot handle. Check its skill requirements.'],
  [flying||riding?'Compatible mount':'Survival & utility',flying||riding?'Match the mount species to the equipped class. A class change may need a different mount. Bond ability recommendations depend on your route.':'Choose defensive or utility equipment that supports the role, while keeping an eye on total weight.']
  ];}
-for(const guide of ADDITIONAL_GUIDES){BUILDS[guide.character]??=[];BUILDS[guide.character].push({...guide,milestones:guide.milestones||[],loadout:guide.loadout||[]});}
+for(const guide of [...ADDITIONAL_GUIDES,...COMPREHENSIVE_GUIDES]){BUILDS[guide.character]??=[];BUILDS[guide.character].push({...guide,milestones:guide.milestones||[],loadout:guide.loadout||[]});}
 const hybrid=BUILDS.cai.find(b=>b.name==='Hybrid cavalry');
 Object.assign(hybrid,{role:'Mounted mixed damage',equipment:['iron-spear','levin-sword'],why:'Keep Cai mobile while developing a magical option alongside his physical weapons.',tradeoff:'Caladrius needs Black Magic training and a Cai-route class unlock. Match your mount to the current class; an Ornius and a horse are different investments.',loadout:[['Useful attack spell','Use a spell Cai has actually learned; a magic-capable class does not guarantee every spell.'],['Physical backup','Keep a usable spear or sword for opponents better handled with physical damage.'],['Class-compatible mount','Caladrius uses an Ornius-type mount; plan the mount change when moving to a horse-class target. Verify bond abilities in-game.']]});
+enrichGuides(BUILDS,CLASSES);
 export function buildsFor(id){return BUILDS[id]||[];}
-export function selectedBuild(id,member){const builds=buildsFor(id);return builds.find(b=>b.id===member.build)||builds[0]||null;}
+export function selectedBuild(id,member){const base=buildsFor(id).find(b=>b.id===member.build)||null;const plan=member.customPlan;if(!plan?.stages?.length)return null;return {...(base||{id:'custom',source:null,loadout:[],equipment:[],milestones:[]}),name:'Custom plan',role:plan.role||'Your own build',stages:plan.stages.filter(id=>CLASSES[id]),custom:true};}
+
 export const INNATE={
 cai:['Brio','Movement +1.'],peter:['Steady Aim','Bow combat arts gain 1 range.'],tialla:["Tactician’s Wit",'Ally-targeting combat arts gain 1 range.'],ultand:['Patch Up','Restores a little HP after an adjacent ally’s combat.'],
 dietrich:['Murderous Intent','Critical rate +5 when initiating.'],esmeralda:['Brawn','Equipment weight is reduced to 80%.'],fabio:['Dark Calling','Adjacent enemies lose 5 Dodge.'],mikaela:["Veteran’s Mettle",'Hit +10 against an adjacent enemy.'],

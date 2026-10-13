@@ -1,0 +1,2202 @@
+{
+  "checkedOn": "2026-10-12",
+  "publisherChecks": [
+    {
+      "source": "game8",
+      "url": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/624119",
+      "status": "Public HTML character table read; guide marked work in progress",
+      "charactersWithImportedReferences": 63
+    },
+    {
+      "source": "game8jp",
+      "url": "https://game8.jp/fe-banshisenko/816464",
+      "status": "Recommendation index and linked character articles read; English name aliases are editorial",
+      "charactersWithImportedReferences": 63
+    },
+    {
+      "source": "keengamer",
+      "url": "https://www.keengamer.com/articles/guides/fire-emblem-fortunes-weave-best-class-for-every-character/",
+      "status": "Web retrieval checked all-character targets; native collector encountered a certificate error. Existing detailed routes retained, remaining entries are targets or keep-native advice",
+      "charactersWithImportedReferences": 63
+    },
+    {
+      "source": "allthingshow",
+      "url": "https://allthings.how/fire-emblem-fortune-s-weave-best-build-for-esmeralda/",
+      "status": "Five individual/team build articles reviewed, plus targeted site searches. Partial team-role recommendations remain partial; search results are not proof that no other article exists",
+      "charactersWithImportedReferences": 22
+    },
+    {
+      "source": "mobalytics",
+      "url": "https://mobalytics.gg/gamebase/guides/fire-emblem-fortunes-weave-cai-tier-list",
+      "status": "Four path guides reviewed through web retrieval; native collector received HTTP 403. Imported explicit class targets and detours, not invented routes for every mentioned unit",
+      "charactersWithImportedReferences": 19
+    },
+    {
+      "source": "compilation",
+      "url": "https://fortunesweave.co.uk/characters",
+      "status": "All 63 character pages checked; 61 explicit class routes captured. Editorial and secondary recommendations remain labeled",
+      "charactersWithImportedReferences": 61
+    },
+    {
+      "source": "encyclopedia",
+      "url": "https://fire-emblem-fortunes-weave.turam.dev/en/",
+      "status": "All 63 character training sections checked. AI-generated ideas distinguished from translated Japanese Game8 recommendations; neither is independent in-game validation",
+      "charactersWithImportedReferences": 63
+    },
+    {
+      "source": "eoddb",
+      "url": "https://eoddb.com/fefw/characters",
+      "status": "Stats methodology reference, not imported as a build publisher"
+    },
+    {
+      "source": "gamewith",
+      "url": "https://gamewith.jp/fefw/573025",
+      "status": "Class-condition reference, not assumed to supply a full character build"
+    }
+  ],
+  "unresolved": [],
+  "characters": [
+    {
+      "character": "cai",
+      "name": "Cai",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 2,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 2,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "dietrich",
+      "name": "Dietrich",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "theodora",
+      "name": "Theodora",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 2,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "leda",
+      "name": "Leda",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 2,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "peter",
+      "name": "Peter",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 2,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "tialla",
+      "name": "Tialla",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "ultand",
+      "name": "Ultand",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 2,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "esmeralda",
+      "name": "Esmeralda",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 3,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 2,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "fabio",
+      "name": "Fabio",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "mikaela",
+      "name": "Mikaela",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "bonaventure",
+      "name": "Bonaventure",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "lilian",
+      "name": "Lilian",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "lysander",
+      "name": "Lysander",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "tobias",
+      "name": "Tobias",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "buccar",
+      "name": "Buccar",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "mu",
+      "name": "Mu",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 2,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "olympia",
+      "name": "Olympia",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 3,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "sirocco",
+      "name": "Sirocco",
+      "sources": {
+        "game8": {
+          "count": 4,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 2,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "dadao",
+      "name": "Dadao",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "halvin",
+      "name": "Halvin",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "nezha",
+      "name": "Nezha",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "sha-lan",
+      "name": "Sha Lan",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "dante",
+      "name": "Dante",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "gaitz",
+      "name": "Gaitz",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "goliath",
+      "name": "Goliath",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "jester",
+      "name": "Jester",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "diego",
+      "name": "Diego",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "loretta",
+      "name": "Loretta",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "ninae",
+      "name": "Ninae",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "seteth",
+      "name": "Seteth",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "catania",
+      "name": "Catania",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "guzran",
+      "name": "Guzran",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "io",
+      "name": "Io",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "majide",
+      "name": "Majide",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "noctula",
+      "name": "Noctula",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "nuzzuo",
+      "name": "Nuzzuo",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 2,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "nydine",
+      "name": "Nydine",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "yang-jie",
+      "name": "Yang Jie",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 2,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "alexandra",
+      "name": "Alexandra",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "benditz",
+      "name": "Benditz",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "inyoni",
+      "name": "Inyoni",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 1,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 2,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "jasmine",
+      "name": "Jasmine",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "kiroc",
+      "name": "Kiroc",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "peppe",
+      "name": "Peppe",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "zarcone",
+      "name": "Zarcone",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "fianna",
+      "name": "Fianna",
+      "sources": {
+        "game8": {
+          "count": 2,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "ludia",
+      "name": "Ludia",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "simon",
+      "name": "Simon",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "ursula",
+      "name": "Ursula",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "sofia",
+      "name": "Sofia",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 2,
+          "status": "available"
+        },
+        "mobalytics": {
+          "count": 1,
+          "status": "available"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "anatolia",
+      "name": "Anatolia",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "aswan",
+      "name": "Aswan",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "bertrand",
+      "name": "Bertrand",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "centurio",
+      "name": "Centurio",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "klapka",
+      "name": "Klapka",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "orchel",
+      "name": "Orchel",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "tahonia",
+      "name": "Tahonia",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "talimun",
+      "name": "Talimun",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "creek",
+      "name": "Creek",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "nathan",
+      "name": "Nathan",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "eshmel",
+      "name": "Eshmel",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "hong-hua",
+      "name": "Hong Hua",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    },
+    {
+      "character": "troy",
+      "name": "Troy",
+      "sources": {
+        "game8": {
+          "count": 1,
+          "status": "available"
+        },
+        "game8jp": {
+          "count": 1,
+          "status": "available"
+        },
+        "keengamer": {
+          "count": 1,
+          "status": "available"
+        },
+        "allthingshow": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "mobalytics": {
+          "count": 0,
+          "status": "No verified build imported; not a claim that none exists"
+        },
+        "compilation": {
+          "count": 1,
+          "status": "available"
+        },
+        "encyclopedia": {
+          "count": 1,
+          "status": "available"
+        }
+      }
+    }
+  ]
+}

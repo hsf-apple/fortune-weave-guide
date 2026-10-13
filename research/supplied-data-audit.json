@@ -1,0 +1,428 @@
+{
+  "checkedOn": "2026-10-12",
+  "scope": "Read the seven supplied TypeScript files. Compared every character/class growth row with Serenes Forest; compared all 98 explicitly numbered personal-upgrade levels with available Serenes entries; spot-checked class exams, unlocks, abilities and provenance against the source compilation and Japanese Game8/GameWith. Not an in-game verification or exhaustive verification of every ability effect.",
+  "verdict": "Useful candidate data, not safe for a blind import. Retain source disagreements and unknowns.",
+  "growthComparison": {
+    "characters.ts": {
+      "total": 63,
+      "matches": 60,
+      "changes": [
+        {
+          "name": "Nezha",
+          "dif": [
+            {
+              "stat": "str",
+              "file": 55,
+              "serenes": 45
+            }
+          ]
+        },
+        {
+          "name": "Yang Jie",
+          "dif": [
+            {
+              "stat": "str",
+              "file": 35,
+              "serenes": 30
+            }
+          ]
+        },
+        {
+          "name": "Sofia",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 40,
+              "serenes": 30
+            },
+            {
+              "stat": "dex",
+              "file": 30,
+              "serenes": 40
+            }
+          ]
+        }
+      ],
+      "notInSerenes": []
+    },
+    "classes.ts": {
+      "total": 59,
+      "matches": 44,
+      "changes": [
+        {
+          "name": "Ornius Rider",
+          "dif": [
+            {
+              "stat": "dex",
+              "file": 5,
+              "serenes": 0
+            }
+          ]
+        },
+        {
+          "name": "Archer",
+          "dif": [
+            {
+              "stat": "str",
+              "file": 5,
+              "serenes": 0
+            },
+            {
+              "stat": "dex",
+              "file": 10,
+              "serenes": 15
+            }
+          ]
+        },
+        {
+          "name": "Elephant Rider",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 20,
+              "serenes": -10
+            },
+            {
+              "stat": "dex",
+              "file": -10,
+              "serenes": 20
+            }
+          ]
+        },
+        {
+          "name": "Dragoon",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 0,
+              "serenes": 5
+            },
+            {
+              "stat": "dex",
+              "file": 5,
+              "serenes": 0
+            }
+          ]
+        },
+        {
+          "name": "Caladrius",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 5,
+              "serenes": 10
+            },
+            {
+              "stat": "dex",
+              "file": 10,
+              "serenes": 5
+            }
+          ]
+        },
+        {
+          "name": "Bishop",
+          "dif": [
+            {
+              "stat": "dex",
+              "file": 0,
+              "serenes": 5
+            }
+          ]
+        },
+        {
+          "name": "Troubadour",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 5,
+              "serenes": 0
+            },
+            {
+              "stat": "dex",
+              "file": 0,
+              "serenes": 5
+            }
+          ]
+        },
+        {
+          "name": "Battlemaster",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": -5,
+              "serenes": 5
+            },
+            {
+              "stat": "dex",
+              "file": 5,
+              "serenes": -5
+            }
+          ]
+        },
+        {
+          "name": "Shadow Seeker",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 15,
+              "serenes": 25
+            },
+            {
+              "stat": "dex",
+              "file": 25,
+              "serenes": 15
+            }
+          ]
+        },
+        {
+          "name": "Orichaldia",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 0,
+              "serenes": 5
+            },
+            {
+              "stat": "dex",
+              "file": 5,
+              "serenes": 0
+            }
+          ]
+        },
+        {
+          "name": "Druid",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 15,
+              "serenes": 10
+            },
+            {
+              "stat": "dex",
+              "file": 10,
+              "serenes": 15
+            }
+          ]
+        },
+        {
+          "name": "Wiseman",
+          "dif": [
+            {
+              "stat": "spd",
+              "file": 0,
+              "serenes": 5
+            },
+            {
+              "stat": "dex",
+              "file": 5,
+              "serenes": 0
+            }
+          ]
+        },
+        {
+          "name": "The Eternal",
+          "dif": [
+            {
+              "stat": "cha",
+              "file": 0,
+              "serenes": 10
+            }
+          ]
+        }
+      ],
+      "notInSerenes": [
+        "Dancer",
+        "Cataphract"
+      ]
+    }
+  },
+  "abilityLevelComparison": {
+    "examined": 98,
+    "matchingLevels": 93,
+    "conflictingLevels": [
+      {
+        "unit": "Cai",
+        "level": 5,
+        "name": "Flamekeeper",
+        "serenesLevel": 35
+      }
+    ],
+    "undocumentedOrUnmatched": [
+      {
+        "unit": "Anatolia",
+        "level": 35,
+        "name": "Continuum+"
+      },
+      {
+        "unit": "Theodora",
+        "level": 5,
+        "name": "Direct Hit"
+      },
+      {
+        "unit": "Leda",
+        "level": 35,
+        "name": "Improviso"
+      },
+      {
+        "unit": "Talimun",
+        "level": 35,
+        "name": "Swashbuckler's Luck+"
+      }
+    ]
+  },
+  "coverage": {
+    "characters": 63,
+    "characterDetails": 62,
+    "missingCharacterDetails": [
+      "Tobias"
+    ],
+    "classGrowthRecords": 59,
+    "classDetailRecords": 59,
+    "missingClass": "Noble",
+    "characterBaseRecords": 15,
+    "characterBaseNames": [
+      "Cai",
+      "Tialla",
+      "Peter",
+      "Ultand",
+      "Fabio",
+      "Bonaventure",
+      "Buccar",
+      "Olympia",
+      "Orchel",
+      "Diego",
+      "Eshmel",
+      "Hong Hua",
+      "Troy",
+      "Klapka",
+      "Guzran"
+    ],
+    "startingClassRecords": 19,
+    "startingWeaponRanks": "Not provided",
+    "startingLevels": "Not provided",
+    "perPathJoinRecords": "Not provided",
+    "uniqueAbilityEntries": 118,
+    "rankAbilityEntries": 33,
+    "mountBondEntries": 6
+  },
+  "findings": [
+    {
+      "file": "classes.ts",
+      "status": "discrepancies",
+      "detail": "44/59 growth rows match Serenes. 13 differ; Dancer and Cataphract are absent from that table. Speed/Dexterity swaps are a plausible explanation for several differences, not proof of which source is correct."
+    },
+    {
+      "file": "classes.ts",
+      "status": "corroborated discrepancies",
+      "detail": "GameWith also lists Elephant Rider Speed -10/Dexterity +20 and Archer Strength 0/Dexterity +15, supporting Serenes rather than the attached records.",
+      "source": "https://gamewith.jp/fefw/573025"
+    },
+    {
+      "file": "classes.ts",
+      "status": "source disagreement",
+      "detail": "Troubadour Speed +5/Dexterity 0 matches Game8 Japan and the supplied record; Serenes and GameWith list Speed 0/Dexterity +5. Keep both claims until resolved in-game.",
+      "sources": [
+        "https://game8.jp/fe-banshisenko/816715",
+        "https://serenesforest.net/fortunes-weave/classes/growth-rates/",
+        "https://gamewith.jp/fefw/573025"
+      ]
+    },
+    {
+      "file": "character-details.ts",
+      "status": "source disagreement",
+      "detail": "Bonaventure Sage Advice is Dexterity +3 in the file and compilation, Defense +3 in Serenes. Do not silently mark either verified.",
+      "sources": [
+        "https://fortunesweave.co.uk/wiki/abilities",
+        "https://serenesforest.net/fortunes-weave/characters/personal-abilities/"
+      ]
+    },
+    {
+      "file": "ability-catalog.ts",
+      "status": "effect transcription problem",
+      "detail": "Flamekeeper omits the condition restricting the half-damage effect to Underworld Flames. Both checked sources include that condition.",
+      "sources": [
+        "https://fortunesweave.co.uk/wiki/abilities",
+        "https://serenesforest.net/fortunes-weave/characters/personal-abilities/"
+      ]
+    },
+    {
+      "file": "ability-catalog.ts",
+      "status": "level conflict",
+      "detail": "Flamekeeper is Level 5 in the file and compilation, Level 35 in Serenes. Preserve dispute. Four other explicit levels are not corroborated by the checked Serenes table: Continuum+, Direct Hit, Improviso, Swashbuckler's Luck+."
+    },
+    {
+      "file": "ability-catalog.ts",
+      "status": "missing newer records",
+      "detail": "The checked Serenes table includes Eshmel's later Scorching Sun upgrade, Hong Hua's Amplify Magic pair and Troy's Modified Weapon pair not included in this supplied catalog.",
+      "source": "https://serenesforest.net/fortunes-weave/characters/personal-abilities/"
+    },
+    {
+      "file": "class-details.ts",
+      "status": "schema loses alternative exam skills",
+      "detail": "Flat requires[] cannot represent required skills plus alternative groups. Troubadour: Riding D plus a choice of White Magic B or Black Magic B. GameWith also marks several multiweapon lists as selectable, not all mandatory.",
+      "sources": [
+        "https://game8.jp/fe-banshisenko/816715",
+        "https://gamewith.jp/fefw/573025"
+      ]
+    },
+    {
+      "file": "class-details.ts",
+      "status": "unlock missing",
+      "detail": "Dancer's supplied note covers Leda Part I Chapter 9 but omits the Part III wider unlock documented in GameWith. The attached model and the current tracker disagree on special unlock versus exam handling, so the current tracker also requires review.",
+      "source": "https://gamewith.jp/fefw/573025"
+    },
+    {
+      "file": "class-details.ts",
+      "status": "ability classification needs verification",
+      "detail": "Beginner Basics rewards are stored as class skills with null mastery; GameWith places them under mastery. Some mounted records omit Mount/Dismount, which the source lists. Keep class-active effects separate from earned mastery rewards.",
+      "source": "https://gamewith.jp/fefw/573025"
+    },
+    {
+      "file": "character-details.ts",
+      "status": "confirmed useful constraints",
+      "detail": "Goliath and Orchel cannot change into cavalry/flying classes, consistent with Serenes. This is useful planner validation, independent from recruitment rules.",
+      "source": "https://serenesforest.net/fortunes-weave/characters/personal-abilities/"
+    },
+    {
+      "file": "models.ts",
+      "status": "incomplete rank model",
+      "detail": "Rank omits D+, C+ and other intermediate ranks even though ability-catalog.ts explicitly mentions D+/C+ acquisition. Rank regex only parses E+; future plus-rank data would fail or be misinterpreted."
+    },
+    {
+      "file": "models.ts",
+      "status": "semantic warning",
+      "detail": "Class weapon ranks and character skill aptitudes are not character starting ranks. Do not populate starting ranks from either. Commoner should be represented separately from the level-5 Beginner exam tier."
+    },
+    {
+      "file": "all data files",
+      "status": "provenance gap",
+      "detail": "Header comments cite compilation sources but records lack claim-level URLs, dates, confidence and dispute metadata. Several original source entries are explicitly unverified, and that status was lost in transcription."
+    },
+    {
+      "file": "models.ts",
+      "status": "license context needed",
+      "detail": "Read the original repository license before redistributing copied data/code. The supplied files do not establish repository licensing."
+    }
+  ],
+  "recommendedImport": {
+    "accept": "Candidate records that match sourced tables, with provenance. Add useful abilities, aptitudes, class equipment and mount restrictions.",
+    "hold": "Conflicting growths, ability levels, unclear class exams and join-stat context.",
+    "keepUnknown": "Missing ranks, starting levels, per-path joins, caps and unsourced effects.",
+    "dataModel": [
+      "Separate growth percentages from flat class stat modifiers and actual current stats.",
+      "Represent required exam skills and alternative groups explicitly.",
+      "Keep starting records keyed by character/path and join context.",
+      "Store sources and confidence per claim; do not treat transcribed guide data as in-game verification."
+    ]
+  },
+  "sources": [
+    "https://serenesforest.net/fortunes-weave/characters/growth-rates/",
+    "https://serenesforest.net/fortunes-weave/classes/growth-rates/",
+    "https://serenesforest.net/fortunes-weave/characters/personal-abilities/",
+    "https://fortunesweave.co.uk/wiki/abilities",
+    "https://fortunesweave.co.uk/classes/dancer",
+    "https://fortunesweave.co.uk/classes/troubadour",
+    "https://game8.jp/fe-banshisenko/816715",
+    "https://gamewith.jp/fefw/573025"
+  ]
+}

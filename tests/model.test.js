@@ -7,7 +7,7 @@ test('legacy Cai mastery and recruited roster survive migration into independent
  assert.ok(migrated.paths.cai.roster.includes('guzran'));assert.equal(migrated.paths.cai.members.cai.certified['light-cavalry'],true);assert.equal(migrated.paths.cai.members.cai.mastered['light-cavalry'],true);assert.ok(!migrated.paths.dietrich.roster.includes('guzran'));assert.equal(migrated.revealed.anatolia,true);
 });
 test('mandatory roster members are restored and invalid saved values rejected',()=>{
- const s=normalize({activePath:'bad',paths:{cai:{roster:['missing'],members:{cai:{level:-2,ranks:{spear:'Z'},mastered:{bardinger:true}}}}}});
+ const s=normalize({activePath:'bad',paths:{cai:{roster:['missing'],members:{cai:{startingDefaults:true,level:-2,ranks:{spear:'Z'},mastered:{bardinger:true}}}}}});
  assert.equal(s.activePath,'cai');assert.equal(s.paths.cai.roster.length,4);assert.equal(s.paths.cai.members.cai.level,'');assert.deepEqual(s.paths.cai.members.cai.ranks,{});assert.equal(s.paths.cai.members.cai.certified.bardinger,true);
 });
 test('path edits do not affect another version of the same character',()=>{
@@ -29,6 +29,6 @@ test('master class phase and recorded Renown affect coaching independently of sk
  assert.equal(getGoal(BUILDS.cai[0],m,{part:'I'},CLASSES).phaseBlocked,true);assert.equal(getGoal(BUILDS.cai[0],m,{part:'III'},CLASSES).phaseBlocked,false);
  const n={...emptyMember(),certified:{'ornius-rider':true},ranks:{riding:'D',spear:'C',sword:'C'}};assert.ok(getGoal(BUILDS.cai[0],n,{part:'I',renown:'2'},CLASSES).renownGap);
 });
-test('every mandatory guide references known, source-checked classes',()=>{
- for(const builds of Object.values(BUILDS))for(const b of builds){assert.equal(b.stages.length,4);for(const id of b.stages){assert.ok(CLASSES[id],id);assert.match(CLASSES[id].url,/^https:\/\/game8.co\//);}}
+test('full, partial and advice-only references retain sourced class records',()=>{
+ for(const builds of Object.values(BUILDS))for(const b of builds){assert.ok(b.stages.length||b.adviceOnly);for(const id of b.stages){assert.ok(CLASSES[id],id);assert.match(CLASSES[id].url,/^https:\/\//);}}
 });
