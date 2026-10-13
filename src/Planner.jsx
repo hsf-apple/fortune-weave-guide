@@ -1,7 +1,7 @@
 import {guideLoadout} from './loadoutModel.js';
 import React,{useRef,useState} from 'react';
 
-import {ArrowRight,Info,Plus,GripVertical,Trash2,BookOpen,Columns2,X} from 'lucide-react';
+import {ArrowRight,Info,Plus,GripVertical,Trash2,BookOpen,Columns2,X,LayoutGrid,Table2} from 'lucide-react';
 
 import {CLASSES,SKILLS,buildsFor} from './buildData.js';
 
@@ -12,6 +12,7 @@ import {getGoal,rankMet} from './model.js';
 import {Button,Panel,Select,Badge,CheckRow,Dialog,IconButton,SourceLink,Hint,HelpDetails} from './components.jsx';
 
 import ClassTabs from './ClassTabs.jsx';
+import NextStepTable from './NextStepTable.jsx';
 
 
 
@@ -21,7 +22,7 @@ function GuideRoute({guide,onCopy,disabled}){if(!guide.stages.length)return <p c
 
 
 
-export default function Planner({mode,character,member,build,context,recruited,onPatch,onDetails,onStats,onEdit,onAchievement,selectedClass,onSelectClass,onCompare=()=>{}}){
+export default function Planner({mode,character,member,build,context,recruited,onPatch,onDetails,onStats,onEdit,onAchievement,selectedClass,onSelectClass,onCompare=()=>{},layout='cards',onLayoutChange=()=>{}}){
 
  const guides=buildsFor(character.id),goal=getGoal(build,member,context,CLASSES);
 
@@ -85,13 +86,13 @@ export default function Planner({mode,character,member,build,context,recruited,o
 
  {mode==='overview'?<div className="glance-view">
 
-  <div className="plan-heading"><div><h2>{member.customPlan?.role||'Your custom build'}</h2></div><Button onClick={onEdit}>Edit plan <ArrowRight size={16}/></Button></div>
+  <div className="plan-heading next-step-toolbar"><div><h2>{member.customPlan?.role||'Your custom build'}</h2></div><div className="next-step-toolbar-actions"><div className="next-step-layout-toggle" role="group" aria-label="Next steps layout"><button type="button" aria-pressed={layout==='cards'} onClick={()=>onLayoutChange('cards')}><LayoutGrid size={15}/> Cards</button><button type="button" aria-pressed={layout==='table'} onClick={()=>onLayoutChange('table')}><Table2 size={15}/> Table</button></div><Button onClick={onEdit}>Edit plan <ArrowRight size={16}/></Button></div></div>
 
-  <ClassTabs stages={stages} member={member} selected={viewId} onSelect={onSelectClass}/>
+  {layout==='cards'&&<ClassTabs stages={stages} member={member} selected={viewId} onSelect={onSelectClass}/>}
 
-  {viewClass?<><div className="stage-preview-heading"><div><span className="eyebrow">{viewId===goal?.cid?'YOUR NEXT STEP':'CLASS PREVIEW'}</span><h2>{viewClass.name}</h2></div><Button onClick={()=>onDetails(viewId)}>Class details <ArrowRight size={16}/></Button></div><div className="action-board"><section><h2>Training targets</h2>{viewClass.uncertainty&&<p className="catalog-uncertainty">{viewClass.uncertainty}</p>}{Object.entries(viewClass.requirements).map(([skill,target])=><div className="training-action" key={skill}><strong>{SKILLS[skill]}</strong><span>{member.ranks[skill]||'Unknown'} → <b>{target}</b></span><em>{rankMet(member.ranks[skill],target)?'Ready':'Train next'}</em></div>)}{!Object.keys(viewClass.requirements).length&&<p>{viewClass.unlockNote||'Follow the special class unlock.'}</p>}<button className="text-link mt-6" onClick={onStats}>Update your ranks <ArrowRight size={15}/></button></section><section><h2>Certification</h2>{viewClass.noExam?<p>Special unlock</p>:<div className="target-facts"><Badge>Level {viewClass.idealLevel||'—'}</Badge>{viewClass.renown&&<Badge>Renown {viewClass.renown}</Badge>}<Hint label="Certification targets">Recommended targets. Check the actual exam requirements in-game.</Hint></div>}{['Master','Divine'].includes(viewClass.tier)&&context.part!=='III'&&<Badge>Part III target</Badge>}<CheckRow label="Class unlocked" checked={member.certified[viewId]} disabled={!recruited} onChange={v=>onAchievement(viewId,'certified',v)}/><button className="text-link mt-6" onClick={()=>onDetails(viewId)}>Exam & mastery details <ArrowRight size={15}/></button></section></div></>:<Panel className="p-8"><h2>Create your first plan</h2><Button className="mt-5" onClick={onEdit}>Edit plan <Plus size={16}/></Button></Panel>}
+  {layout==='table'&&stages.length?<NextStepTable stages={stages} member={member} context={context} onDetails={onDetails} onStats={onStats}/>:viewClass?<><div className="stage-preview-heading"><div><span className="eyebrow">{viewId===goal?.cid?'YOUR NEXT STEP':'CLASS PREVIEW'}</span><h2>{viewClass.name}</h2></div><Button onClick={()=>onDetails(viewId)}>Class details <ArrowRight size={16}/></Button></div><div className="action-board"><section><h2>Training targets</h2>{viewClass.uncertainty&&<p className="catalog-uncertainty">{viewClass.uncertainty}</p>}{Object.entries(viewClass.requirements).map(([skill,target])=><div className="training-action" key={skill}><strong>{SKILLS[skill]}</strong><span>{member.ranks[skill]||'Unknown'} → <b>{target}</b></span><em>{rankMet(member.ranks[skill],target)?'Ready':'Train next'}</em></div>)}{!Object.keys(viewClass.requirements).length&&<p>{viewClass.unlockNote||'Follow the special class unlock.'}</p>}<button className="text-link mt-6" onClick={onStats}>Update your ranks <ArrowRight size={15}/></button></section><section><h2>Certification</h2>{viewClass.noExam?<p>Special unlock</p>:<div className="target-facts"><Badge>Level {viewClass.idealLevel||'—'}</Badge>{viewClass.renown&&<Badge>Renown {viewClass.renown}</Badge>}<Hint label="Certification targets">Recommended targets. Check the actual exam requirements in-game.</Hint></div>}{['Master','Divine'].includes(viewClass.tier)&&context.part!=='III'&&<Badge>Part III target</Badge>}<CheckRow label="Class unlocked" checked={member.certified[viewId]} disabled={!recruited} onChange={v=>onAchievement(viewId,'certified',v)}/><button className="text-link mt-6" onClick={()=>onDetails(viewId)}>Exam & mastery details <ArrowRight size={15}/></button></section></div></>:<Panel className="p-8"><h2>Create your first plan</h2><Button className="mt-5" onClick={onEdit}>Edit plan <Plus size={16}/></Button></Panel>}
 
-  <section className="personal-goals"><div className="plan-heading"><h2>Personal goals</h2><button className="text-link" onClick={onEdit}>Add a goal <Plus size={15}/></button></div>{member.customPlan?.tasks?.length?member.customPlan.tasks.map(t=><CheckRow key={t.id} label={t.label} checked={t.done} disabled={!recruited} onChange={done=>edit({tasks:member.customPlan.tasks.map(x=>x.id===t.id?{...x,done}:x)})}/>):<p className="text-muted">No personal goals yet.</p>}</section>
+  {layout==='cards'&&<section className="personal-goals"><div className="plan-heading"><h2>Personal goals</h2><button className="text-link" onClick={onEdit}>Add a goal <Plus size={15}/></button></div>{member.customPlan?.tasks?.length?member.customPlan.tasks.map(t=><CheckRow key={t.id} label={t.label} checked={t.done} disabled={!recruited} onChange={done=>edit({tasks:member.customPlan.tasks.map(x=>x.id===t.id?{...x,done}:x)})}/>):<p className="text-muted">No personal goals yet.</p>}</section>}
 
  </div>:<div className={comparison?'planner-compare':''}>{editor}{comparison&&<aside className="comparison-reference"><div className="plan-heading"><div><span className="eyebrow">REFERENCE · {SOURCES[comparison.source]?.name}</span><h2>{comparison.name}</h2></div><IconButton label="Close comparison" onClick={stopCompare}><X size={20}/></IconButton></div><p className="text-muted">Copy individual classes with + while editing your own plan on the left.</p><GuideRoute guide={comparison} disabled={!recruited} onCopy={{has:id=>stages.includes(id),add:copyClass}}/><GuideNotes guide={comparison} onPreview={id=>setPending(id)}/><Button variant="primary" disabled={!recruited} className="mt-6" onClick={()=>setPending(comparison.id)}>Preview full override <ArrowRight size={16}/></Button></aside>}</div>}
 
