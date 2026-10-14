@@ -370,3 +370,5 @@
 .picker-portrait-wrap {position:relative}
 .picker-footer {gap:12px}
 .picker-footer>span {flex:1}
+
+.roster-next-actions{margin:0;padding-left:16px;display:grid;gap:5px}
