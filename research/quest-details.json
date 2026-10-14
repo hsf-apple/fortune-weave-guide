@@ -1,0 +1,1756 @@
+{
+  "1583493": {
+    "requirements": null,
+    "location": "Crying Girl, Niraga Mine",
+    "deadlines": {
+      "cai": "2/28",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "550 Gold 100 Renown"
+  },
+  "1584636": {
+    "requirements": null,
+    "location": "Traveler with Medicine, Granada Fort Ruins",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": "5/7"
+    },
+    "rewards": "・ Baal Pike 600 Gold 30 Renown"
+  },
+  "1584637": {
+    "requirements": null,
+    "location": "Capital Soldier, Valeri Gorge",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": "5/7"
+    },
+    "rewards": "・ Yarc Meat 600 Gold 30 Renown"
+  },
+  "1584638": {
+    "requirements": null,
+    "location": "Troubled Woman, Dagsion",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": "5/7"
+    },
+    "rewards": "・ Mane Ornament 600 Gold 30 Renown"
+  },
+  "1584639": {
+    "requirements": null,
+    "location": "Mercenary Who Needs Smithing Stones, Niraga Mine",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": null
+    },
+    "rewards": "600 Gold 30 Renown"
+  },
+  "1584640": {
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・Vulnerary"
+  },
+  "1584641": {
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Wooden Sword"
+  },
+  "1584642": {
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Sand-Boar Meat 10 Renown"
+  },
+  "1584643": {
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Ginji 10 Renown"
+  },
+  "1584644": {
+    "requirements": null,
+    "location": "Bulletin Board, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Southern Ghosh 10 Renown"
+  },
+  "1584645": {
+    "review": "No standard quest information table"
+  },
+  "1584646": {
+    "requirements": "Requires Renown Lv. 3",
+    "location": "Headhunter, Rubess Forest",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Birdbane 6000 Gold 150 Renown"
+  },
+  "1586754": {
+    "requirements": null,
+    "location": "Old Sunset Watcher, Magnus Plateau",
+    "deadlines": {
+      "cai": "2/28",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "550 Gold 130 Renown"
+  },
+  "1586755": {
+    "requirements": null,
+    "location": "Angry Boy, Rolling Breeze Hill",
+    "deadlines": {
+      "cai": "2/28",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "550 Gold 130 Renown"
+  },
+  "1586756": {
+    "requirements": null,
+    "location": "Worried Grandmother, Dagsion",
+    "deadlines": {
+      "cai": "3/7",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "1500 Gold 100 Renown"
+  },
+  "1586757": {
+    "requirements": null,
+    "location": "Abandoned-Real-Estate Enthusiast, Forsaken Lakehouse",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "1500 Gold 130 Renown"
+  },
+  "1586758": {
+    "requirements": null,
+    "location": "Shopkeeper, Dagsion",
+    "deadlines": {
+      "cai": "4/10",
+      "dietrich": "4/30",
+      "theodora": "3/21",
+      "leda": "5/7"
+    },
+    "rewards": "1500 Gold 100 Renown"
+  },
+  "1586759": {
+    "requirements": null,
+    "location": "Lovesick Man, Dagsion",
+    "deadlines": {
+      "cai": "9/1",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2000 Gold 200 Renown"
+  },
+  "1586760": {
+    "requirements": null,
+    "location": "Old Former Soldier, Collapsed Fort",
+    "deadlines": {
+      "cai": "7/9",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2000 Gold 100 Renown"
+  },
+  "1586761": {
+    "requirements": null,
+    "location": "Woman with Broom, Dagsion",
+    "deadlines": {
+      "cai": "5/20",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2000 Gold 180 Renown"
+  },
+  "1586762": {
+    "requirements": null,
+    "location": "Angry Vandahl Merchant, Napier Woods",
+    "deadlines": {
+      "cai": "5/20",
+      "dietrich": "05/28",
+      "theodora": "4/20",
+      "leda": "5/28"
+    },
+    "rewards": "・ Shem Yam ・ Desert Millet 1000 Gold 50 Renown"
+  },
+  "1586763": {
+    "requirements": null,
+    "location": "Cheering Spectator, Yaaman",
+    "deadlines": {
+      "cai": "7/9",
+      "dietrich": "06/15",
+      "theodora": "5/28",
+      "leda": "6/28"
+    },
+    "rewards": "・Linking Rock 800 Gold 50 Renown"
+  },
+  "1586764": {
+    "requirements": null,
+    "location": "Concerned Priest, Sunset Fortress",
+    "deadlines": {
+      "cai": "7/9",
+      "dietrich": "06/15",
+      "theodora": "5/28",
+      "leda": "6/28"
+    },
+    "rewards": "・Black-Magic Manual 1000 Gold 50 Renown"
+  },
+  "1586782": {
+    "requirements": null,
+    "location": "Vegetable Merchant, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2,500 Gold 200 Renown"
+  },
+  "1586783": {
+    "requirements": null,
+    "location": "Blacksmith, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・ Smithing Stone 10 Renown"
+  },
+  "1590374": {
+    "requirements": null,
+    "location": "Kumos, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 100 Renown"
+  },
+  "1590375": {
+    "requirements": null,
+    "location": "Stockpile Clerk, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 300 Renown"
+  },
+  "1590376": {
+    "requirements": null,
+    "location": "Anatolia, Pale Raven's Perch",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/17",
+      "theodora": null,
+      "leda": "10/17"
+    },
+    "rewards": "・Electron Agitator 20000 Gold 150 Renown"
+  },
+  "1590377": {
+    "requirements": null,
+    "location": "Fabio, Shadowy Cave",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/1"
+    },
+    "rewards": "・ Salamander 20000 Gold 150 Renown"
+  },
+  "1590378": {
+    "requirements": null,
+    "location": "Cai, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "10/22"
+    },
+    "rewards": "・Gem Box 20000 Gold 150 Renown"
+  },
+  "1590379": {
+    "requirements": null,
+    "location": "Orchel, Fort Galcar",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Healing Staff 20000 Gold 150 Renown"
+  },
+  "1590380": {
+    "requirements": null,
+    "location": "Wealthy Man's Servant, Sunlit Garden",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Fodlan Tea 2000 Gold 50 Renown"
+  },
+  "1590381": {
+    "requirements": null,
+    "location": "Bug-Hating Soldier, Klytius Plains",
+    "deadlines": {
+      "cai": "9/1",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 100 Renown"
+  },
+  "1590382": {
+    "requirements": null,
+    "location": "Old Husband, Dagsion",
+    "deadlines": {
+      "cai": "9/1",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 130 Renown"
+  },
+  "1590383": {
+    "requirements": null,
+    "location": "Priest Caring for Cats, Dagsion",
+    "deadlines": {
+      "cai": "5/20",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 130 Renown"
+  },
+  "1590384": {
+    "requirements": null,
+    "location": "Soil Surveyor, Ruins of Megrez",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "2000 Gold 50 Renown"
+  },
+  "1590385": {
+    "requirements": "Requires Renown Lv. 8",
+    "location": "Aurora, Fortuna's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・Dragoon 8000 Gold"
+  },
+  "1590386": {
+    "requirements": "Requires Renown Lv. 7",
+    "location": "Castor, Starbirth Garden",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・ Advanced License ・Caladrius"
+  },
+  "1590387": {
+    "requirements": "Requires Renown Lv. 10",
+    "location": "Bertrand, Galen Fort Ruins",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・ Advanced License ・Troubadour"
+  },
+  "1590388": {
+    "review": "No standard quest information table"
+  },
+  "1590389": {
+    "review": "No standard quest information table"
+  },
+  "1590390": {
+    "review": "No standard quest information table"
+  },
+  "1590391": {
+    "requirements": "Requires Renown Lv. 3",
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・Song of Madness 3000 Gold 150 Renown"
+  },
+  "1590392": {
+    "requirements": "Requires Renown Lv. 2",
+    "location": "Headhunter, Niraga Mine",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Soulrend 5000 Gold 150 Renown"
+  },
+  "1590531": {
+    "requirements": "Requires Renown Lv. 4",
+    "location": "Headhunter, Corroios Fort Ruins",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Flowform 7500 Gold 150 Renown"
+  },
+  "1590681": {
+    "requirements": null,
+    "location": "Bonaventure, Purification Shrine",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/15",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Pilum 20000 Gold 150 Renown"
+  },
+  "1590682": {
+    "requirements": null,
+    "location": "Leda, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/8",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Silver Shield 20000 Gold 150 Renown"
+  },
+  "1590683": {
+    "requirements": null,
+    "location": "Talimun, Dragdon Pass",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/12",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Cleansing Blade 20000 Gold 150 Renown"
+  },
+  "1590684": {
+    "requirements": null,
+    "location": "Gabriel, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/17",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "20000 Gold 150 Renown"
+  },
+  "1590685": {
+    "requirements": null,
+    "location": "Anna, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/5",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Orichalcum 20000 Gold 150 Renown"
+  },
+  "1590764": {
+    "requirements": null,
+    "location": "Border Patrolman, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown"
+  },
+  "1590765": {
+    "requirements": null,
+    "location": "Weapon Researcher, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown"
+  },
+  "1590779": {
+    "review": "No standard quest information table"
+  },
+  "1590780": {
+    "review": "No standard quest information table"
+  },
+  "1590781": {
+    "requirements": "Requires Renown Lv. 6",
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "11/27",
+      "leda": null
+    },
+    "rewards": "・Song of Icewater+ 180 Renown"
+  },
+  "1590782": {
+    "requirements": "Requires Renown Lv. 6",
+    "location": "Il-Lara, the Piercer, Dione Fort",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Windpierce ・Guardian 10,000 Gold 150 Renown"
+  },
+  "1590787": {
+    "requirements": null,
+    "location": "Waiting Gladiator, Regia",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Iron Axe 4000 Gold 50 Renown"
+  },
+  "1590788": {
+    "requirements": null,
+    "location": "Unerring Blades, Sonai Pass",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": null
+    },
+    "rewards": "1000 Gold 50 Renown"
+  },
+  "1590789": {
+    "requirements": null,
+    "location": "Esmeralda, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "6/15",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Sea-Spirit Charm 10 Renown"
+  },
+  "1590790": {
+    "requirements": null,
+    "location": "Frightened Priest, Fallen General's Barrows",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Black-Sand Steel 1000 Gold 80 Renown"
+  },
+  "1590791": {
+    "requirements": null,
+    "location": "Homesick Citizen, Aguino",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Pickled Bulbs 2000 Gold 50 Renown"
+  },
+  "1590792": {
+    "requirements": "Requires Renown Lv. 5",
+    "location": "Headhunter, Fort Hayn",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Giantsbane 9000 Gold 150 Renown"
+  },
+  "1590934": {
+    "requirements": null,
+    "location": "Rations Development Officer, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown"
+  },
+  "1590935": {
+    "requirements": null,
+    "location": "Kumos, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown"
+  },
+  "1590937": {
+    "requirements": null,
+    "location": "Attacked Merchant, Moonwatch Pass",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Dates ・ Cadam 1500 Gold 80 Renown"
+  },
+  "1590938": {
+    "requirements": null,
+    "location": "Pest Extermination Organizer, Bugs' Burrow",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "2500 Gold 50 Renown"
+  },
+  "1590939": {
+    "requirements": null,
+    "location": "Spellcaster-Tool Merchant, Secret Altar",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": "10/4",
+      "theodora": "9/16",
+      "leda": "10/15"
+    },
+    "rewards": "・White-Magic Manual 1500 Gold 80 Renown"
+  },
+  "1591043": {
+    "review": "No standard quest information table"
+  },
+  "1591044": {
+    "review": "No standard quest information table"
+  },
+  "1591117": {
+    "requirements": null,
+    "location": "Betenasch Woman, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown"
+  },
+  "1591118": {
+    "requirements": null,
+    "location": "Megaira Merchant, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown"
+  },
+  "1591129": {
+    "requirements": null,
+    "location": "Creek, Axion Gorge",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/4",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 100 Renown"
+  },
+  "1591130": {
+    "requirements": null,
+    "location": "Concerned Hunter, Faun's Forest",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": "10/4",
+      "theodora": "9/16",
+      "leda": "10/15"
+    },
+    "rewards": "・ Melara 4000 Gold 50 Renown"
+  },
+  "1591131": {
+    "requirements": null,
+    "location": "Devout Follower, Port of Pandora",
+    "deadlines": {
+      "cai": "10/23",
+      "dietrich": "11/3",
+      "theodora": "10/15",
+      "leda": "11/16"
+    },
+    "rewards": "・ Eastern Black Silk 6000 Gold 50 Renown"
+  },
+  "1591132": {
+    "requirements": "Requires Renown Lv. 7",
+    "location": "Headhunter, Stoppered Shrine",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Twinblade 10000 Gold 50 Renown"
+  },
+  "1591169": {
+    "requirements": null,
+    "location": "Traveler from Castalia, Hugo Stronghold",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 100 Renown"
+  },
+  "1591170": {
+    "requirements": null,
+    "location": "Carriage Driver, Megaira",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 130 Renown"
+  },
+  "1591171": {
+    "requirements": null,
+    "location": "Lovestruck Fellow, Dagsion",
+    "deadlines": {
+      "cai": "7/9",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 130 Renown"
+  },
+  "1591172": {
+    "requirements": null,
+    "location": "Child Who Wants a Fish, Fina Reef",
+    "deadlines": {
+      "cai": "10/23",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 180 Renown"
+  },
+  "1591233": {
+    "requirements": null,
+    "location": "Concerned Sibling, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 320 Renown"
+  },
+  "1591234": {
+    "requirements": null,
+    "location": "Megaira Restaurateur, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown"
+  },
+  "1591235": {
+    "requirements": null,
+    "location": "Unerring Blades, Cape Damasen",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": null,
+      "theodora": "9/16",
+      "leda": "10/15"
+    },
+    "rewards": "2000 Gold 50 Renown"
+  },
+  "1591272": {
+    "requirements": null,
+    "location": "Vallejo, Pride of Midea, Baina Oasis",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "10/15"
+    },
+    "rewards": "・Dancer's Necklace ・Dancer"
+  },
+  "1591287": {
+    "requirements": null,
+    "location": "Sirocco, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "6/28"
+    },
+    "rewards": "30 Renown"
+  },
+  "1591288": {
+    "review": "No standard quest information table"
+  },
+  "1591289": {
+    "review": "No standard quest information table"
+  },
+  "1591290": {
+    "review": "No standard quest information table"
+  },
+  "1591291": {
+    "requirements": "Requires Renown Lv. 8",
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・Song of Passion+ 200 Renown"
+  },
+  "1591296": {
+    "requirements": "Requires Renown Lv. 10",
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": "11/27"
+    },
+    "rewards": "・Song of Angels ・Ranger ・Troubadour 200 Renown"
+  },
+  "1591309": {
+    "requirements": null,
+    "location": "Parent and Child from Saramis, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown"
+  },
+  "1591310": {
+    "requirements": null,
+    "location": "Forest Chieftain, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown"
+  },
+  "1591311": {
+    "requirements": null,
+    "location": "Villager from Lake Brontes, Lake Brontes",
+    "deadlines": {
+      "cai": "10/23",
+      "dietrich": "11/3",
+      "theodora": "10/15",
+      "leda": "11/6"
+    },
+    "rewards": "・ Shem Yam ・ Redflicker 3000 Gold 80 Renown"
+  },
+  "1591312": {
+    "requirements": null,
+    "location": "Mysterious Noble, Krove Ditch",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・Elixir 2000 Gold 50 Renown"
+  },
+  "1591313": {
+    "requirements": null,
+    "location": "Unerring Blades, Mount Ouranos",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Cullet 3000 Gold 80 Renown"
+  },
+  "1591322": {
+    "requirements": null,
+    "location": "General Senghor's Subordinate, Dagda",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Heavy-Armor Manual ・Riding Manual ・Flying Manual 5000 Gold 100 Renown"
+  },
+  "1591350": {
+    "requirements": "Requires Renown Lv. 8",
+    "location": "Headhunter, Aditi's Cave",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Truesnipe 10000 Gold 150 Renown"
+  },
+  "1591351": {
+    "requirements": "Requires Renown Lv. 9",
+    "location": "Headhunter, Nemea Cavern",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Evilbreak 11000 Gold 150 Renown"
+  },
+  "1591353": {
+    "requirements": null,
+    "location": "Suspicious Knight, Unmanned Storehouse",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/19",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "1000 Gold 30 Renown"
+  },
+  "1591354": {
+    "requirements": null,
+    "location": "Captain Daniel, Unmanned Storehouse",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "9/19",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Specialty License 200 Renown"
+  },
+  "1591516": {
+    "review": "No standard quest information table"
+  },
+  "1591517": {
+    "review": "No standard quest information table"
+  },
+  "1591518": {
+    "review": "No standard quest information table"
+  },
+  "1591519": {
+    "review": "No standard quest information table"
+  },
+  "1591520": {
+    "review": "No standard quest information table"
+  },
+  "1591521": {
+    "review": "No standard quest information table"
+  },
+  "1591539": {
+    "requirements": null,
+    "location": "Kumos, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown"
+  },
+  "1591551": {
+    "requirements": null,
+    "location": "Artisan Blacksmith, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "5500 Gold 350 Renown"
+  },
+  "1591552": {
+    "requirements": null,
+    "location": "Loving Husband, Pyroxene Cave",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・Dew of Protection 3000 Gold 80 Renown"
+  },
+  "1591553": {
+    "requirements": null,
+    "location": "Golem-Hating Soldier, Kurdelind Ruins",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・ Sea-Star Stone 2000 Gold 90 Renown"
+  },
+  "1591554": {
+    "requirements": null,
+    "location": "Idyian Merchant, Libertas Stronghold",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "4000 Gold 100 Renown"
+  },
+  "1591555": {
+    "requirements": null,
+    "location": "Praying Priest, Mulciber Marshlands",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "7000 Gold 130 Renown"
+  },
+  "1591556": {
+    "requirements": null,
+    "location": "High-Quality-Food Merchant, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 200 Renown"
+  },
+  "1591578": {
+    "requirements": null,
+    "location": "Seteth, Mount Ouranos",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1591579": {
+    "requirements": null,
+    "location": "Esmeralda, Cape Damasen",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1592294": {
+    "review": "No standard quest information table"
+  },
+  "1592295": {
+    "review": "No standard quest information table"
+  },
+  "1592296": {
+    "review": "No standard quest information table"
+  },
+  "1592297": {
+    "requirements": null,
+    "location": "Ultand, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1592298": {
+    "requirements": null,
+    "location": "Female Servant, Dagsion",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "4000 Gold 130 Renown"
+  },
+  "1592303": {
+    "requirements": null,
+    "location": "Coin Collector, Giant's-Print Fort",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Luxury Weapon Crate 2000 Gold 80 Renown"
+  },
+  "1592304": {
+    "requirements": null,
+    "location": "Astronomer Priest, Bau-Caller's Cape",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・White-Magic Manual 3000 Gold 50 Renown"
+  },
+  "1592368": {
+    "requirements": null,
+    "location": "Fresh-Vegetable Merchant, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2500 Gold 200 Renown"
+  },
+  "1592369": {
+    "requirements": null,
+    "location": "Town Gossip, Dagsion",
+    "deadlines": {
+      "cai": "10/15",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 100 Renown"
+  },
+  "1592370": {
+    "requirements": null,
+    "location": "Vigilant Soldier, Bran Plains",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 130 Renown"
+  },
+  "1592941": {
+    "requirements": null,
+    "location": "Pegasus-Seeking Mercenary, Pegasi's Peak",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "4000 Gold 130 Renown"
+  },
+  "1592989": {
+    "requirements": null,
+    "location": "Olympia, Daybreak Plains",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1592990": {
+    "requirements": null,
+    "location": "Olympia, Baina Oasis",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1592991": {
+    "requirements": null,
+    "location": "Olympia, Green-Crystal Caves",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1592992": {
+    "requirements": null,
+    "location": "Passionate Woman, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "7000 Gold 130 Renown"
+  },
+  "1592993": {
+    "requirements": null,
+    "location": "Temple Soldier, Headsman's Rock",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "7000 Gold 130 Renown"
+  },
+  "1593151": {
+    "requirements": "Requires Renown Lv. 10",
+    "location": "Headhunter, Iapetus Cavern",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Hidden Bladerule ・Ranger 12000 Gold 150 Renown"
+  },
+  "1593334": {
+    "requirements": null,
+    "location": "Arena Builder, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 100 Relief Points"
+  },
+  "1593335": {
+    "requirements": null,
+    "location": "Inn Worker, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "2000 Gold 100 Relief Points"
+  },
+  "1593336": {
+    "requirements": null,
+    "location": "Hopeful Priest, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "10000 Gold 100 Relief Points"
+  },
+  "1593337": {
+    "requirements": null,
+    "location": "Jurah, Jurah's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Valkyrium 10000 Gold 100 Relief Points"
+  },
+  "1593338": {
+    "requirements": null,
+    "location": "Smyrnos, Smyrnos's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・High Savant 10000 Gold 100 Relief Points"
+  },
+  "1593339": {
+    "requirements": null,
+    "location": "Credna, Credna's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Great Knight 10000 Gold 100 Relief Points"
+  },
+  "1593340": {
+    "requirements": null,
+    "location": "Mars, Mars's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Swordmaster 10000 Gold 100 Relief Points"
+  },
+  "1593341": {
+    "requirements": null,
+    "location": "Kalla, Kalla's Temple",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Bow Knight 10000 Gold 100 Relief Points"
+  },
+  "1593342": {
+    "requirements": null,
+    "location": "Centurio, Elissa Pass",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "3000 Gold 100 Relief Points"
+  },
+  "1593343": {
+    "requirements": null,
+    "location": "Injured Elephant Rider, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Saramis War Elephant 10000 Gold 50 Relief Points"
+  },
+  "1593513": {
+    "requirements": null,
+    "location": "Inn Worker, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 100 Relief Points"
+  },
+  "1593514": {
+    "requirements": null,
+    "location": "Arena Builder, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "30000 Gold 100 Relief Points"
+  },
+  "1593515": {
+    "requirements": null,
+    "location": "Aurora, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・War Monk 10000 Gold 100 Relief Points"
+  },
+  "1594121": {
+    "requirements": null,
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Luxury Weapon Crate ・ Bitter Leaves ・ Wonder Leaves ・Craft Smithy Box ・Gem Box ・Song of Icewater++ 20000 Gold 50 Relief Points"
+  },
+  "1594122": {
+    "requirements": null,
+    "location": "Tavern Owner, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Bitter Leaves ・ Wonder Leaves ・Iron Smithy Box ・Ring Crate ・Craft Smithy Box ・Da Mina Smithy Box ・Song of Passion++ 20000 Gold 50 Relief Points"
+  },
+  "1594576": {
+    "requirements": "Requires Renown Lv. 7",
+    "location": "Theater Reception, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Simple Pastries 10 Renown"
+  },
+  "1594577": {
+    "requirements": "Requires Renown Lv. 8",
+    "location": "Thermae Reception, Dagsion",
+    "deadlines": {
+      "cai": "11/27",
+      "dietrich": "11/27",
+      "theodora": "10/24",
+      "leda": "11/27"
+    },
+    "rewards": "・ Young Ghosh 10 Renown"
+  },
+  "1594955": {
+    "requirements": null,
+    "location": "Worried Tavern Employee, Fina",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/3",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Crimson Ghosh 50 Renown"
+  },
+  "1594956": {
+    "requirements": null,
+    "location": "Suspicious Knight, Muzura Death Cave",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "10/4",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "5000 Gold 30 Renown"
+  },
+  "1594957": {
+    "requirements": null,
+    "location": "Boy Freed From Painting, Benetnasch",
+    "deadlines": {
+      "cai": "10/23",
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Dew of Peace 100 Renown"
+  },
+  "1594958": {
+    "requirements": null,
+    "location": "Suspicious Knight, Iapetus Cavern",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Haze Badge"
+  },
+  "1594959": {
+    "requirements": null,
+    "location": "Captain Daniel, Merak Pass",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "11/6",
+      "leda": null
+    },
+    "rewards": "・ Wootz Steel 3000 Gold 30 Renown"
+  },
+  "1594960": {
+    "requirements": null,
+    "location": "Robbed Spectator, Showdown Square",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "3/21",
+      "leda": null
+    },
+    "rewards": "・Vulnerary 1000 Gold 30 Renown"
+  },
+  "1594961": {
+    "requirements": null,
+    "location": "Kinkara, Wodan Pass",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "4/30",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・Vulnerary 500 Gold 30 Renown"
+  },
+  "1594962": {
+    "requirements": null,
+    "location": "Concerned Merchant, Heretics' Cave",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "4/20",
+      "leda": null
+    },
+    "rewards": "・Lucky Coin 30 Renown"
+  },
+  "1594963": {
+    "requirements": null,
+    "location": "Trader of Insect Pearls, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "3/7",
+      "leda": null
+    },
+    "rewards": "5000 Gold 30 Renown"
+  },
+  "1594964": {
+    "requirements": null,
+    "location": "Trader of Insect Pearls, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "4/20",
+      "leda": null
+    },
+    "rewards": "・ Pongo ・ Wun Fruit 8000 Gold 30 Renown"
+  },
+  "1594965": {
+    "requirements": null,
+    "location": "Trader of Insect Pearls, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "9/16",
+      "leda": null
+    },
+    "rewards": "・ Thunderstone 10000 Gold 50 Renown"
+  },
+  "1594966": {
+    "requirements": null,
+    "location": "Flamma-Studying Mage, Fallen General's Barrows",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "5/28",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "TBD 30 Renown"
+  },
+  "1594967": {
+    "requirements": null,
+    "location": "Aguino Villager, Lyoshan Fort",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "5/28",
+      "leda": null
+    },
+    "rewards": "・ Jyoppa 2000 Gold 30 Renown"
+  },
+  "1594968": {
+    "requirements": null,
+    "location": "Man Craving a Familiar Dish, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "6/15",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Sunstone 3000 Gold 80 Renown"
+  },
+  "1594969": {
+    "requirements": null,
+    "location": "Royu the Stone Researcher, Cougar Woodlands",
+    "deadlines": {
+      "cai": "9/11",
+      "dietrich": "9/19",
+      "theodora": "7/31",
+      "leda": "9/1"
+    },
+    "rewards": "・ Tempest Bow 80 Renown"
+  },
+  "1594970": {
+    "requirements": null,
+    "location": "Wealthy Garum Lover, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "7/31",
+      "leda": null
+    },
+    "rewards": "・Concoction 8000 Gold 100 Renown"
+  },
+  "1594971": {
+    "requirements": null,
+    "location": "Weapons Dealer, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・ Torment Grass 20000 Gold 100 Renown"
+  },
+  "1594972": {
+    "requirements": null,
+    "location": "Boy Freed From Painting, Ribeira",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Candy Crystals 1000 Gold 50 Renown"
+  },
+  "1594973": {
+    "requirements": null,
+    "location": "Mystery Chaser, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": "10/24",
+      "leda": null
+    },
+    "rewards": "・ Morfis Almanac 5000 Gold 80 Renown"
+  },
+  "1594974": {
+    "requirements": null,
+    "location": "Solel Temple Priest, Dagsion",
+    "deadlines": {
+      "cai": null,
+      "dietrich": "11/27",
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": "・ Saraminian Sweets ・ Flower Painting 120 Renown"
+  },
+  "1603655": {
+    "requirements": null,
+    "location": "Sirocco, Atla Peak",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1603656": {
+    "requirements": null,
+    "location": "Jester, Dada Plains",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1603657": {
+    "requirements": null,
+    "location": "Jester, Fort Theed",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1603658": {
+    "requirements": null,
+    "location": "Jester, Whispering Rock",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1603659": {
+    "requirements": null,
+    "location": "Ludia, Callianeira Port",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  },
+  "1603660": {
+    "requirements": null,
+    "location": "Peter, Mount Aegina",
+    "deadlines": {
+      "cai": null,
+      "dietrich": null,
+      "theodora": null,
+      "leda": null
+    },
+    "rewards": null
+  }
+}

@@ -4,3 +4,6 @@ dist/
 public/
 .sites-runtime/
 .npm-cache/
+
+research/quest-pages/
+research/quest-sample.html
