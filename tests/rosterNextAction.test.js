@@ -7,13 +7,22 @@ const classes={target:{name:'Target',requirements:{sword:'C',axe:'C','heavy-armo
 const build={stages:['target']},context={part:'III'};
 function actions(ranks){const member={ranks,certified:{}};return rosterNextAction(getGoal(build,member,context,classes),member,context);}
 test('table shows all three outstanding skills and hides each completed target',()=>{
- assert.deepEqual(actions({sword:'E',axe:'D','heavy-armor':'E'}),['Train Sword E → C','Train Axe D → C','Train Heavy Armor E → C']);
- assert.deepEqual(actions({sword:'C',axe:'B','heavy-armor':'E'}),['Train Heavy Armor E → C']);
- assert.deepEqual(actions({sword:'C',axe:'B','heavy-armor':'C'}),['Check certification in-game']);
+ assert.deepEqual(actions({sword:'E',axe:'D','heavy-armor':'E'}),['Sword E → C','Axe D → C','Heavy Armor E → C']);
+ assert.deepEqual(actions({sword:'C',axe:'B','heavy-armor':'E'}),['Heavy Armor E → C']);
+ assert.deepEqual(actions({sword:'C',axe:'B','heavy-armor':'C'}),[]);
 });
 test('unknown ranks and known training gaps appear together',()=>{
- assert.deepEqual(actions({axe:'D','heavy-armor':'C'}),['Record Sword rank (target C)','Train Axe D → C']);
+ assert.deepEqual(actions({axe:'D','heavy-armor':'C'}),['Sword Unknown → C','Axe D → C']);
 });
 test('alternative exam targets require verification rather than training every alternative',()=>{
- assert.deepEqual(rosterNextAction({class:{uncertainty:'selectable targets'},gaps:[['sword','C'],['axe','C']]},{ranks:{}},context),['Verify exam skill targets']);
+ assert.deepEqual(rosterNextAction({class:{uncertainty:'selectable targets'},gaps:[['sword','C'],['axe','C']]},{ranks:{}},context),[]);
+});
+
+test('column excludes chapter, Renown, unlock and exam actions',()=>{
+ const member={ranks:{sword:'E'},certified:{}};
+ const goal={class:{renown:5,noExam:true},gaps:[['sword','C']],phaseBlocked:true,renownGap:true,levelGap:true};
+ assert.deepEqual(rosterNextAction(goal,member,{part:'I',renown:'1'}),['Sword E → C']);
+ assert.deepEqual(rosterNextAction({...goal,gaps:[]},member),[]);
+ assert.deepEqual(rosterNextAction(null,member),[]);
+ assert.deepEqual(rosterNextAction({complete:true},member),[]);
 });
