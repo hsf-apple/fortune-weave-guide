@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {emptyState,emptyMember,normalize,migrateLegacy,setAchievement,updateMember,getGoal,rankMet} from '../src/model.js';
+import {emptyState,emptyMember,normalize,migrateLegacy,setAchievement,updateMember,getGoal,rankMet,loadState,STORAGE_KEY} from '../src/model.js';
 import {BUILDS,CLASSES} from '../src/buildData.js';
 test('legacy Cai mastery and recruited roster survive migration into independent paths',()=>{
  const migrated=migrateLegacy({path:'cai',revealed:{anatolia:true},paths:{cai:{roster:['guzran'],members:{cai:{progress:{'class:light-cavalry:bolster-health':'Mastered'}}}}}},null);
@@ -9,6 +9,13 @@ test('legacy Cai mastery and recruited roster survive migration into independent
 test('invalid roster entries and saved values are rejected',()=>{
  const s=normalize({activePath:'bad',paths:{cai:{roster:['missing'],members:{cai:{startingDefaults:true,level:-2,ranks:{spear:'Z'},mastered:{bardinger:true}}}}}});
  assert.equal(s.activePath,'cai');assert.equal(s.paths.cai.roster.length,0);assert.equal(s.paths.cai.members.cai.level,'');assert.deepEqual(s.paths.cai.members.cai.ranks,{});assert.equal(s.paths.cai.members.cai.certified.bardinger,true);
+});
+test('the last roster layout survives reload and invalid layouts use cards',()=>{
+ const state={...emptyState(),rosterLayout:'table'};
+ const restored=loadState({getItem:key=>key===STORAGE_KEY?JSON.stringify(state):null});
+ assert.equal(restored.rosterLayout,'table');
+ assert.equal(normalize({...state,rosterLayout:'unknown'}).rosterLayout,'cards');
+ assert.equal(normalize({paths:state.paths}).rosterLayout,'cards');
 });
 test('path edits do not affect another version of the same character',()=>{
  const s=emptyState();s.paths.dietrich.members.cai=emptyMember();const next=updateMember(s,'cai','cai',{ranks:{spear:'A'}});
