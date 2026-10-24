@@ -14,8 +14,8 @@ test('table shows all three outstanding skills and hides each completed target',
 test('unknown ranks and known training gaps appear together',()=>{
  assert.deepEqual(actions({axe:'D','heavy-armor':'C'}),['Sword Unknown → C','Axe D → C']);
 });
-test('alternative exam targets require verification rather than training every alternative',()=>{
- assert.deepEqual(rosterNextAction({class:{uncertainty:'selectable targets'},gaps:[['sword','C'],['axe','C']]},{ranks:{}},context),[]);
+test('alternative exam warnings do not hide outstanding rank targets',()=>{
+ assert.deepEqual(rosterNextAction({class:{uncertainty:'selectable targets'},gaps:[['sword','C'],['axe','C']]},{ranks:{}},context),['Sword Unknown → C','Axe Unknown → C']);
 });
 
 test('column excludes chapter, Renown, unlock and exam actions',()=>{
