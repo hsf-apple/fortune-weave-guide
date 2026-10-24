@@ -3,7 +3,7 @@ import React,{useRef,useState} from 'react';
 
 import {ArrowRight,Info,Plus,GripVertical,Trash2,BookOpen,Columns2,X} from 'lucide-react';
 
-import {CLASSES,SKILLS,buildsFor} from './buildData.js';
+import {CLASSES,SORTED_CLASSES,SKILLS,buildsFor} from './buildData.js';
 
 import {SOURCES} from './sourceData.js';
 
@@ -67,11 +67,11 @@ export default function Planner({mode,character,member,build,context,recruited,o
 
     <button type="button" className="drag-grip" aria-label={`Reorder ${CLASSES[id]?.name}. Use up and down arrows.`} onPointerDown={e=>{if(!recruited)return;e.currentTarget.setPointerCapture(e.pointerId);dragRef.current={from:i,target:i,pointerId:e.pointerId,y:e.clientY,active:false};}} onPointerMove={pointerMove} onPointerUp={pointerEnd} onPointerCancel={()=>{dragRef.current=null;setDragging(null);}} onKeyDown={e=>{if(e.key==='ArrowUp'&&i>0){e.preventDefault();reorder(i,i-1);}if(e.key==='ArrowDown'&&i<stages.length-1){e.preventDefault();reorder(i,i+1);}}}><GripVertical size={21}/></button>
 
-    <span>{String(i+1).padStart(2,'0')}</span><Select label={'Stage '+(i+1)} value={id} onChange={cid=>edit({stages:stages.map((x,n)=>n===i?cid:x).filter((x,n,a)=>a.indexOf(x)===n)})}>{Object.values(CLASSES).map(c=><option key={c.id} value={c.id}>{c.tier} · {c.name}</option>)}</Select><IconButton label={`Delete ${CLASSES[id]?.name} from plan`} onClick={()=>edit({stages:stages.filter((_,n)=>n!==i)})}><Trash2 size={18}/></IconButton>
+    <span>{String(i+1).padStart(2,'0')}</span><Select label={'Stage '+(i+1)} value={id} onChange={cid=>edit({stages:stages.map((x,n)=>n===i?cid:x).filter((x,n,a)=>a.indexOf(x)===n)})}>{SORTED_CLASSES.map(c=><option key={c.id} value={c.id}>{c.tier} · {c.name}</option>)}</Select><IconButton label={`Delete ${CLASSES[id]?.name} from plan`} onClick={()=>edit({stages:stages.filter((_,n)=>n!==i)})}><Trash2 size={18}/></IconButton>
 
    </div>)}</div>
 
-   <Select className="mt-5" label="Add another class" value="" onChange={id=>{if(id)edit({stages:[...stages,id]});}}><option value="">Choose a class…</option>{Object.values(CLASSES).filter(c=>!stages.includes(c.id)).map(c=><option key={c.id} value={c.id}>{c.tier} · {c.name}</option>)}</Select>
+   <Select className="mt-5" label="Add another class" value="" onChange={id=>{if(id)edit({stages:[...stages,id]});}}><option value="">Choose a class…</option>{SORTED_CLASSES.filter(c=>!stages.includes(c.id)).map(c=><option key={c.id} value={c.id}>{c.tier} · {c.name}</option>)}</Select>
 
    <div className="planner-extras"><div className="planner-goals"><h3>Personal goals</h3>{member.customPlan?.tasks?.map(t=><div className="custom-task" key={t.id}><span>{t.label}</span><IconButton label={`Delete goal: ${t.label}`} onClick={()=>edit({tasks:member.customPlan.tasks.filter(x=>x.id!==t.id)})}><Trash2 size={18}/></IconButton></div>)}<form onSubmit={e=>{e.preventDefault();if(task.trim()){edit({tasks:[...(member.customPlan?.tasks||[]),{id:crypto.randomUUID(),label:task.trim(),done:false}]});setTask('');}}}><input aria-label="New personal goal" placeholder="e.g. Master Light Cavalry for its reward" value={task} onChange={e=>setTask(e.target.value)}/><button className="btn btn-secondary" type="submit">Add goal</button></form></div>
 

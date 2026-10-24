@@ -11,6 +11,12 @@ for(const c of SUPPLEMENTAL_CLASSES)CLASSES[c.id]=c;
 // New source comparison exposes a conflict with the older special-unlock record.
 Object.assign(CLASSES.dancer,{requirements:{bow:'B',sword:'B'},idealLevel:35,renown:8,noExam:false,source:'gamewith',url:'https://gamewith.jp/fefw/573025',unlockNote:'Reported unlock: Leda Part I Chapter 9 quest, with wider availability in Part III. Confirm exam, license and assignment in-game.',uncertainty:'GameWith lists Bow B or Sword B as selectable targets, not both mandatory. Older sources describe a special unlock; check the actual exam before training.'});
 
+const CLASS_TIER_ORDER=['Beginner','Specialty','Advanced','Master','Divine'];
+export const SORTED_CLASSES=Object.values(CLASSES).sort((a,b)=>{
+ const tierA=CLASS_TIER_ORDER.indexOf(a.tier),tierB=CLASS_TIER_ORDER.indexOf(b.tier);
+ return (tierA<0?99:tierA)-(tierB<0?99:tierB)||a.name.localeCompare(b.name);
+});
+
 export const BUILDS=Object.fromEntries(Object.entries(routeDefinitions).map(([id,definitions])=>[id,definitions.map(([name,route])=>({
  id:'game8:'+id+':'+slug(name),source:'game8',name,role:ROLES[id],stages:route.map(slug),
  url:facts.routeSource,checked:'12 October 2026',scope:'Beginner through Master',

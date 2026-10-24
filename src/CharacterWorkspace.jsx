@@ -6,7 +6,7 @@ import React,{useEffect,useRef,useState} from 'react';
 import {ArrowLeft,ArrowRight,Check,ChevronRight,Info,Star,BookOpen,GraduationCap,Target,Shield,CheckCircle2,EyeOff} from 'lucide-react';
 import {RANKS,ROLES} from './catalog.js';
 import {SOURCES} from './sourceData.js';
-import {CLASSES,SKILLS,buildsFor,selectedBuild,INNATE,SPELL_MILESTONES} from './buildData.js';
+import {CLASSES,SORTED_CLASSES,SKILLS,buildsFor,selectedBuild,INNATE,SPELL_MILESTONES} from './buildData.js';
 import {EQUIPMENT,STAGE_COACHING} from './equipmentData.js';
 import {getGoal,rankMet,setAchievement,memberCounts} from './model.js';
 import {Button,IconButton,Panel,Select,NumberField,Badge,SourceLink,Portrait,CheckRow,HelpDetails} from './components.jsx';
@@ -29,7 +29,7 @@ export default function CharacterWorkspace({character,path,member,context,recrui
   </aside><div className="workspace-main">
    <div className="workspace-tabs" role="tablist" aria-label="Character guide sections">{[['overview','Next steps'],['planner','Edit plan'],['progress','Class details'],['loadout','Loadout & abilities'],['stats','Character stats']].map(([id,label])=><button type="button" role="tab" key={id} aria-selected={tab===id} id={'tab-'+id} aria-controls={'panel-'+id} onClick={()=>setTab(id)} className={tab===id?'active':''}>{label}</button>)}</div>
    <div className="workspace-content" ref={contentRef} tabIndex={0} role="tabpanel" id={'panel-'+tab} aria-labelledby={'tab-'+tab}>{tab==='stats'&&<div className="stats-page">   <div ref={currentRef}><Panel className="p-5"><div className="section-title"><Target size={17}/><h2>Current character</h2></div>{start?<div className="starting-record-note"><Badge>{start.status}</Badge><HelpDetails label="Starting data & source"><p>{start.note}</p><SourceLink href={start.url}>Starting record source</SourceLink></HelpDetails></div>:<p className="starting-record-note">Starting stats unknown. Enter values from your game.</p>}<fieldset disabled={!recruited} className="space-y-4 mt-5">
-    <Select label="Current class" hint="Selecting a class also marks it certified. Mastery is recorded separately." value={member.currentClass} onChange={cid=>onPatch({currentClass:cid,certified:cid in CLASSES?{...member.certified,[cid]:true}:member.certified})}><option value="">Not recorded</option><option value="Commoner">Commoner</option><option value="Noble">Noble</option>{Object.values(CLASSES).map(c=><option value={c.id} key={c.id}>{c.name}</option>)}</Select>
+    <Select label="Current class" hint="Selecting a class also marks it certified. Mastery is recorded separately." value={member.currentClass} onChange={cid=>onPatch({currentClass:cid,certified:cid in CLASSES?{...member.certified,[cid]:true}:member.certified})}><option value="">Not recorded</option><option value="Commoner">Commoner</option><option value="Noble">Noble</option>{SORTED_CLASSES.map(c=><option value={c.id} key={c.id}>{c.name}</option>)}</Select>
     <NumberField label="Character level (optional)" value={member.level} onChange={level=>onPatch({level})}/>
     <div><h3 className="text-xs text-muted font-medium mb-3">Relevant skill ranks</h3><div className="grid grid-cols-2 gap-3">{Object.keys(SKILLS).map(skill=><Select key={skill} label={SKILLS[skill]} value={member.ranks[skill]} onChange={rank=>onPatch({ranks:{...member.ranks,[skill]:rank}})}><option value="">Unknown</option>{RANKS.slice(1).map(r=><option key={r}>{r}</option>)}</Select>)}</div></div>
    </fieldset></Panel></div>
