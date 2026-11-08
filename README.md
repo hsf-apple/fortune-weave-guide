@@ -1,94 +1,196 @@
 # Fortune's Weave Build Companion
 
-React 19 + Tailwind CSS 4 + Vite, with a charcoal theme and a shared, data-driven character workspace. This is a static browser application; no account or backend is required.
+A browser-based planner for rosters, class routes, character progress, equipment, abilities, and quests across Cai, Dietrich, Theodora, and Leda's paths.
 
-## Local development
+[Open the live companion](https://hsf-apple.github.io/fortune-weave-guide/)
+
+Progress stays in your browser. JSON export/import works without an account. Google Drive backups are optional; the app runs locally or on GitHub Pages without a backend.
+
+## Set up locally
+
+Install [Node.js 22](https://nodejs.org/en/download) and [Git](https://git-scm.com/downloads), then run:
 
 ```sh
-npm install
+git clone https://github.com/hsf-apple/fortune-weave-guide.git
+cd fortune-weave-guide
+npm ci
 npm run dev
 ```
 
-Open http://localhost:4173. `npm run build` produces `dist/`; `npm run preview` serves that production build at the same port. Stop the dev server before starting preview. Run `npm test` for progression, migration and source-switch compatibility checks.
+Open **http://localhost:4173**. Keep the terminal running; press **Ctrl+C** to stop it. If you forked the repository, clone your fork's URL instead.
 
-## Features
+Google setup is not needed to use the planner or local backups. To enable Drive locally, follow [Connect Google Drive](#connect-google-drive-optional).
 
-- Independent rosters and progression for Cai, Dietrich, Theodora and Leda
-- Automatic mandatory members; optional members can be removed and re-added without losing their progress
-- Main-team favourites and roster search
-- Searchable portrait picker, with persistent spoiler reveals and Added state
-- Optional run part, chapter and Renown context
-- Current class, optional character level, and relevant skill ranks
-- Separate certification and mastery records; next goals derived from the selected guide
-- Game8 Beginner-to-Master routes for all 18 mandatory characters, with alternative branches
-- Shared character workspace with progress, loadout/abilities, guide notes and source links
-- Responsive mobile workspace and keyboard-accessible native dialogs
-- Migration from the old browser tracker and original Cai progress on the same origin
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the local development server on port 4173. |
+| `npm test` | Run the backup, Google Drive, and data/model tests. |
+| `npm run build` | Generate the production site in `dist/`. |
+| `npm run preview` | Serve an existing production build on port 4173. |
 
-## Data and shared components
+Stop the development server before starting preview: both use the same port. Use the server URL rather than opening `index.html` directly. Build scripts prepare the required artwork and static files automatically.
 
-The UI contains no per-character page templates:
+## Publish on your own GitHub Pages
 
-- `src/CharacterWorkspace.jsx` renders every character and source guide through the same component.
-- `src/components.jsx` includes reusable portrait, dialog, field and achievement controls.
-- `src/catalog.js` defines characters, path rosters, roles, Game8 branch choices and companion coaching.
-- `src/classData.js` holds source-checked class facts, targets, rewards and uncertainty notes.
-- `src/equipmentData.js` holds sourced weapon examples, requirements and companion training advice.
-- `src/sourceData.js` is the publisher/reference registry.
-- `src/buildData.js` assembles guides from those modules.
-- `src/additionalGuides.js` is the data-only extension point for another publisher's builds.
-- `src/model.js` implements browser-state migration, normalization, rank comparison and next-goal logic.
+1. **Fork this repository** to your GitHub account. A public repository can use GitHub Pages with GitHub Free.
+2. In your fork, open **Actions** and enable workflows if GitHub prompts you.
+3. Open **Settings → Pages → Build and deployment** and select **GitHub Actions** as the source. The repository already includes the deployment workflow; you do not need to generate another one.
+4. If you want Drive backups, complete [Google setup](#connect-google-drive-optional) and add your own client ID to your fork before deploying. See the note below if you want to disable Drive.
+5. Open **Actions → Build and deploy GitHub Pages → Run workflow**, select `main`, and run it.
+6. When the build and deploy jobs succeed, open the site link shown in **Settings → Pages**. A normal project site uses:
 
-To add another publisher, register it in `sourceData.js`, then add a guide object to `additionalGuides.js` using its documented shape. A guide has a unique ID, character ID, source ID, title, class IDs, URL, verification date, role, coaching and loadout. No component duplication is needed. Add genuinely new class facts to `classData.js` with stable class IDs. Known classes keep the same ID across publishers.
+   ```text
+   https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+   ```
 
-Skill ranks, certifications, masteries and compatible milestones belong to the path's character, not to the publisher. Changing sources or branches preserves shared progress; progress for other classes remains available when returning to the original guide. Earning mastery also records certification. Undoing certification clears contradictory mastery and current-class records.
+For later updates, push to your fork's `main` branch. The workflow installs dependencies, runs tests, builds the site, and deploys `dist/`. Relative asset paths and hash navigation support a different repository name without changing Vite's base path. See [GitHub's Pages setup instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) and [workflow guide](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
-## Evidence and limits
+**About the included Google client ID:** [.github/workflows/pages.yml](.github/workflows/pages.yml) contains the original site's public client ID as a fallback. Fork owners should configure their own `GOOGLE_DRIVE_CLIENT_ID` repository variable; the original Google application does not automatically authorize your site.
 
-Game8's recommendations page is marked work in progress. Class data was checked against individual Game8 pages on 12 October 2026, but not independently verified in-game. Ideal levels are recommendations. Multiple listed secondary weapon targets do not always clarify AND/OR, so the UI flags them and never calculates an exam pass chance. Routes cover Beginner through Master; Divine classes and late-game merging are outside this version.
+To publish **without Google Drive**, change the workflow's existing `VITE_GOOGLE_CLIENT_ID` line to the following and leave the repository variable unset:
 
-Build names, roles, equipment suggestions and training coaching are companion interpretations, distinct from source class recommendations. Serenes Forest supplies ability context; a Tialla Physic milestone is labelled community evidence. Some claims remain uncertain. Full spell learnsets and exact equipment calculators are not included.
+```yaml
+VITE_GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_DRIVE_CLIENT_ID }}
+```
 
-The catalog contains 63 named characters. The 18 mandatory characters have prebuilt guides; remaining characters support manual class/rank tracking. Portraits are unavailable for Eshmel, Hong Hua and Troy and use explicit placeholders after Reveal. Mandatory roster assignments and original artwork were gathered from the owner's reference at https://ffrecruiter.lovable.app/. Character artwork belongs to Nintendo / Intelligent Systems and its respective rights holders. Optimized portrait copies are in `assets/portraits`; the original images are retained.
+This removes the fallback for your fork. Planner features and JSON backup/import remain available.
 
-There are no recruitment costs, conditions, or recruitment filters. Adding means recruited. The picker does not validate route availability. Use **Navigation → Backup & restore** to export a dated JSON file containing all four paths, rosters, character progress, custom plans/tasks/notes, loadouts (including manual entries), quests, and spoiler settings. Import validates the file and previews path counts and its export date before an explicit confirmation replaces all four paths. Export your current progress first if you want to keep it. A failed import or browser-storage write leaves the active save unchanged. Backups can move saves between devices, browsers, localhost and GitHub Pages. Keep the file outside browser storage, such as in Downloads or by uploading it to Google Drive yourself, and export again as you progress. Clearing site data removes browser saves; restoration requires a previously exported backup. Optional Google Drive backups use manual Save/Load buttons when the owner configures an OAuth client; normal edits do not sync to Drive. Each Save creates a dated copy; Load previews a chosen backup before restoring. See [Google Drive setup](docs/google-drive-setup.md) for the required Google project, client ID and GitHub Actions variable. Only companion backup format 1 with save version 2 is accepted; malformed, incomplete, unsupported or oversized (over 5 MB) files are rejected. The old `cai.html` reference is retained in the production output; its subsequent standalone updates remain separate from the new tracker after migration.
+## Connect Google Drive (optional)
 
-## GitHub Pages
+The site maintainer completes this setup once. People using that site then connect their own Google accounts; each person's backups go to their own Drive. You do not need to manually replace user access tokens.
 
-`.github/workflows/pages.yml` installs locked dependencies, runs tests, builds `dist/`, and deploys with GitHub Pages Actions. The repository's Pages source should be **GitHub Actions**. Relative build paths and hash navigation support the repository subdirectory without server rewrites.
+### 1. Create a Google project
 
-Pushes to `main` publish the tested production build. The public Google OAuth client ID is configured in the workflow; the `GOOGLE_DRIVE_CLIENT_ID` repository variable can override it. The header exposes Google connection controls and a manual Sync button for connected users.
+Open [Google Cloud Console](https://console.cloud.google.com/), create a project, and give it a recognizable name, such as **Fortune Weave Companion**. Under **APIs & Services → Library**, enable **Google Drive API**.
 
-## Planner redesign (review branch)
+This integration needs a public OAuth web client ID. It does not use an API key, client secret, service account, or backend token service.
 
-`codex/gamer-planner-layout` uses the dark palette with an open party page and hidden navigation drawer. Path tabs sit above the roster. The shared character workspace separates Next steps, Edit plan, Class details, Loadout & abilities, Character stats, and Guide notes.
+### 2. Set up the consent screen
 
-Each member may store `customPlan` with an ordered class route, role, notes, and personal checklist. Reference replacement asks for confirmation before clearing these custom fields. It does not clear current class, level, ranks, certifications, masteries, or equipment progress. Source guide data remains separate from the user's plan. This iteration is awaiting visual review; tests are deferred at the user's request.
+In **Google Auth Platform**:
 
-### Reference-first custom planning
+1. Open **Branding / Get started** and enter your app name, support email, and developer contact email.
+2. Choose **External** for personal Google accounts. Start in **Testing**, then add your account and other testers under **Audience → Test users**.
+3. Under **Data Access → Add or remove scopes**, add only:
 
-New members start with an empty custom plan. Selecting a reference opens a route preview; applying copies it into the custom plan rather than making the user track the guide itself. The preview can expand into a side-by-side editor with per-class copy controls. Full override clears plan classes, role, notes and personal tasks while preserving character records and earned progress. Guide notes belong to the reference panel. Shared `ClassTabs.jsx` drives class selection in both Next steps and Class details. The class drag grip supports mouse/touch pointer dragging and arrow keys.
+   ```text
+   https://www.googleapis.com/auth/drive.appdata
+   ```
 
-`startingData.js` holds path-specific sourced starting records. Current source coverage is partial: Cai and Tialla have reported Level 1 Commoner defaults on Cai's path; Dietrich has a reported Noble class. Starting ranks and other missing records remain unknown. All reported defaults are flagged as not independently verified. Existing user-entered values are retained.
+4. Save the configuration.
 
-### Independent loadout and ability planner
+Follow [Google's consent screen guide](https://developers.google.com/workspace/guides/configure-oauth-consent) if labels differ. This [non-sensitive scope](https://developers.google.com/workspace/drive/api/guides/appdata) gives access to the app's hidden backup folder, rather than your general Drive files.
 
-`LoadoutWorkspace.jsx` renders all characters through a shared component. Each path/member owns a `loadout` record independent of `customPlan`. Equipment and ability goals, recorded ownership/learning, current equipped choices, and manual catalog entries persist separately. Class-plan changes and reset do not clear these fields. Equipment-plan and ability-goal resets clear only their goal lists; current choices and recorded ownership/learning remain.
+### 3. Create a web client ID
 
-Class-profile checks are reported data, not an exact legality engine. The catalog supports weapons, a documented spell milestone, manual spells/equipment/mounts, all existing class mastery rewards, character-specific upgrades/diadems, and reported skill-rank/mount-bond abilities. Profile data from the supplied TypeScript files is retained as plain JavaScript in `loadoutCatalog.js`; uncertain acquisition/effects stay labeled. Slot limits, mount species rules, and complete item/spell coverage are not enforced. Gear previously marked Prepared is migrated to owned entries.
+Open **Google Auth Platform → Clients → Create client** and choose **Web application**. Under **Authorized JavaScript origins**, add the origins you use:
 
-Guide suggestions are explicit per-item copies. A guide override defaults to classes only and offers an explicit checkbox to replace planned equipment/mastery goals as well. Actual equipped selections, owned gear, learned abilities and character stats stay saved. The PR preparation checks pass all 15 data/model regression tests and the production build; visual browser testing remains a separate review.
+| Where you run the app | Origin to register |
+| --- | --- |
+| Local development | `http://localhost` and `http://localhost:4173` |
+| Local IP address | `http://127.0.0.1:4173` |
+| Your GitHub Pages site | `https://YOUR-USERNAME.github.io` |
+| A custom domain | Your exact HTTPS origin, such as `https://planner.example.com` |
 
-### Source coverage (12 October 2026)
+Replace the example username/domain. Origins contain no repository path or `#` route: for `https://alice.github.io/my-planner/`, register `https://alice.github.io`.
 
-The local library contains 411 references across all 63 characters. Game8 English, Game8 Japan, KeenGamer and the source-linked fan encyclopedia each cover the full roster. FortunesWeave.co.uk provides 61 explicit routes; AllThingsHow covers 22 characters and Mobalytics 19 through the reviewed build/team articles. References distinguish full class directions, chosen alternatives, partial training targets and keep-native advice. KeenGamer entries outside the original detailed import are endgame targets, not invented full routes.
+Leave **Authorized redirect URIs** empty for this app's popup token flow. Create the client and copy the full **Client ID** ending in `.apps.googleusercontent.com`. See [Google's web client setup](https://developers.google.com/identity/oauth2/web/guides/get-google-api-clientid).
 
-Data lives in plain JavaScript, using the same character workspace and planner components for every publisher. Publisher filtering derives from actual guide data. Japanese class names map to stable shared IDs. `research/build-source-coverage.json` records coverage and unresolved aliases; `research/source-review-status.json` describes checks and limitations. `scripts/import-guide-coverage.mjs` regenerates the expanded data from short structured research records. The collector is a manual research tool and is never run by the site or build.
+### 4. Add the client ID to the app
 
-Fan encyclopedia references distinguish AI-generated ideas from translated Game8 Japan material. Source agreement is not independent in-game verification. New The Godhand details, fixed-class claims, Divine assignments and class-exam disputes remain explicitly reported. Applying a reference requires an explicit action; empty keep-native advice cannot erase a custom route. Character stats, earned progress and actual loadout stay saved.
+Configure whichever environments you use. Local and GitHub settings are separate.
 
-Equipment and ability coverage remains partial. Unrecorded source suggestions are not interpreted as empty legal loadouts. Starting ranks remain unknown where not documented. No recruitment rules were added. PR preparation passed 15 data/model regression tests and the production build. Source/class-ID consistency and local Vite transforms were also checked. Publishing to GitHub Pages happens after the PR is merged to main.
+**Local development**
 
-### Build decision notes (13 October 2026)
+In the repository folder:
 
-All 411 references receive companion-written role/endpoint labels and decision notes through `guideEditorial.js`. Notes explain team needs, reported training strengths/weaknesses, investment, role changes, useful stopping points, per-class purpose and mastery rewards. Alternative previews retain each publisher’s route and stable IDs. Character skill preferences live in `characterTraining.js`, separate from future combat-stat research. The choice explanations are interpretations of recorded class profiles, not quotations or performance guarantees. Existing saved plans and reference IDs remain intact.
+```sh
+cp .env.example .env.local
+```
+
+Edit `.env.local` and set:
+
+```dotenv
+VITE_GOOGLE_CLIENT_ID=YOUR_FULL_CLIENT_ID.apps.googleusercontent.com
+```
+
+Replace the entire example value with the ID copied from Google, including its numeric prefix. Restart `npm run dev`. If using a production preview, rebuild with `npm run build` before restarting preview. `.env.local` is ignored by Git.
+
+**Your GitHub Pages deployment**
+
+In your fork, open **Settings → Secrets and variables → Actions → Variables → New repository variable**:
+
+| Name | Value |
+| --- | --- |
+| `GOOGLE_DRIVE_CLIENT_ID` | Your complete OAuth web client ID |
+
+Use a repository **variable**, not a secret. Run **Actions → Build and deploy GitHub Pages → Run workflow** again. The workflow embeds the ID at build time; changing a variable alone does not update the published site.
+
+The client ID is public configuration and will appear in the built JavaScript. Never put a client secret or access token in a `VITE_` variable, repository variable, or committed file.
+
+### 5. Test backup and restore
+
+1. Open your local or published site in Chrome or another normal browser tab.
+2. Click **Connect Drive** in the header and authorize an account listed in your Google project's test users. Connecting alone does not create a backup.
+3. Click **Sync** to save the current progress. You can also use **Navigation → Backup & restore → Save to Google Drive**.
+4. Open **Load from Google Drive**, choose a dated backup in the popup, review the preview, and confirm **Restore backup**. Restoring replaces all four paths; export your current progress first if you need to keep it.
+
+Each Save/Sync creates a separate snapshot. Loading and saving happen on button clicks; Sync uploads your current save and does not merge changes from another device.
+
+### 6. Allow users beyond your testers
+
+Publishing on GitHub Pages and publishing your Google OAuth application are separate steps. While Google is in **Testing**, only your listed test users can connect.
+
+For wider use, change the Google application's publishing status to production and complete any review Google requests. Set your own homepage and privacy links in Branding:
+
+```text
+Homepage: https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+Privacy:  https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/privacy.html
+```
+
+Review [privacy.html](privacy.html) and update its maintainer/contact link for your fork before using it as your policy. Follow [Google's branding and domain verification requirements](https://developers.google.com/identity/protocols/oauth2/production-readiness/brand-verification); a non-sensitive scope does not remove separate branding requirements.
+
+## Keep and move your saves
+
+Open **Navigation → Backup & restore** to export a JSON file or import an existing backup. A backup includes all four paths, rosters, plans, progress, notes, loadouts, quests, and spoiler settings. Imports validate the file and require confirmation before replacing your save. Supported backups are limited to 5 MB.
+
+Browser saves belong to a browser profile and site origin. Localhost, your fork, and the original live site have separate saves. Export before changing sites, browsers, devices, or clearing site data; import on the destination site. Clearing browser data cannot be undone without an earlier JSON or Drive backup.
+
+Drive snapshots are hidden from the normal Drive file list and are loaded through the companion. A different Google Cloud application should not be expected to find the original application's backups. Use JSON export/import when moving to your own Google project.
+
+The app remembers that you used Drive, but keeps access tokens only in the current tab's memory. Reloading, closing the tab, or token expiry may require Google authorization again when you click Save, Load, or Reconnect. **Disconnect** clears the local connection preference without deleting cloud backups. See [Drive connection details](docs/google-drive-setup.md) for account switching, retention, and further checks.
+
+## Troubleshooting
+
+| Problem | What to check |
+| --- | --- |
+| `npm` is not found | Install Node.js 22, then reopen your terminal. |
+| Port 4173 is already in use | Stop the other dev/preview server before starting a new one. |
+| GitHub Pages fails or shows a 404 | Enable Actions, select GitHub Actions as the Pages source, and inspect the latest build/deploy jobs. Use the URL in Settings → Pages. |
+| Drive controls are unavailable | Set the full client ID, then restart local development or rebuild/redeploy the published site. |
+| Google reports `origin_mismatch` | Register the exact browser origin in your own web client, including the local port but excluding the repository path. |
+| Google blocks a test account | Add that email to Audience → Test users; check that Drive API is enabled in the same project as the client. |
+| Google popup fails | Allow popups and use a normal browser tab instead of an embedded in-app browser. |
+| Changing `.env.local` did not change GitHub Pages | Set the GitHub repository variable and redeploy; local environment files are not uploaded. |
+| No Drive backups appear | Use the same Google account and Google application that created them. For a different application, transfer a JSON export. |
+| Connection expired | Click Reconnect, Save, or Load to authorize again. No manual token editing is needed. |
+| Save was not confirmed | Check Load for a new snapshot before retrying, to avoid duplicate backups. |
+
+For API quotas and billing terms, consult [Google's current Drive usage policy](https://developers.google.com/workspace/drive/api/guides/limits). This app does not require a paid backend; account storage and service limits still apply.
+
+## Project structure and data
+
+Built with React 19, Tailwind CSS 4, and Vite. Shared components render every path and character.
+
+| Location | Purpose |
+| --- | --- |
+| `src/App.jsx`, `src/CharacterWorkspace.jsx` | Navigation and character planning workspace. |
+| `src/model.js` | Save normalization, migration, and progression logic. |
+| `src/backup.js`, `src/googleDrive.js` | JSON backups and Google authorization/Drive requests. |
+| `src/catalog.js`, `src/classData.js`, `src/buildData.js` | Characters, classes, and reference builds. |
+| `src/sourceData.js`, `src/additionalGuides.js` | Publisher registry and additional reference guides. |
+| `src/LoadoutWorkspace.jsx`, `src/loadoutCatalog.js` | Equipment and ability planning. |
+| `tests/` | Automated checks and a development-only Drive UI fixture. |
+| `.github/workflows/pages.yml` | Test, build, and GitHub Pages deployment. |
+
+The catalog includes 63 characters and 411 reference entries. Source coverage and uncertainty are recorded in `research/build-source-coverage.json` and `research/source-review-status.json`. Guide recommendations and companion-written coaching are planning references, not independently verified in-game guarantees. Equipment, starting records, recruitment rules, and exact class-exam calculations have incomplete coverage. Character artwork belongs to Nintendo / Intelligent Systems and its respective rights holders.
