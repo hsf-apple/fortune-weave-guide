@@ -372,3 +372,83 @@
 .picker-footer>span {flex:1}
 
 .roster-next-actions{margin:0;padding-left:16px;display:grid;gap:5px}
+
+/* Backup and restore */
+.backup-workspace{max-width:1000px;margin:auto}
+.backup-columns{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+.backup-card{padding:26px;min-width:0}
+.backup-card>svg{color:var(--path);margin-bottom:16px}
+.backup-card h2{font-size:22px;font-weight:600;margin-bottom:12px}
+.backup-card p{font-size:14px;line-height:1.8;color:#bbb;margin-bottom:20px}
+.backup-card small{display:block;font-size:12px;color:#aaa;margin-top:10px}
+.backup-card .btn{min-height:42px}
+.backup-file{display:block;font-size:14px}
+.backup-file>span{display:block;margin-bottom:8px}
+.backup-file input{display:block;width:100%;min-width:0;font-size:12px;border:1px solid #555;border-radius:8px;padding:8px;cursor:pointer}
+.backup-file input::file-selector-button{background:#383838;color:#eee;border:0;border-radius:5px;padding:8px;margin-right:10px;cursor:pointer}
+.backup-preview{margin-top:24px;border-top:1px solid #444;padding-top:20px}
+.backup-preview h3{font-size:18px;margin-bottom:10px}
+.backup-preview .backup-filename{overflow-wrap:anywhere;color:#eee;margin-bottom:4px}
+.backup-preview table{width:100%;border-collapse:collapse;font-size:12px;margin:18px 0}
+.backup-preview th,.backup-preview td{padding:10px 6px;text-align:left;border-bottom:1px solid #444}
+.backup-preview thead{color:#aaa}
+.backup-preview th{font-weight:500}
+.backup-preview .backup-replace-note{padding:14px;background:#363126;border-radius:8px;color:#dfcda7;font-size:13px;margin-bottom:8px}
+.backup-preview .check-row strong{font-size:13px;line-height:1.7}
+.backup-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;justify-content:flex-end}
+.backup-workspace .btn:disabled{opacity:.4}
+.backup-error,.backup-success{padding:16px;border-radius:8px;font-size:14px;line-height:1.7;margin-top:20px}
+.backup-error{background:#3b2727;color:#f2bcbc;border:1px solid #714444}
+.backup-success{display:flex;align-items:flex-start;gap:10px;background:#273a30;color:#b9dfc9;border:1px solid #42614f}
+.backup-success svg{flex-shrink:0;margin-top:3px}
+@media(max-width:750px){.backup-columns{grid-template-columns:1fr}.backup-card{padding:20px}.backup-actions .btn{flex:1;justify-content:center}}
+@media(max-height:700px){.sidebar{overflow-y:auto}.sidebar-save{margin-top:24px}}
+
+/* Manual Google Drive backups */
+.drive-backup-card{margin:0 0 24px}
+.drive-heading{display:flex;gap:14px;align-items:flex-start;margin-bottom:18px}
+.drive-heading>svg{color:var(--path);flex-shrink:0;margin-top:2px}
+.drive-heading>div{flex:1;min-width:0}
+.drive-heading h2{margin-bottom:6px}
+.drive-connection{color:#aaa;border:1px solid #555;border-radius:20px;font-size:11px;padding:5px 10px;white-space:nowrap}
+.drive-connection.is-connected{border-color:#42614f;color:#b9dfc9;background:#273a30}
+.drive-actions{display:flex;flex-wrap:wrap;gap:12px}
+.drive-backup-card .drive-progress,.drive-backup-card .drive-last-saved{font-size:12px;margin:14px 0 0;color:#b9dfc9}
+.drive-backup-card .drive-unavailable{margin:0;background:#333;border:1px solid #484848;border-radius:8px;padding:14px;font-size:13px}
+.drive-backup-card>small{margin-top:18px;line-height:1.8}
+.drive-backup-card a{color:#b9dfc9;text-decoration:underline;text-underline-offset:3px}
+.drive-backup-list{display:flex;align-items:flex-end;gap:12px;margin-top:22px}
+.drive-backup-list>.field{flex:1;min-width:0}
+.drive-backup-list select{max-width:100%}
+.drive-backup-card .backup-preview{max-width:650px}
+.drive-load-dialog{width:min(700px,calc(100% - 32px));max-width:none;padding:28px}
+.drive-load-dialog .dialog-heading{align-items:flex-start;gap:16px}
+.drive-load-dialog .dialog-heading h2{font-size:24px}
+.drive-load-dialog .drive-progress{font-size:13px;line-height:1.7;color:#b9dfc9;margin-top:18px}
+.drive-load-dialog .backup-preview>p{font-size:13px;line-height:1.8;color:#bbb;margin-bottom:12px}
+.drive-load-dialog .backup-preview>.backup-replace-note{color:#dfcda7}
+.drive-load-dialog .backup-actions{margin-top:18px}
+.drive-load-dialog .btn{min-height:42px}
+.drive-load-dialog .btn:disabled{opacity:.4}
+.drive-load-dialog .drive-backup-list .field{overflow:hidden}
+@media(max-width:600px){.drive-load-dialog{padding:20px;width:calc(100% - 20px)}.drive-load-dialog .dialog-heading h2{font-size:21px}}
+@media(max-width:600px){.drive-heading{flex-wrap:wrap}.drive-connection{margin-left:40px}.drive-actions>.btn{width:100%;justify-content:center}.drive-backup-list{align-items:stretch;flex-direction:column}}
+
+/* Google Drive controls in the top-right header */
+.topbar{gap:12px}
+.topbar-breadcrumbs{flex:1;min-width:0;white-space:nowrap;overflow:hidden}
+.topbar-breadcrumbs>strong{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.topbar-breadcrumbs>.icon-btn,.topbar-divider{flex-shrink:0}
+.drive-header{display:flex;align-items:center;gap:8px;flex-shrink:0;position:relative;color:#ddd}
+.drive-header-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:34px;padding:6px 11px;border:1px solid #484848;border-radius:8px;background:#292929;font-size:12px;white-space:nowrap}
+.drive-header-button:hover{background:#353535;border-color:#666}
+.drive-header-button:disabled{opacity:.55;cursor:default}
+.drive-header-connection.is-connected{color:#b9dfc9;border-color:#42614f;background:#27332c}
+.drive-header-sync{color:#eee}
+.drive-header-notice{position:absolute;top:calc(100% + 10px);right:0;z-index:30;display:flex;align-items:flex-start;gap:12px;width:max-content;max-width:min(340px,calc(100vw - 32px));padding:12px 14px;border:1px solid #42614f;border-radius:9px;background:#273a30;color:#b9dfc9;font-size:12px;line-height:1.7;box-shadow:0 8px 25px #0004}
+.drive-header-notice.is-error{border-color:#714444;background:#3b2727;color:#f2bcbc}
+.drive-header-notice>button{padding:3px;flex-shrink:0}
+.drive-header .is-spinning{animation:drive-sync-spin 1s linear infinite}
+@keyframes drive-sync-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.drive-header .is-spinning{animation:none}}
+@media(max-width:600px){.topbar-brand,.topbar-divider{display:none}.drive-header{gap:6px}.drive-header-button{padding:6px 8px;font-size:11px}.topbar-breadcrumbs{gap:8px}}

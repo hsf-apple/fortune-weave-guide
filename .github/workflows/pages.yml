@@ -22,6 +22,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+        env:
+          VITE_GOOGLE_CLIENT_ID: ${{ vars.GOOGLE_DRIVE_CLIENT_ID || '526804591398-cg9t9pj24ftp1mn9ohne1dtmpuvk3m4d.apps.googleusercontent.com' }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
