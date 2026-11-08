@@ -1,0 +1,147 @@
+{
+  "checkedOn": "2026-11-09",
+  "scope": "22 named mounts added to the existing Loadout equipment catalog. No interface, state schema, or compatibility logic changes.",
+  "sources": [
+    {
+      "url": "https://yuphastemple.com/mounts/",
+      "coverage": "All 22 names and per-mount facts, including unique mount variants."
+    },
+    {
+      "url": "https://fortunesweave.co.uk/wiki/mounts",
+      "coverage": "Cross-check species, food, bond bonuses, and ability lists; preserves documented disagreements."
+    },
+    {
+      "url": "https://gamewith.jp/fefw/577527",
+      "coverage": "Japanese mount list checked for species, preferred food, and reported bonus/ability disagreements."
+    }
+  ],
+  "notes": [
+    "Stat bonuses and growth modifiers are reported maximum-bond values, not inferred skill-rank requirements.",
+    "Empty requirements objects are intentional: the existing readiness display asks users to verify species/class access.",
+    "English names and translated aliases vary between sources. Black Magonius preserves the legacy black-feathered-maginius ID; Red Meganius preserves red-meganius.",
+    "Other mounted classes, food items, and location names are not separate mount breeds."
+  ],
+  "disagreements": {
+    "wild-ornius": "Dex growth is disputed (5% or 15%); the listed 15% follows the English database and GameWith.",
+    "magonius": "Spawn coverage differs between guides; Headsman's Rock is shared.",
+    "ferghanan-horse": "Growth split is disputed: some sources substitute Spd 5% for Dex 5%.",
+    "dark-pegasus": "Preferred taste is disputed (bitter or spicy); bitter follows GameWith and this database.",
+    "falicorn": "Ability listings differ between guides; the listed names follow the English database.",
+    "red-falicorn": "The second ability is only listed by the English database; confirm in-game.",
+    "red-bau": "Paired Arts-Focus values differ between sources; its exact effect is not assumed here.",
+    "black-bau": "Growth split is disputed (Spd 15% or Dex 15%); ability listings also differ between guides.",
+    "saramis-war-elephant": "Growth bonuses are disputed: GameWith reports 10% in HP, Str, Dex, Def and Res instead. Confirm in-game."
+  },
+  "mounts": [
+    {
+      "id": "wild-ornius",
+      "name": "Wild Ornius",
+      "sourceUrl": "https://yuphastemple.com/?item=wild-ornius"
+    },
+    {
+      "id": "white-ornius",
+      "name": "White Ornius",
+      "sourceUrl": "https://yuphastemple.com/?item=white-ornius"
+    },
+    {
+      "id": "meganius",
+      "name": "Meganius",
+      "sourceUrl": "https://yuphastemple.com/?item=meganius"
+    },
+    {
+      "id": "red-meganius",
+      "name": "Red Meganius",
+      "sourceUrl": "https://yuphastemple.com/?item=red-meganius"
+    },
+    {
+      "id": "magonius",
+      "name": "Magonius",
+      "sourceUrl": "https://yuphastemple.com/?item=magonius"
+    },
+    {
+      "id": "black-feathered-maginius",
+      "name": "Black Magonius (Black-feathered Maginius)",
+      "sourceUrl": "https://yuphastemple.com/?item=black-magonius"
+    },
+    {
+      "id": "wild-horse",
+      "name": "Wild Horse",
+      "sourceUrl": "https://yuphastemple.com/?item=wild-horse"
+    },
+    {
+      "id": "monoceros",
+      "name": "Monoceros",
+      "sourceUrl": "https://yuphastemple.com/?item=monoceros"
+    },
+    {
+      "id": "ferghanan-horse",
+      "name": "Ferghanan Horse",
+      "sourceUrl": "https://yuphastemple.com/?item=ferghanan-horse"
+    },
+    {
+      "id": "black-horse",
+      "name": "Black Horse",
+      "sourceUrl": "https://yuphastemple.com/?item=black-horse"
+    },
+    {
+      "id": "rocinan",
+      "name": "Rocinan",
+      "sourceUrl": "https://yuphastemple.com/?item=rocinan-ios-mount"
+    },
+    {
+      "id": "rocinans-brother",
+      "name": "Rocinan's Brother",
+      "sourceUrl": "https://yuphastemple.com/?item=rocinans-brother"
+    },
+    {
+      "id": "wild-pegasus",
+      "name": "Wild Pegasus",
+      "sourceUrl": "https://yuphastemple.com/?item=wild-pegasus"
+    },
+    {
+      "id": "dark-pegasus",
+      "name": "Dark Pegasus",
+      "sourceUrl": "https://yuphastemple.com/?item=dark-pegasus"
+    },
+    {
+      "id": "falicorn",
+      "name": "Falicorn",
+      "sourceUrl": "https://yuphastemple.com/?item=falicorn"
+    },
+    {
+      "id": "red-falicorn",
+      "name": "Red Falicorn",
+      "sourceUrl": "https://yuphastemple.com/?item=red-falicorn"
+    },
+    {
+      "id": "bucephalus",
+      "name": "Bucephalus",
+      "sourceUrl": "https://yuphastemple.com/?item=bucephalus-alexandras-mount"
+    },
+    {
+      "id": "bucephaluss-foal",
+      "name": "Bucephalus's Foal",
+      "sourceUrl": "https://yuphastemple.com/?item=bucephaluss-foal"
+    },
+    {
+      "id": "wild-bau",
+      "name": "Wild Bau",
+      "sourceUrl": "https://yuphastemple.com/?item=wild-bau"
+    },
+    {
+      "id": "red-bau",
+      "name": "Red Bau",
+      "sourceUrl": "https://yuphastemple.com/?item=red-bau"
+    },
+    {
+      "id": "black-bau",
+      "name": "Black Bau",
+      "sourceUrl": "https://yuphastemple.com/?item=black-bau"
+    },
+    {
+      "id": "saramis-war-elephant",
+      "name": "Saramis War Elephant",
+      "sourceUrl": "https://yuphastemple.com/?item=saramis-war-elephant"
+    }
+  ]
+}
