@@ -6,8 +6,7 @@ export const PATHS=[
 export const slug=s=>s.toLowerCase().replaceAll(' ','-');
 const names='Cai|Dietrich|Theodora|Leda|Peter|Tialla|Ultand|Esmeralda|Fabio|Mikaela|Bonaventure|Lilian|Lysander|Tobias|Buccar|Mu|Olympia|Sirocco|Dadao|Halvin|Nezha|Sha Lan|Dante|Gaitz|Goliath|Jester|Diego|Loretta|Ninae|Seteth|Catania|Guzran|Io|Majide|Noctula|Nuzzuo|Nydine|Yang Jie|Alexandra|Benditz|Inyoni|Jasmine|Kiroc|Peppe|Zarcone|Fianna|Ludia|Simon|Ursula|Sofia|Anatolia|Aswan|Bertrand|Centurio|Klapka|Orchel|Tahonia|Talimun|Creek|Nathan|Eshmel|Hong Hua|Troy'.split('|');
 const spoilers=new Set('Anatolia|Aswan|Bertrand|Centurio|Klapka|Orchel|Tahonia|Talimun|Creek|Nathan|Eshmel|Hong Hua|Troy'.split('|'));
-const missingPortraits=new Set(['Eshmel','Hong Hua','Troy']);
-export const CHARACTERS=names.map(name=>({id:slug(name),name,spoiler:spoilers.has(name),portrait:missingPortraits.has(name)?null:`assets/portraits/${slug(name)}.webp`}));
+export const CHARACTERS=names.map(name=>({id:slug(name),name,spoiler:spoilers.has(name),portrait:`assets/portraits/${slug(name)}.webp`}));
 export const byId=id=>CHARACTERS.find(c=>c.id===id);
 export const asset=path=>import.meta.env.BASE_URL+path;
 export const RANKS=['','E','E+','D','D+','C','C+','B','B+','A','A+','S','S+'];

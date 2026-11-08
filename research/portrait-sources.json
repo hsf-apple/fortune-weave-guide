@@ -1,0 +1,27 @@
+{
+  "checkedOn": "2026-11-09",
+  "purpose": "Source records for the three portraits added to complete the 63-character catalog.",
+  "rights": "Character artwork belongs to Nintendo / Intelligent Systems and its respective rights holders.",
+  "processing": "Resized to 560 pixels high and encoded as WebP at quality 85; transparency preserved where present.",
+  "portraits": [
+    {
+      "character": "eshmel",
+      "asset": "assets/portraits/eshmel.webp",
+      "variant": "Type A in-game portrait",
+      "page": "https://fireemblemwiki.org/wiki/File:Medium_portrait_eshmel_type_a_fe18.png",
+      "image": "https://cdn.fireemblemwiki.org/8/8d/Medium_portrait_eshmel_type_a_fe18.png"
+    },
+    {
+      "character": "hong-hua",
+      "asset": "assets/portraits/hong-hua.webp",
+      "page": "https://fortunesweave.co.uk/characters/hong-hua",
+      "image": "https://fortunesweave.co.uk/images/portrait/hong-hua.webp"
+    },
+    {
+      "character": "troy",
+      "asset": "assets/portraits/troy.webp",
+      "page": "https://fortunesweave.co.uk/characters/troy",
+      "image": "https://fortunesweave.co.uk/images/portrait/troy.webp"
+    }
+  ]
+}
